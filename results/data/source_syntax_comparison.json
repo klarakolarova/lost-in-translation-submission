@@ -1,0 +1,5002 @@
+{
+  "n": 259,
+  "spacy_version": "3.8.16",
+  "parsers": {
+    "fr_core_news_sm": {
+      "version": "3.8.0",
+      "sources": [
+        {
+          "name": "UD French Sequoia v2.8",
+          "url": "https://github.com/UniversalDependencies/UD_French-Sequoia",
+          "license": "LGPL-LR",
+          "author": "Candito, Marie; Seddah, Djamé; Perrier, Guy; Guillaume, Bruno"
+        },
+        {
+          "name": "WikiNER",
+          "url": "https://figshare.com/articles/Learning_multilingual_named_entity_recognition_from_Wikipedia/5462500",
+          "license": "CC BY 4.0",
+          "author": "Joel Nothman, Nicky Ringland, Will Radford, Tara Murphy, James R Curran"
+        },
+        {
+          "name": "spaCy lookups data",
+          "author": "Explosion",
+          "url": "https://github.com/explosion/spacy-lookups-data",
+          "license": "MIT"
+        }
+      ]
+    },
+    "de_core_news_sm": {
+      "version": "3.8.0",
+      "sources": [
+        {
+          "name": "TIGER Corpus",
+          "author": "Brants, Sabine, Stefanie Dipper, Peter Eisenberg, Silvia Hansen, Esther König, Wolfgang Lezius, Christian Rohrer, George Smith, and Hans Uszkoreit",
+          "url": "https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/tiger.html",
+          "license": "commercial (licensed by Explosion)"
+        },
+        {
+          "name": "Tiger2Dep",
+          "url": "https://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/tiger2dep/",
+          "license": "Citation provided for reference, no code packaged with model",
+          "author": "Wolfgang Seeker"
+        },
+        {
+          "name": "WikiNER",
+          "url": "https://figshare.com/articles/Learning_multilingual_named_entity_recognition_from_Wikipedia/5462500",
+          "license": "CC BY 4.0",
+          "author": "Joel Nothman, Nicky Ringland, Will Radford, Tara Murphy, James R Curran"
+        }
+      ]
+    }
+  },
+  "definitions": {
+    "depth": "Mean sentence maximum nonpunctuation ancestor count, root=0.",
+    "adjustment": "Within each language/version, regress each metric on its own mean sentence length with intercept; correlate residuals. Refit on every bootstrap sample.",
+    "uncertainty": "2000 paired document bootstrap draws within year, seed49. No author clustering or multiplicity adjustment."
+  },
+  "summary": {
+    "mean_sentence_tree_depth": {
+      "raw": {
+        "source_official_r": 0.5294288579189405,
+        "source_generated_r": 0.6943185259221868,
+        "difference_generated_minus_official": 0.16488966800324634,
+        "difference_bootstrap_95_ci": [
+          0.08603235212555968,
+          0.2510678684170181
+        ]
+      },
+      "length_adjusted": {
+        "source_official_r": 0.2640718986828087,
+        "source_generated_r": 0.4347452528029348,
+        "difference_generated_minus_official": 0.17067335412012608,
+        "difference_bootstrap_95_ci": [
+          0.03870132994406903,
+          0.3002974913391261
+        ]
+      }
+    }
+  },
+  "records": [
+    {
+      "document_id": 20003048,
+      "year": 2000,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 22.375,
+        "mean_sentence_tree_depth": 5.75
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 7.142857142857143
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 18.625,
+        "mean_sentence_tree_depth": 6.25
+      }
+    },
+    {
+      "document_id": 20003094,
+      "year": 2000,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 26.23076923076923,
+        "mean_sentence_tree_depth": 4.6923076923076925
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 22.785714285714285,
+        "mean_sentence_tree_depth": 6.642857142857143
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 22.53846153846154,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20003255,
+      "year": 2000,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 17.25,
+        "mean_sentence_tree_depth": 3.5
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 18.0,
+        "mean_sentence_tree_depth": 5.285714285714286
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 14.0,
+        "mean_sentence_tree_depth": 4.625
+      }
+    },
+    {
+      "document_id": 20003276,
+      "year": 2000,
+      "source": {
+        "sentence_count": 46,
+        "mean_sentence_words": 26.58695652173913,
+        "mean_sentence_tree_depth": 5.3478260869565215
+      },
+      "official": {
+        "sentence_count": 54,
+        "mean_sentence_words": 19.0,
+        "mean_sentence_tree_depth": 5.87037037037037
+      },
+      "generated": {
+        "sentence_count": 48,
+        "mean_sentence_words": 20.229166666666668,
+        "mean_sentence_tree_depth": 6.083333333333333
+      }
+    },
+    {
+      "document_id": 20003360,
+      "year": 2000,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 28.3,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 22.6,
+        "mean_sentence_tree_depth": 7.6
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 20.181818181818183,
+        "mean_sentence_tree_depth": 6.545454545454546
+      }
+    },
+    {
+      "document_id": 20003435,
+      "year": 2000,
+      "source": {
+        "sentence_count": 35,
+        "mean_sentence_words": 25.97142857142857,
+        "mean_sentence_tree_depth": 5.257142857142857
+      },
+      "official": {
+        "sentence_count": 35,
+        "mean_sentence_words": 21.97142857142857,
+        "mean_sentence_tree_depth": 6.771428571428571
+      },
+      "generated": {
+        "sentence_count": 35,
+        "mean_sentence_words": 21.114285714285714,
+        "mean_sentence_tree_depth": 7.057142857142857
+      }
+    },
+    {
+      "document_id": 20013028,
+      "year": 2001,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 29.1,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 25.77777777777778,
+        "mean_sentence_tree_depth": 6.444444444444445
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.5,
+        "mean_sentence_tree_depth": 6.4
+      }
+    },
+    {
+      "document_id": 20013167,
+      "year": 2001,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 28.583333333333332,
+        "mean_sentence_tree_depth": 5.25
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 21.333333333333332,
+        "mean_sentence_tree_depth": 6.666666666666667
+      },
+      "generated": {
+        "sentence_count": 15,
+        "mean_sentence_words": 17.466666666666665,
+        "mean_sentence_tree_depth": 6.333333333333333
+      }
+    },
+    {
+      "document_id": 20013206,
+      "year": 2001,
+      "source": {
+        "sentence_count": 33,
+        "mean_sentence_words": 16.666666666666668,
+        "mean_sentence_tree_depth": 3.757575757575758
+      },
+      "official": {
+        "sentence_count": 28,
+        "mean_sentence_words": 17.785714285714285,
+        "mean_sentence_tree_depth": 6.392857142857143
+      },
+      "generated": {
+        "sentence_count": 28,
+        "mean_sentence_words": 16.25,
+        "mean_sentence_tree_depth": 5.857142857142857
+      }
+    },
+    {
+      "document_id": 20023445,
+      "year": 2002,
+      "source": {
+        "sentence_count": 19,
+        "mean_sentence_words": 33.0,
+        "mean_sentence_tree_depth": 7.578947368421052
+      },
+      "official": {
+        "sentence_count": 21,
+        "mean_sentence_words": 25.857142857142858,
+        "mean_sentence_tree_depth": 8.142857142857142
+      },
+      "generated": {
+        "sentence_count": 19,
+        "mean_sentence_words": 25.68421052631579,
+        "mean_sentence_tree_depth": 8.0
+      }
+    },
+    {
+      "document_id": 20033119,
+      "year": 2003,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 19.9,
+        "mean_sentence_tree_depth": 4.3
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 19.0,
+        "mean_sentence_tree_depth": 5.333333333333333
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 18.11111111111111,
+        "mean_sentence_tree_depth": 6.444444444444445
+      }
+    },
+    {
+      "document_id": 20033444,
+      "year": 2003,
+      "source": {
+        "sentence_count": 16,
+        "mean_sentence_words": 18.1875,
+        "mean_sentence_tree_depth": 4.0625
+      },
+      "official": {
+        "sentence_count": 18,
+        "mean_sentence_words": 14.277777777777779,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "generated": {
+        "sentence_count": 16,
+        "mean_sentence_words": 16.0,
+        "mean_sentence_tree_depth": 5.3125
+      }
+    },
+    {
+      "document_id": 20043108,
+      "year": 2004,
+      "source": {
+        "sentence_count": 24,
+        "mean_sentence_words": 35.166666666666664,
+        "mean_sentence_tree_depth": 6.208333333333333
+      },
+      "official": {
+        "sentence_count": 30,
+        "mean_sentence_words": 25.866666666666667,
+        "mean_sentence_tree_depth": 7.366666666666666
+      },
+      "generated": {
+        "sentence_count": 25,
+        "mean_sentence_words": 27.44,
+        "mean_sentence_tree_depth": 7.48
+      }
+    },
+    {
+      "document_id": 20043407,
+      "year": 2004,
+      "source": {
+        "sentence_count": 19,
+        "mean_sentence_words": 27.31578947368421,
+        "mean_sentence_tree_depth": 5.526315789473684
+      },
+      "official": {
+        "sentence_count": 22,
+        "mean_sentence_words": 17.818181818181817,
+        "mean_sentence_tree_depth": 5.863636363636363
+      },
+      "generated": {
+        "sentence_count": 19,
+        "mean_sentence_words": 22.157894736842106,
+        "mean_sentence_tree_depth": 6.578947368421052
+      }
+    },
+    {
+      "document_id": 20043552,
+      "year": 2004,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 26.333333333333332,
+        "mean_sentence_tree_depth": 5.222222222222222
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 19.0,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 19.444444444444443,
+        "mean_sentence_tree_depth": 5.888888888888889
+      }
+    },
+    {
+      "document_id": 20053245,
+      "year": 2005,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 29.307692307692307,
+        "mean_sentence_tree_depth": 5.3076923076923075
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 20.428571428571427,
+        "mean_sentence_tree_depth": 5.571428571428571
+      },
+      "generated": {
+        "sentence_count": 14,
+        "mean_sentence_words": 21.571428571428573,
+        "mean_sentence_tree_depth": 6.714285714285714
+      }
+    },
+    {
+      "document_id": 20053582,
+      "year": 2005,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 24.25,
+        "mean_sentence_tree_depth": 5.25
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 16.357142857142858,
+        "mean_sentence_tree_depth": 5.928571428571429
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 17.307692307692307,
+        "mean_sentence_tree_depth": 6.769230769230769
+      }
+    },
+    {
+      "document_id": 20053631,
+      "year": 2005,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 22.333333333333332,
+        "mean_sentence_tree_depth": 4.833333333333333
+      },
+      "official": {
+        "sentence_count": 17,
+        "mean_sentence_words": 15.0,
+        "mean_sentence_tree_depth": 4.823529411764706
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 19.416666666666668,
+        "mean_sentence_tree_depth": 5.833333333333333
+      }
+    },
+    {
+      "document_id": 20063768,
+      "year": 2006,
+      "source": {
+        "sentence_count": 15,
+        "mean_sentence_words": 19.2,
+        "mean_sentence_tree_depth": 4.666666666666667
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 20.071428571428573,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "generated": {
+        "sentence_count": 15,
+        "mean_sentence_words": 14.8,
+        "mean_sentence_tree_depth": 4.933333333333334
+      }
+    },
+    {
+      "document_id": 20073402,
+      "year": 2007,
+      "source": {
+        "sentence_count": 3,
+        "mean_sentence_words": 40.0,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "official": {
+        "sentence_count": 3,
+        "mean_sentence_words": 27.333333333333332,
+        "mean_sentence_tree_depth": 7.666666666666667
+      },
+      "generated": {
+        "sentence_count": 3,
+        "mean_sentence_words": 33.666666666666664,
+        "mean_sentence_tree_depth": 8.666666666666666
+      }
+    },
+    {
+      "document_id": 20083386,
+      "year": 2008,
+      "source": {
+        "sentence_count": 4,
+        "mean_sentence_words": 20.5,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 4,
+        "mean_sentence_words": 21.25,
+        "mean_sentence_tree_depth": 7.5
+      },
+      "generated": {
+        "sentence_count": 4,
+        "mean_sentence_words": 17.75,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20083738,
+      "year": 2008,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 32.57142857142857,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 22.125,
+        "mean_sentence_tree_depth": 6.5
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 26.857142857142858,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20083824,
+      "year": 2008,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 31.2,
+        "mean_sentence_tree_depth": 7.1
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.076923076923077,
+        "mean_sentence_tree_depth": 6.615384615384615
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 20.916666666666668,
+        "mean_sentence_tree_depth": 7.916666666666667
+      }
+    },
+    {
+      "document_id": 20093634,
+      "year": 2009,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.0,
+        "mean_sentence_tree_depth": 5.6
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.384615384615383,
+        "mean_sentence_tree_depth": 6.6923076923076925
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 19.2,
+        "mean_sentence_tree_depth": 6.0
+      }
+    },
+    {
+      "document_id": 20103219,
+      "year": 2010,
+      "source": {
+        "sentence_count": 14,
+        "mean_sentence_words": 26.5,
+        "mean_sentence_tree_depth": 5.857142857142857
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 22.714285714285715,
+        "mean_sentence_tree_depth": 6.857142857142857
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 25.416666666666668,
+        "mean_sentence_tree_depth": 7.583333333333333
+      }
+    },
+    {
+      "document_id": 20103659,
+      "year": 2010,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 35.0,
+        "mean_sentence_tree_depth": 5.777777777777778
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 21.555555555555557,
+        "mean_sentence_tree_depth": 6.555555555555555
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.5,
+        "mean_sentence_tree_depth": 6.8
+      }
+    },
+    {
+      "document_id": 20103850,
+      "year": 2010,
+      "source": {
+        "sentence_count": 17,
+        "mean_sentence_words": 20.764705882352942,
+        "mean_sentence_tree_depth": 4.588235294117647
+      },
+      "official": {
+        "sentence_count": 17,
+        "mean_sentence_words": 18.470588235294116,
+        "mean_sentence_tree_depth": 5.882352941176471
+      },
+      "generated": {
+        "sentence_count": 17,
+        "mean_sentence_words": 17.0,
+        "mean_sentence_tree_depth": 5.529411764705882
+      }
+    },
+    {
+      "document_id": 20113095,
+      "year": 2011,
+      "source": {
+        "sentence_count": 17,
+        "mean_sentence_words": 14.705882352941176,
+        "mean_sentence_tree_depth": 3.411764705882353
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 15.071428571428571,
+        "mean_sentence_tree_depth": 5.642857142857143
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 16.153846153846153,
+        "mean_sentence_tree_depth": 5.3076923076923075
+      }
+    },
+    {
+      "document_id": 20113841,
+      "year": 2011,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 34.7,
+        "mean_sentence_tree_depth": 6.7
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 21.083333333333332,
+        "mean_sentence_tree_depth": 6.75
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 25.3,
+        "mean_sentence_tree_depth": 7.1
+      }
+    },
+    {
+      "document_id": 20113950,
+      "year": 2011,
+      "source": {
+        "sentence_count": 14,
+        "mean_sentence_words": 25.214285714285715,
+        "mean_sentence_tree_depth": 5.285714285714286
+      },
+      "official": {
+        "sentence_count": 17,
+        "mean_sentence_words": 17.705882352941178,
+        "mean_sentence_tree_depth": 5.411764705882353
+      },
+      "generated": {
+        "sentence_count": 14,
+        "mean_sentence_words": 21.571428571428573,
+        "mean_sentence_tree_depth": 6.0
+      }
+    },
+    {
+      "document_id": 20123737,
+      "year": 2012,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 34.0,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 27.363636363636363,
+        "mean_sentence_tree_depth": 6.7272727272727275
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 33.111111111111114,
+        "mean_sentence_tree_depth": 7.666666666666667
+      }
+    },
+    {
+      "document_id": 20124072,
+      "year": 2012,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 19.454545454545453,
+        "mean_sentence_tree_depth": 4.454545454545454
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 16.666666666666668,
+        "mean_sentence_tree_depth": 4.75
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 16.545454545454547,
+        "mean_sentence_tree_depth": 5.545454545454546
+      }
+    },
+    {
+      "document_id": 20133043,
+      "year": 2013,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 36.57142857142857,
+        "mean_sentence_tree_depth": 7.142857142857143
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 25.25,
+        "mean_sentence_tree_depth": 7.875
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 28.0,
+        "mean_sentence_tree_depth": 7.571428571428571
+      }
+    },
+    {
+      "document_id": 20133088,
+      "year": 2013,
+      "source": {
+        "sentence_count": 4,
+        "mean_sentence_words": 24.5,
+        "mean_sentence_tree_depth": 4.0
+      },
+      "official": {
+        "sentence_count": 5,
+        "mean_sentence_words": 20.6,
+        "mean_sentence_tree_depth": 6.6
+      },
+      "generated": {
+        "sentence_count": 5,
+        "mean_sentence_words": 18.6,
+        "mean_sentence_tree_depth": 5.8
+      }
+    },
+    {
+      "document_id": 20143390,
+      "year": 2014,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 32.142857142857146,
+        "mean_sentence_tree_depth": 5.857142857142857
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 23.375,
+        "mean_sentence_tree_depth": 6.875
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 25.142857142857142,
+        "mean_sentence_tree_depth": 7.428571428571429
+      }
+    },
+    {
+      "document_id": 20143761,
+      "year": 2014,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 20.77777777777778,
+        "mean_sentence_tree_depth": 4.777777777777778
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 17.5,
+        "mean_sentence_tree_depth": 5.5
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 16.0,
+        "mean_sentence_tree_depth": 5.5
+      }
+    },
+    {
+      "document_id": 20153081,
+      "year": 2015,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 24.23076923076923,
+        "mean_sentence_tree_depth": 5.076923076923077
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 15.461538461538462,
+        "mean_sentence_tree_depth": 4.769230769230769
+      },
+      "generated": {
+        "sentence_count": 14,
+        "mean_sentence_words": 17.357142857142858,
+        "mean_sentence_tree_depth": 5.857142857142857
+      }
+    },
+    {
+      "document_id": 20153780,
+      "year": 2015,
+      "source": {
+        "sentence_count": 15,
+        "mean_sentence_words": 18.266666666666666,
+        "mean_sentence_tree_depth": 4.4
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 16.133333333333333,
+        "mean_sentence_tree_depth": 5.8
+      },
+      "generated": {
+        "sentence_count": 15,
+        "mean_sentence_words": 15.133333333333333,
+        "mean_sentence_tree_depth": 5.066666666666666
+      }
+    },
+    {
+      "document_id": 20154097,
+      "year": 2015,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 36.22222222222222,
+        "mean_sentence_tree_depth": 6.333333333333333
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 27.0,
+        "mean_sentence_tree_depth": 7.333333333333333
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 31.333333333333332,
+        "mean_sentence_tree_depth": 7.222222222222222
+      }
+    },
+    {
+      "document_id": 20164070,
+      "year": 2016,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 43.6,
+        "mean_sentence_tree_depth": 5.8
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 23.23076923076923,
+        "mean_sentence_tree_depth": 6.461538461538462
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 30.833333333333332,
+        "mean_sentence_tree_depth": 7.583333333333333
+      }
+    },
+    {
+      "document_id": 20173849,
+      "year": 2017,
+      "source": {
+        "sentence_count": 5,
+        "mean_sentence_words": 21.4,
+        "mean_sentence_tree_depth": 5.4
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 16.5,
+        "mean_sentence_tree_depth": 5.5
+      },
+      "generated": {
+        "sentence_count": 5,
+        "mean_sentence_words": 17.4,
+        "mean_sentence_tree_depth": 5.2
+      }
+    },
+    {
+      "document_id": 20174092,
+      "year": 2017,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 26.363636363636363,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 25.7,
+        "mean_sentence_tree_depth": 6.4
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 22.454545454545453,
+        "mean_sentence_tree_depth": 5.545454545454546
+      }
+    },
+    {
+      "document_id": 20183993,
+      "year": 2018,
+      "source": {
+        "sentence_count": 20,
+        "mean_sentence_words": 17.25,
+        "mean_sentence_tree_depth": 4.2
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 20.2,
+        "mean_sentence_tree_depth": 6.3
+      },
+      "generated": {
+        "sentence_count": 17,
+        "mean_sentence_words": 16.529411764705884,
+        "mean_sentence_tree_depth": 5.882352941176471
+      }
+    },
+    {
+      "document_id": 20184225,
+      "year": 2018,
+      "source": {
+        "sentence_count": 14,
+        "mean_sentence_words": 27.357142857142858,
+        "mean_sentence_tree_depth": 5.5
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 23.642857142857142,
+        "mean_sentence_tree_depth": 6.642857142857143
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 26.076923076923077,
+        "mean_sentence_tree_depth": 7.153846153846154
+      }
+    },
+    {
+      "document_id": 20193466,
+      "year": 2019,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 24.272727272727273,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 32.875,
+        "mean_sentence_tree_depth": 7.375
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 25.22222222222222,
+        "mean_sentence_tree_depth": 6.0
+      }
+    },
+    {
+      "document_id": 20193884,
+      "year": 2019,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 20.416666666666668,
+        "mean_sentence_tree_depth": 4.083333333333333
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 23.333333333333332,
+        "mean_sentence_tree_depth": 6.083333333333333
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 18.583333333333332,
+        "mean_sentence_tree_depth": 5.416666666666667
+      }
+    },
+    {
+      "document_id": 20194177,
+      "year": 2019,
+      "source": {
+        "sentence_count": 19,
+        "mean_sentence_words": 26.0,
+        "mean_sentence_tree_depth": 5.578947368421052
+      },
+      "official": {
+        "sentence_count": 19,
+        "mean_sentence_words": 22.105263157894736,
+        "mean_sentence_tree_depth": 6.473684210526316
+      },
+      "generated": {
+        "sentence_count": 19,
+        "mean_sentence_words": 21.57894736842105,
+        "mean_sentence_tree_depth": 6.578947368421052
+      }
+    },
+    {
+      "document_id": 20203264,
+      "year": 2020,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 27.8,
+        "mean_sentence_tree_depth": 3.9
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 27.0,
+        "mean_sentence_tree_depth": 6.333333333333333
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 36.166666666666664,
+        "mean_sentence_tree_depth": 7.666666666666667
+      }
+    },
+    {
+      "document_id": 20203335,
+      "year": 2020,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 28.6,
+        "mean_sentence_tree_depth": 6.2
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 23.454545454545453,
+        "mean_sentence_tree_depth": 6.454545454545454
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 19.181818181818183,
+        "mean_sentence_tree_depth": 6.7272727272727275
+      }
+    },
+    {
+      "document_id": 20213112,
+      "year": 2021,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 25.454545454545453,
+        "mean_sentence_tree_depth": 5.454545454545454
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 27.9,
+        "mean_sentence_tree_depth": 6.8
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 22.454545454545453,
+        "mean_sentence_tree_depth": 6.545454545454546
+      }
+    },
+    {
+      "document_id": 20214097,
+      "year": 2021,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 25.083333333333332,
+        "mean_sentence_tree_depth": 4.75
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 21.5,
+        "mean_sentence_tree_depth": 6.416666666666667
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 18.75,
+        "mean_sentence_tree_depth": 5.666666666666667
+      }
+    },
+    {
+      "document_id": 20214207,
+      "year": 2021,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 30.375,
+        "mean_sentence_tree_depth": 6.375
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 21.444444444444443,
+        "mean_sentence_tree_depth": 5.444444444444445
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 25.625,
+        "mean_sentence_tree_depth": 7.125
+      }
+    },
+    {
+      "document_id": 20223284,
+      "year": 2022,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 19.857142857142858,
+        "mean_sentence_tree_depth": 4.857142857142857
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 17.0,
+        "mean_sentence_tree_depth": 5.428571428571429
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 16.0,
+        "mean_sentence_tree_depth": 5.285714285714286
+      }
+    },
+    {
+      "document_id": 20223819,
+      "year": 2022,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 26.0,
+        "mean_sentence_tree_depth": 4.625
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 20.666666666666668,
+        "mean_sentence_tree_depth": 5.888888888888889
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 17.88888888888889,
+        "mean_sentence_tree_depth": 5.888888888888889
+      }
+    },
+    {
+      "document_id": 20233510,
+      "year": 2023,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 27.0,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.833333333333333
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 20.166666666666668,
+        "mean_sentence_tree_depth": 7.166666666666667
+      }
+    },
+    {
+      "document_id": 20233768,
+      "year": 2023,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 40.0,
+        "mean_sentence_tree_depth": 6.222222222222222
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 32.666666666666664,
+        "mean_sentence_tree_depth": 8.333333333333334
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 27.6,
+        "mean_sentence_tree_depth": 7.2
+      }
+    },
+    {
+      "document_id": 20233852,
+      "year": 2023,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 26.125,
+        "mean_sentence_tree_depth": 5.25
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 23.875,
+        "mean_sentence_tree_depth": 8.5
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 24.142857142857142,
+        "mean_sentence_tree_depth": 6.285714285714286
+      }
+    },
+    {
+      "document_id": 20234291,
+      "year": 2023,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 27.454545454545453,
+        "mean_sentence_tree_depth": 6.090909090909091
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.272727272727273,
+        "mean_sentence_tree_depth": 5.818181818181818
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.545454545454547,
+        "mean_sentence_tree_depth": 6.636363636363637
+      }
+    },
+    {
+      "document_id": 20243836,
+      "year": 2024,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 27.545454545454547,
+        "mean_sentence_tree_depth": 5.7272727272727275
+      },
+      "official": {
+        "sentence_count": 17,
+        "mean_sentence_words": 15.588235294117647,
+        "mean_sentence_tree_depth": 5.176470588235294
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.727272727272727,
+        "mean_sentence_tree_depth": 6.636363636363637
+      }
+    },
+    {
+      "document_id": 20243857,
+      "year": 2024,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 19.88888888888889,
+        "mean_sentence_tree_depth": 4.888888888888889
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 19.444444444444443,
+        "mean_sentence_tree_depth": 6.333333333333333
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 14.4,
+        "mean_sentence_tree_depth": 5.4
+      }
+    },
+    {
+      "document_id": 20244110,
+      "year": 2024,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 27.444444444444443,
+        "mean_sentence_tree_depth": 5.111111111111111
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.727272727272727,
+        "mean_sentence_tree_depth": 6.7272727272727275
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 25.0,
+        "mean_sentence_tree_depth": 7.222222222222222
+      }
+    },
+    {
+      "document_id": 20244346,
+      "year": 2024,
+      "source": {
+        "sentence_count": 14,
+        "mean_sentence_words": 41.714285714285715,
+        "mean_sentence_tree_depth": 7.214285714285714
+      },
+      "official": {
+        "sentence_count": 17,
+        "mean_sentence_words": 29.941176470588236,
+        "mean_sentence_tree_depth": 8.176470588235293
+      },
+      "generated": {
+        "sentence_count": 14,
+        "mean_sentence_words": 32.57142857142857,
+        "mean_sentence_tree_depth": 9.714285714285714
+      }
+    },
+    {
+      "document_id": 20244505,
+      "year": 2024,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 25.25,
+        "mean_sentence_tree_depth": 5.875
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 15.8,
+        "mean_sentence_tree_depth": 5.3
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 20.0,
+        "mean_sentence_tree_depth": 6.125
+      }
+    },
+    {
+      "document_id": 20003240,
+      "year": 2000,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.923076923076923,
+        "mean_sentence_tree_depth": 5.076923076923077
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 18.916666666666668,
+        "mean_sentence_tree_depth": 5.916666666666667
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 17.615384615384617,
+        "mean_sentence_tree_depth": 5.923076923076923
+      }
+    },
+    {
+      "document_id": 20003527,
+      "year": 2000,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 46.833333333333336,
+        "mean_sentence_tree_depth": 6.166666666666667
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 19.90909090909091,
+        "mean_sentence_tree_depth": 6.181818181818182
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 37.5,
+        "mean_sentence_tree_depth": 8.5
+      }
+    },
+    {
+      "document_id": 20003555,
+      "year": 2000,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 35.42857142857143,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 20.0,
+        "mean_sentence_tree_depth": 6.454545454545454
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 34.166666666666664,
+        "mean_sentence_tree_depth": 8.833333333333334
+      }
+    },
+    {
+      "document_id": 20013085,
+      "year": 2001,
+      "source": {
+        "sentence_count": 5,
+        "mean_sentence_words": 28.2,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "official": {
+        "sentence_count": 5,
+        "mean_sentence_words": 26.8,
+        "mean_sentence_tree_depth": 8.8
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 21.833333333333332,
+        "mean_sentence_tree_depth": 9.166666666666666
+      }
+    },
+    {
+      "document_id": 20013130,
+      "year": 2001,
+      "source": {
+        "sentence_count": 1,
+        "mean_sentence_words": 28.0,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 1,
+        "mean_sentence_words": 17.0,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "generated": {
+        "sentence_count": 1,
+        "mean_sentence_words": 24.0,
+        "mean_sentence_tree_depth": 9.0
+      }
+    },
+    {
+      "document_id": 20013149,
+      "year": 2001,
+      "source": {
+        "sentence_count": 4,
+        "mean_sentence_words": 28.5,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 5,
+        "mean_sentence_words": 23.2,
+        "mean_sentence_tree_depth": 7.4
+      },
+      "generated": {
+        "sentence_count": 4,
+        "mean_sentence_words": 23.5,
+        "mean_sentence_tree_depth": 6.25
+      }
+    },
+    {
+      "document_id": 20013164,
+      "year": 2001,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 35.07692307692308,
+        "mean_sentence_tree_depth": 5.769230769230769
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 27.0,
+        "mean_sentence_tree_depth": 7.6923076923076925
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 30.666666666666668,
+        "mean_sentence_tree_depth": 8.416666666666666
+      }
+    },
+    {
+      "document_id": 20013307,
+      "year": 2001,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 34.625,
+        "mean_sentence_tree_depth": 7.375
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 26.875,
+        "mean_sentence_tree_depth": 7.625
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 28.125,
+        "mean_sentence_tree_depth": 7.125
+      }
+    },
+    {
+      "document_id": 20013389,
+      "year": 2001,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 26.5,
+        "mean_sentence_tree_depth": 5.416666666666667
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 21.583333333333332,
+        "mean_sentence_tree_depth": 6.666666666666667
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 20.583333333333332,
+        "mean_sentence_tree_depth": 6.166666666666667
+      }
+    },
+    {
+      "document_id": 20013468,
+      "year": 2001,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 35.22222222222222,
+        "mean_sentence_tree_depth": 6.444444444444445
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 22.545454545454547,
+        "mean_sentence_tree_depth": 6.545454545454546
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 26.3,
+        "mean_sentence_tree_depth": 7.1
+      }
+    },
+    {
+      "document_id": 20023171,
+      "year": 2002,
+      "source": {
+        "sentence_count": 18,
+        "mean_sentence_words": 26.055555555555557,
+        "mean_sentence_tree_depth": 4.944444444444445
+      },
+      "official": {
+        "sentence_count": 18,
+        "mean_sentence_words": 24.77777777777778,
+        "mean_sentence_tree_depth": 7.055555555555555
+      },
+      "generated": {
+        "sentence_count": 17,
+        "mean_sentence_words": 21.941176470588236,
+        "mean_sentence_tree_depth": 6.823529411764706
+      }
+    },
+    {
+      "document_id": 20023196,
+      "year": 2002,
+      "source": {
+        "sentence_count": 23,
+        "mean_sentence_words": 35.608695652173914,
+        "mean_sentence_tree_depth": 6.391304347826087
+      },
+      "official": {
+        "sentence_count": 28,
+        "mean_sentence_words": 22.214285714285715,
+        "mean_sentence_tree_depth": 7.142857142857143
+      },
+      "generated": {
+        "sentence_count": 23,
+        "mean_sentence_words": 26.91304347826087,
+        "mean_sentence_tree_depth": 8.304347826086957
+      }
+    },
+    {
+      "document_id": 20023261,
+      "year": 2002,
+      "source": {
+        "sentence_count": 24,
+        "mean_sentence_words": 31.333333333333332,
+        "mean_sentence_tree_depth": 6.458333333333333
+      },
+      "official": {
+        "sentence_count": 23,
+        "mean_sentence_words": 26.0,
+        "mean_sentence_tree_depth": 6.782608695652174
+      },
+      "generated": {
+        "sentence_count": 24,
+        "mean_sentence_words": 27.083333333333332,
+        "mean_sentence_tree_depth": 7.208333333333333
+      }
+    },
+    {
+      "document_id": 20023304,
+      "year": 2002,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 35.625,
+        "mean_sentence_tree_depth": 6.375
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 27.666666666666668,
+        "mean_sentence_tree_depth": 7.222222222222222
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 28.375,
+        "mean_sentence_tree_depth": 7.25
+      }
+    },
+    {
+      "document_id": 20023575,
+      "year": 2002,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 35.36363636363637,
+        "mean_sentence_tree_depth": 6.818181818181818
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 28.307692307692307,
+        "mean_sentence_tree_depth": 7.615384615384615
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 28.25,
+        "mean_sentence_tree_depth": 7.75
+      }
+    },
+    {
+      "document_id": 20023578,
+      "year": 2002,
+      "source": {
+        "sentence_count": 5,
+        "mean_sentence_words": 25.0,
+        "mean_sentence_tree_depth": 4.8
+      },
+      "official": {
+        "sentence_count": 5,
+        "mean_sentence_words": 21.6,
+        "mean_sentence_tree_depth": 5.6
+      },
+      "generated": {
+        "sentence_count": 5,
+        "mean_sentence_words": 19.8,
+        "mean_sentence_tree_depth": 6.4
+      }
+    },
+    {
+      "document_id": 20023662,
+      "year": 2002,
+      "source": {
+        "sentence_count": 40,
+        "mean_sentence_words": 22.825,
+        "mean_sentence_tree_depth": 4.875
+      },
+      "official": {
+        "sentence_count": 41,
+        "mean_sentence_words": 18.70731707317073,
+        "mean_sentence_tree_depth": 5.902439024390244
+      },
+      "generated": {
+        "sentence_count": 40,
+        "mean_sentence_words": 18.1,
+        "mean_sentence_tree_depth": 5.575
+      }
+    },
+    {
+      "document_id": 20023714,
+      "year": 2002,
+      "source": {
+        "sentence_count": 14,
+        "mean_sentence_words": 25.714285714285715,
+        "mean_sentence_tree_depth": 5.214285714285714
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 19.857142857142858,
+        "mean_sentence_tree_depth": 6.785714285714286
+      },
+      "generated": {
+        "sentence_count": 14,
+        "mean_sentence_words": 21.285714285714285,
+        "mean_sentence_tree_depth": 7.357142857142857
+      }
+    },
+    {
+      "document_id": 20023736,
+      "year": 2002,
+      "source": {
+        "sentence_count": 34,
+        "mean_sentence_words": 23.676470588235293,
+        "mean_sentence_tree_depth": 5.4411764705882355
+      },
+      "official": {
+        "sentence_count": 34,
+        "mean_sentence_words": 18.5,
+        "mean_sentence_tree_depth": 6.735294117647059
+      },
+      "generated": {
+        "sentence_count": 31,
+        "mean_sentence_words": 20.612903225806452,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20033057,
+      "year": 2003,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 26.444444444444443,
+        "mean_sentence_tree_depth": 5.111111111111111
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 20.333333333333332,
+        "mean_sentence_tree_depth": 6.333333333333333
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 23.22222222222222,
+        "mean_sentence_tree_depth": 6.666666666666667
+      }
+    },
+    {
+      "document_id": 20033105,
+      "year": 2003,
+      "source": {
+        "sentence_count": 32,
+        "mean_sentence_words": 17.28125,
+        "mean_sentence_tree_depth": 4.0
+      },
+      "official": {
+        "sentence_count": 29,
+        "mean_sentence_words": 17.20689655172414,
+        "mean_sentence_tree_depth": 5.068965517241379
+      },
+      "generated": {
+        "sentence_count": 31,
+        "mean_sentence_words": 15.03225806451613,
+        "mean_sentence_tree_depth": 5.32258064516129
+      }
+    },
+    {
+      "document_id": 20033112,
+      "year": 2003,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 27.727272727272727,
+        "mean_sentence_tree_depth": 6.090909090909091
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 18.933333333333334,
+        "mean_sentence_tree_depth": 6.333333333333333
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 23.727272727272727,
+        "mean_sentence_tree_depth": 7.818181818181818
+      }
+    },
+    {
+      "document_id": 20033120,
+      "year": 2003,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 33.0,
+        "mean_sentence_tree_depth": 5.5
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 32.0,
+        "mean_sentence_tree_depth": 6.857142857142857
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 26.75,
+        "mean_sentence_tree_depth": 7.125
+      }
+    },
+    {
+      "document_id": 20033373,
+      "year": 2003,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 30.181818181818183,
+        "mean_sentence_tree_depth": 5.454545454545454
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 20.75,
+        "mean_sentence_tree_depth": 7.166666666666667
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 20.53846153846154,
+        "mean_sentence_tree_depth": 7.230769230769231
+      }
+    },
+    {
+      "document_id": 20033405,
+      "year": 2003,
+      "source": {
+        "sentence_count": 19,
+        "mean_sentence_words": 26.157894736842106,
+        "mean_sentence_tree_depth": 5.473684210526316
+      },
+      "official": {
+        "sentence_count": 22,
+        "mean_sentence_words": 22.09090909090909,
+        "mean_sentence_tree_depth": 6.7727272727272725
+      },
+      "generated": {
+        "sentence_count": 19,
+        "mean_sentence_words": 23.105263157894736,
+        "mean_sentence_tree_depth": 7.052631578947368
+      }
+    },
+    {
+      "document_id": 20033518,
+      "year": 2003,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 24.153846153846153,
+        "mean_sentence_tree_depth": 4.153846153846154
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 23.363636363636363,
+        "mean_sentence_tree_depth": 6.636363636363637
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 23.454545454545453,
+        "mean_sentence_tree_depth": 6.454545454545454
+      }
+    },
+    {
+      "document_id": 20033626,
+      "year": 2003,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 41.63636363636363,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "official": {
+        "sentence_count": 18,
+        "mean_sentence_words": 21.666666666666668,
+        "mean_sentence_tree_depth": 6.166666666666667
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 34.90909090909091,
+        "mean_sentence_tree_depth": 8.636363636363637
+      }
+    },
+    {
+      "document_id": 20043027,
+      "year": 2004,
+      "source": {
+        "sentence_count": 30,
+        "mean_sentence_words": 24.4,
+        "mean_sentence_tree_depth": 5.3
+      },
+      "official": {
+        "sentence_count": 29,
+        "mean_sentence_words": 20.862068965517242,
+        "mean_sentence_tree_depth": 6.275862068965517
+      },
+      "generated": {
+        "sentence_count": 29,
+        "mean_sentence_words": 19.724137931034484,
+        "mean_sentence_tree_depth": 6.655172413793103
+      }
+    },
+    {
+      "document_id": 20043320,
+      "year": 2004,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 22.0,
+        "mean_sentence_tree_depth": 5.142857142857143
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 17.857142857142858,
+        "mean_sentence_tree_depth": 5.714285714285714
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 15.571428571428571,
+        "mean_sentence_tree_depth": 5.0
+      }
+    },
+    {
+      "document_id": 20043341,
+      "year": 2004,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 54.875,
+        "mean_sentence_tree_depth": 7.375
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 21.933333333333334,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 32.2,
+        "mean_sentence_tree_depth": 9.2
+      }
+    },
+    {
+      "document_id": 20043559,
+      "year": 2004,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 27.25,
+        "mean_sentence_tree_depth": 6.25
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 19.615384615384617,
+        "mean_sentence_tree_depth": 5.615384615384615
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.307692307692307,
+        "mean_sentence_tree_depth": 7.846153846153846
+      }
+    },
+    {
+      "document_id": 20043686,
+      "year": 2004,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 30.545454545454547,
+        "mean_sentence_tree_depth": 5.636363636363637
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 23.25,
+        "mean_sentence_tree_depth": 6.333333333333333
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 24.818181818181817,
+        "mean_sentence_tree_depth": 7.090909090909091
+      }
+    },
+    {
+      "document_id": 20043779,
+      "year": 2004,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 22.0,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 15.571428571428571,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 17.666666666666668,
+        "mean_sentence_tree_depth": 5.333333333333333
+      }
+    },
+    {
+      "document_id": 20043810,
+      "year": 2004,
+      "source": {
+        "sentence_count": 4,
+        "mean_sentence_words": 27.0,
+        "mean_sentence_tree_depth": 4.75
+      },
+      "official": {
+        "sentence_count": 4,
+        "mean_sentence_words": 24.25,
+        "mean_sentence_tree_depth": 7.75
+      },
+      "generated": {
+        "sentence_count": 4,
+        "mean_sentence_words": 23.25,
+        "mean_sentence_tree_depth": 6.25
+      }
+    },
+    {
+      "document_id": 20053040,
+      "year": 2005,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 23.428571428571427,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 15.125,
+        "mean_sentence_tree_depth": 5.25
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 18.571428571428573,
+        "mean_sentence_tree_depth": 6.285714285714286
+      }
+    },
+    {
+      "document_id": 20053244,
+      "year": 2005,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 18.571428571428573,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 16.857142857142858,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 16.714285714285715,
+        "mean_sentence_tree_depth": 5.285714285714286
+      }
+    },
+    {
+      "document_id": 20053297,
+      "year": 2005,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 43.0,
+        "mean_sentence_tree_depth": 7.333333333333333
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 33.5,
+        "mean_sentence_tree_depth": 7.833333333333333
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 33.666666666666664,
+        "mean_sentence_tree_depth": 8.166666666666666
+      }
+    },
+    {
+      "document_id": 20053444,
+      "year": 2005,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 25.153846153846153,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 22.076923076923077,
+        "mean_sentence_tree_depth": 5.846153846153846
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.46153846153846,
+        "mean_sentence_tree_depth": 6.461538461538462
+      }
+    },
+    {
+      "document_id": 20053521,
+      "year": 2005,
+      "source": {
+        "sentence_count": 15,
+        "mean_sentence_words": 24.0,
+        "mean_sentence_tree_depth": 4.933333333333334
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 19.066666666666666,
+        "mean_sentence_tree_depth": 5.8
+      },
+      "generated": {
+        "sentence_count": 15,
+        "mean_sentence_words": 18.866666666666667,
+        "mean_sentence_tree_depth": 5.333333333333333
+      }
+    },
+    {
+      "document_id": 20053581,
+      "year": 2005,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 37.333333333333336,
+        "mean_sentence_tree_depth": 5.222222222222222
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 27.181818181818183,
+        "mean_sentence_tree_depth": 7.454545454545454
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 31.555555555555557,
+        "mean_sentence_tree_depth": 7.333333333333333
+      }
+    },
+    {
+      "document_id": 20053858,
+      "year": 2005,
+      "source": {
+        "sentence_count": 3,
+        "mean_sentence_words": 31.666666666666668,
+        "mean_sentence_tree_depth": 5.333333333333333
+      },
+      "official": {
+        "sentence_count": 3,
+        "mean_sentence_words": 27.333333333333332,
+        "mean_sentence_tree_depth": 8.0
+      },
+      "generated": {
+        "sentence_count": 3,
+        "mean_sentence_words": 26.333333333333332,
+        "mean_sentence_tree_depth": 6.666666666666667
+      }
+    },
+    {
+      "document_id": 20063105,
+      "year": 2006,
+      "source": {
+        "sentence_count": 4,
+        "mean_sentence_words": 40.5,
+        "mean_sentence_tree_depth": 6.5
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 23.333333333333332,
+        "mean_sentence_tree_depth": 5.666666666666667
+      },
+      "generated": {
+        "sentence_count": 5,
+        "mean_sentence_words": 25.2,
+        "mean_sentence_tree_depth": 5.8
+      }
+    },
+    {
+      "document_id": 20063230,
+      "year": 2006,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 46.22222222222222,
+        "mean_sentence_tree_depth": 7.111111111111111
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 21.714285714285715,
+        "mean_sentence_tree_depth": 6.428571428571429
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 31.2,
+        "mean_sentence_tree_depth": 6.9
+      }
+    },
+    {
+      "document_id": 20063312,
+      "year": 2006,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 28.666666666666668,
+        "mean_sentence_tree_depth": 5.666666666666667
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 22.0,
+        "mean_sentence_tree_depth": 7.8
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 24.77777777777778,
+        "mean_sentence_tree_depth": 7.666666666666667
+      }
+    },
+    {
+      "document_id": 20063383,
+      "year": 2006,
+      "source": {
+        "sentence_count": 15,
+        "mean_sentence_words": 26.4,
+        "mean_sentence_tree_depth": 5.266666666666667
+      },
+      "official": {
+        "sentence_count": 16,
+        "mean_sentence_words": 18.5625,
+        "mean_sentence_tree_depth": 6.0625
+      },
+      "generated": {
+        "sentence_count": 15,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.2
+      }
+    },
+    {
+      "document_id": 20063573,
+      "year": 2006,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 28.0,
+        "mean_sentence_tree_depth": 4.333333333333333
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 24.166666666666668,
+        "mean_sentence_tree_depth": 6.166666666666667
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 23.166666666666668,
+        "mean_sentence_tree_depth": 6.5
+      }
+    },
+    {
+      "document_id": 20063616,
+      "year": 2006,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 21.583333333333332,
+        "mean_sentence_tree_depth": 4.416666666666667
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 17.53846153846154,
+        "mean_sentence_tree_depth": 5.538461538461538
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 18.25,
+        "mean_sentence_tree_depth": 6.333333333333333
+      }
+    },
+    {
+      "document_id": 20063662,
+      "year": 2006,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 33.666666666666664,
+        "mean_sentence_tree_depth": 7.111111111111111
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 29.1,
+        "mean_sentence_tree_depth": 7.7
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 28.22222222222222,
+        "mean_sentence_tree_depth": 7.777777777777778
+      }
+    },
+    {
+      "document_id": 20063817,
+      "year": 2006,
+      "source": {
+        "sentence_count": 3,
+        "mean_sentence_words": 25.333333333333332,
+        "mean_sentence_tree_depth": 5.333333333333333
+      },
+      "official": {
+        "sentence_count": 4,
+        "mean_sentence_words": 19.0,
+        "mean_sentence_tree_depth": 5.75
+      },
+      "generated": {
+        "sentence_count": 3,
+        "mean_sentence_words": 22.333333333333332,
+        "mean_sentence_tree_depth": 5.666666666666667
+      }
+    },
+    {
+      "document_id": 20063838,
+      "year": 2006,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 39.7,
+        "mean_sentence_tree_depth": 6.2
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 26.1,
+        "mean_sentence_tree_depth": 7.3
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 30.6,
+        "mean_sentence_tree_depth": 8.8
+      }
+    },
+    {
+      "document_id": 20073047,
+      "year": 2007,
+      "source": {
+        "sentence_count": 28,
+        "mean_sentence_words": 20.75,
+        "mean_sentence_tree_depth": 3.8214285714285716
+      },
+      "official": {
+        "sentence_count": 25,
+        "mean_sentence_words": 19.76,
+        "mean_sentence_tree_depth": 6.04
+      },
+      "generated": {
+        "sentence_count": 21,
+        "mean_sentence_words": 23.19047619047619,
+        "mean_sentence_tree_depth": 6.0
+      }
+    },
+    {
+      "document_id": 20073201,
+      "year": 2007,
+      "source": {
+        "sentence_count": 15,
+        "mean_sentence_words": 18.733333333333334,
+        "mean_sentence_tree_depth": 4.8
+      },
+      "official": {
+        "sentence_count": 17,
+        "mean_sentence_words": 14.882352941176471,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "generated": {
+        "sentence_count": 16,
+        "mean_sentence_words": 15.1875,
+        "mean_sentence_tree_depth": 5.5625
+      }
+    },
+    {
+      "document_id": 20073234,
+      "year": 2007,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 27.2,
+        "mean_sentence_tree_depth": 5.9
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 20.545454545454547,
+        "mean_sentence_tree_depth": 6.363636363636363
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.9
+      }
+    },
+    {
+      "document_id": 20073355,
+      "year": 2007,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 28.7,
+        "mean_sentence_tree_depth": 5.5
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 23.363636363636363,
+        "mean_sentence_tree_depth": 7.090909090909091
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 5.4
+      }
+    },
+    {
+      "document_id": 20073469,
+      "year": 2007,
+      "source": {
+        "sentence_count": 3,
+        "mean_sentence_words": 17.333333333333332,
+        "mean_sentence_tree_depth": 4.0
+      },
+      "official": {
+        "sentence_count": 3,
+        "mean_sentence_words": 17.666666666666668,
+        "mean_sentence_tree_depth": 5.333333333333333
+      },
+      "generated": {
+        "sentence_count": 3,
+        "mean_sentence_words": 14.0,
+        "mean_sentence_tree_depth": 5.0
+      }
+    },
+    {
+      "document_id": 20073700,
+      "year": 2007,
+      "source": {
+        "sentence_count": 3,
+        "mean_sentence_words": 23.0,
+        "mean_sentence_tree_depth": 5.333333333333333
+      },
+      "official": {
+        "sentence_count": 3,
+        "mean_sentence_words": 20.333333333333332,
+        "mean_sentence_tree_depth": 8.333333333333334
+      },
+      "generated": {
+        "sentence_count": 3,
+        "mean_sentence_words": 18.0,
+        "mean_sentence_tree_depth": 8.666666666666666
+      }
+    },
+    {
+      "document_id": 20073816,
+      "year": 2007,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 17.857142857142858,
+        "mean_sentence_tree_depth": 4.142857142857143
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 14.285714285714286,
+        "mean_sentence_tree_depth": 4.714285714285714
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 15.428571428571429,
+        "mean_sentence_tree_depth": 5.142857142857143
+      }
+    },
+    {
+      "document_id": 20073848,
+      "year": 2007,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 24.125,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 19.444444444444443,
+        "mean_sentence_tree_depth": 6.666666666666667
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.875
+      }
+    },
+    {
+      "document_id": 20073863,
+      "year": 2007,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 45.5,
+        "mean_sentence_tree_depth": 9.0
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 33.0,
+        "mean_sentence_tree_depth": 9.571428571428571
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 34.666666666666664,
+        "mean_sentence_tree_depth": 10.166666666666666
+      }
+    },
+    {
+      "document_id": 20083138,
+      "year": 2008,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 33.888888888888886,
+        "mean_sentence_tree_depth": 5.333333333333333
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 24.818181818181817,
+        "mean_sentence_tree_depth": 7.7272727272727275
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 26.88888888888889,
+        "mean_sentence_tree_depth": 7.666666666666667
+      }
+    },
+    {
+      "document_id": 20083398,
+      "year": 2008,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 26.5,
+        "mean_sentence_tree_depth": 5.25
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 19.625,
+        "mean_sentence_tree_depth": 6.75
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 20.625,
+        "mean_sentence_tree_depth": 6.75
+      }
+    },
+    {
+      "document_id": 20083404,
+      "year": 2008,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 23.571428571428573,
+        "mean_sentence_tree_depth": 5.428571428571429
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 21.142857142857142,
+        "mean_sentence_tree_depth": 5.857142857142857
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 19.714285714285715,
+        "mean_sentence_tree_depth": 5.857142857142857
+      }
+    },
+    {
+      "document_id": 20083550,
+      "year": 2008,
+      "source": {
+        "sentence_count": 14,
+        "mean_sentence_words": 26.928571428571427,
+        "mean_sentence_tree_depth": 4.642857142857143
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 28.916666666666668,
+        "mean_sentence_tree_depth": 7.833333333333333
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 27.636363636363637,
+        "mean_sentence_tree_depth": 7.636363636363637
+      }
+    },
+    {
+      "document_id": 20083789,
+      "year": 2008,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 32.333333333333336,
+        "mean_sentence_tree_depth": 5.777777777777778
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 23.727272727272727,
+        "mean_sentence_tree_depth": 6.909090909090909
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 28.77777777777778,
+        "mean_sentence_tree_depth": 7.555555555555555
+      }
+    },
+    {
+      "document_id": 20083902,
+      "year": 2008,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 26.0,
+        "mean_sentence_tree_depth": 5.666666666666667
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 23.666666666666668,
+        "mean_sentence_tree_depth": 7.666666666666667
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 22.666666666666668,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20083928,
+      "year": 2008,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 24.818181818181817,
+        "mean_sentence_tree_depth": 4.7272727272727275
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 18.846153846153847,
+        "mean_sentence_tree_depth": 5.846153846153846
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 18.916666666666668,
+        "mean_sentence_tree_depth": 6.0
+      }
+    },
+    {
+      "document_id": 20093222,
+      "year": 2009,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 18.076923076923077,
+        "mean_sentence_tree_depth": 4.846153846153846
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 15.75,
+        "mean_sentence_tree_depth": 6.166666666666667
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 14.692307692307692,
+        "mean_sentence_tree_depth": 5.615384615384615
+      }
+    },
+    {
+      "document_id": 20093239,
+      "year": 2009,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 26.142857142857142,
+        "mean_sentence_tree_depth": 5.571428571428571
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 21.857142857142858,
+        "mean_sentence_tree_depth": 7.571428571428571
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 22.857142857142858,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20093345,
+      "year": 2009,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 29.166666666666668,
+        "mean_sentence_tree_depth": 6.5
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 22.5,
+        "mean_sentence_tree_depth": 6.833333333333333
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 23.5,
+        "mean_sentence_tree_depth": 5.666666666666667
+      }
+    },
+    {
+      "document_id": 20093520,
+      "year": 2009,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 26.636363636363637,
+        "mean_sentence_tree_depth": 5.545454545454546
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 20.076923076923077,
+        "mean_sentence_tree_depth": 6.923076923076923
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.727272727272727,
+        "mean_sentence_tree_depth": 6.909090909090909
+      }
+    },
+    {
+      "document_id": 20093830,
+      "year": 2009,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 28.375,
+        "mean_sentence_tree_depth": 5.625
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 22.333333333333332,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 24.25,
+        "mean_sentence_tree_depth": 7.875
+      }
+    },
+    {
+      "document_id": 20093919,
+      "year": 2009,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 22.5,
+        "mean_sentence_tree_depth": 4.375
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 18.88888888888889,
+        "mean_sentence_tree_depth": 6.333333333333333
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 21.25,
+        "mean_sentence_tree_depth": 6.25
+      }
+    },
+    {
+      "document_id": 20094134,
+      "year": 2009,
+      "source": {
+        "sentence_count": 15,
+        "mean_sentence_words": 21.933333333333334,
+        "mean_sentence_tree_depth": 4.6
+      },
+      "official": {
+        "sentence_count": 20,
+        "mean_sentence_words": 13.45,
+        "mean_sentence_tree_depth": 5.1
+      },
+      "generated": {
+        "sentence_count": 14,
+        "mean_sentence_words": 18.714285714285715,
+        "mean_sentence_tree_depth": 6.5
+      }
+    },
+    {
+      "document_id": 20094164,
+      "year": 2009,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 24.0,
+        "mean_sentence_tree_depth": 4.555555555555555
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 15.545454545454545,
+        "mean_sentence_tree_depth": 5.454545454545454
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 20.11111111111111,
+        "mean_sentence_tree_depth": 6.111111111111111
+      }
+    },
+    {
+      "document_id": 20094285,
+      "year": 2009,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 33.55555555555556,
+        "mean_sentence_tree_depth": 5.555555555555555
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 29.3,
+        "mean_sentence_tree_depth": 7.6
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 26.88888888888889,
+        "mean_sentence_tree_depth": 7.222222222222222
+      }
+    },
+    {
+      "document_id": 20103025,
+      "year": 2010,
+      "source": {
+        "sentence_count": 15,
+        "mean_sentence_words": 22.333333333333332,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 21.333333333333332,
+        "mean_sentence_tree_depth": 6.066666666666666
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.153846153846153,
+        "mean_sentence_tree_depth": 6.538461538461538
+      }
+    },
+    {
+      "document_id": 20103215,
+      "year": 2010,
+      "source": {
+        "sentence_count": 5,
+        "mean_sentence_words": 44.6,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 28.5,
+        "mean_sentence_tree_depth": 6.75
+      },
+      "generated": {
+        "sentence_count": 5,
+        "mean_sentence_words": 38.8,
+        "mean_sentence_tree_depth": 8.8
+      }
+    },
+    {
+      "document_id": 20103599,
+      "year": 2010,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 26.0,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 23.375,
+        "mean_sentence_tree_depth": 6.625
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 22.142857142857142,
+        "mean_sentence_tree_depth": 6.857142857142857
+      }
+    },
+    {
+      "document_id": 20103731,
+      "year": 2010,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 24.46153846153846,
+        "mean_sentence_tree_depth": 4.3076923076923075
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 20.066666666666666,
+        "mean_sentence_tree_depth": 6.866666666666666
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 22.416666666666668,
+        "mean_sentence_tree_depth": 6.666666666666667
+      }
+    },
+    {
+      "document_id": 20103751,
+      "year": 2010,
+      "source": {
+        "sentence_count": 5,
+        "mean_sentence_words": 36.6,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 25.166666666666668,
+        "mean_sentence_tree_depth": 7.333333333333333
+      },
+      "generated": {
+        "sentence_count": 5,
+        "mean_sentence_words": 30.6,
+        "mean_sentence_tree_depth": 7.6
+      }
+    },
+    {
+      "document_id": 20103762,
+      "year": 2010,
+      "source": {
+        "sentence_count": 14,
+        "mean_sentence_words": 16.357142857142858,
+        "mean_sentence_tree_depth": 3.857142857142857
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 22.0,
+        "mean_sentence_tree_depth": 6.545454545454546
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 18.666666666666668,
+        "mean_sentence_tree_depth": 5.25
+      }
+    },
+    {
+      "document_id": 20103786,
+      "year": 2010,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 28.375,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 22.444444444444443,
+        "mean_sentence_tree_depth": 7.222222222222222
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 22.375,
+        "mean_sentence_tree_depth": 7.375
+      }
+    },
+    {
+      "document_id": 20113038,
+      "year": 2011,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 30.333333333333332,
+        "mean_sentence_tree_depth": 5.666666666666667
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.285714285714286
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 26.833333333333332,
+        "mean_sentence_tree_depth": 6.666666666666667
+      }
+    },
+    {
+      "document_id": 20113636,
+      "year": 2011,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 28.428571428571427,
+        "mean_sentence_tree_depth": 7.285714285714286
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 27.857142857142858,
+        "mean_sentence_tree_depth": 8.0
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 30.833333333333332,
+        "mean_sentence_tree_depth": 10.166666666666666
+      }
+    },
+    {
+      "document_id": 20113806,
+      "year": 2011,
+      "source": {
+        "sentence_count": 2,
+        "mean_sentence_words": 45.0,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "official": {
+        "sentence_count": 3,
+        "mean_sentence_words": 27.0,
+        "mean_sentence_tree_depth": 9.0
+      },
+      "generated": {
+        "sentence_count": 2,
+        "mean_sentence_words": 32.0,
+        "mean_sentence_tree_depth": 8.0
+      }
+    },
+    {
+      "document_id": 20113847,
+      "year": 2011,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.384615384615383,
+        "mean_sentence_tree_depth": 5.3076923076923075
+      },
+      "official": {
+        "sentence_count": 18,
+        "mean_sentence_words": 16.22222222222222,
+        "mean_sentence_tree_depth": 5.555555555555555
+      },
+      "generated": {
+        "sentence_count": 16,
+        "mean_sentence_words": 17.0,
+        "mean_sentence_tree_depth": 5.8125
+      }
+    },
+    {
+      "document_id": 20113979,
+      "year": 2011,
+      "source": {
+        "sentence_count": 4,
+        "mean_sentence_words": 26.0,
+        "mean_sentence_tree_depth": 4.25
+      },
+      "official": {
+        "sentence_count": 4,
+        "mean_sentence_words": 24.5,
+        "mean_sentence_tree_depth": 6.25
+      },
+      "generated": {
+        "sentence_count": 3,
+        "mean_sentence_words": 27.333333333333332,
+        "mean_sentence_tree_depth": 6.333333333333333
+      }
+    },
+    {
+      "document_id": 20114117,
+      "year": 2011,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 31.333333333333332,
+        "mean_sentence_tree_depth": 5.444444444444445
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 24.4,
+        "mean_sentence_tree_depth": 6.9
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 28.11111111111111,
+        "mean_sentence_tree_depth": 7.555555555555555
+      }
+    },
+    {
+      "document_id": 20114198,
+      "year": 2011,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 25.09090909090909,
+        "mean_sentence_tree_depth": 4.636363636363637
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 22.0,
+        "mean_sentence_tree_depth": 5.9
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.2
+      }
+    },
+    {
+      "document_id": 20123282,
+      "year": 2012,
+      "source": {
+        "sentence_count": 4,
+        "mean_sentence_words": 41.5,
+        "mean_sentence_tree_depth": 6.5
+      },
+      "official": {
+        "sentence_count": 4,
+        "mean_sentence_words": 37.75,
+        "mean_sentence_tree_depth": 8.5
+      },
+      "generated": {
+        "sentence_count": 4,
+        "mean_sentence_words": 36.0,
+        "mean_sentence_tree_depth": 8.0
+      }
+    },
+    {
+      "document_id": 20123360,
+      "year": 2012,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 30.444444444444443,
+        "mean_sentence_tree_depth": 6.222222222222222
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 21.5,
+        "mean_sentence_tree_depth": 6.3
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 22.1,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20123461,
+      "year": 2012,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 36.142857142857146,
+        "mean_sentence_tree_depth": 4.857142857142857
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 21.4,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 30.142857142857142,
+        "mean_sentence_tree_depth": 7.714285714285714
+      }
+    },
+    {
+      "document_id": 20123597,
+      "year": 2012,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 29.25,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 24.75,
+        "mean_sentence_tree_depth": 7.125
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 23.25,
+        "mean_sentence_tree_depth": 6.75
+      }
+    },
+    {
+      "document_id": 20123630,
+      "year": 2012,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 13.6,
+        "mean_sentence_tree_depth": 3.5
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 17.166666666666668,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 18.5,
+        "mean_sentence_tree_depth": 6.5
+      }
+    },
+    {
+      "document_id": 20123726,
+      "year": 2012,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.4,
+        "mean_sentence_tree_depth": 4.7
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 21.8,
+        "mean_sentence_tree_depth": 5.9
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 20.9,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20123855,
+      "year": 2012,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 30.8,
+        "mean_sentence_tree_depth": 5.3
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 28.181818181818183,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 24.545454545454547,
+        "mean_sentence_tree_depth": 6.7272727272727275
+      }
+    },
+    {
+      "document_id": 20124031,
+      "year": 2012,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 37.875,
+        "mean_sentence_tree_depth": 6.25
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.923076923076923,
+        "mean_sentence_tree_depth": 6.461538461538462
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 28.375,
+        "mean_sentence_tree_depth": 8.625
+      }
+    },
+    {
+      "document_id": 20133239,
+      "year": 2013,
+      "source": {
+        "sentence_count": 4,
+        "mean_sentence_words": 20.5,
+        "mean_sentence_tree_depth": 4.75
+      },
+      "official": {
+        "sentence_count": 4,
+        "mean_sentence_words": 17.25,
+        "mean_sentence_tree_depth": 5.25
+      },
+      "generated": {
+        "sentence_count": 4,
+        "mean_sentence_words": 17.0,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20133280,
+      "year": 2013,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.307692307692307,
+        "mean_sentence_tree_depth": 4.846153846153846
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 18.785714285714285,
+        "mean_sentence_tree_depth": 5.571428571428571
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 18.23076923076923,
+        "mean_sentence_tree_depth": 6.230769230769231
+      }
+    },
+    {
+      "document_id": 20133281,
+      "year": 2013,
+      "source": {
+        "sentence_count": 15,
+        "mean_sentence_words": 21.266666666666666,
+        "mean_sentence_tree_depth": 4.866666666666666
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 18.733333333333334,
+        "mean_sentence_tree_depth": 5.6
+      },
+      "generated": {
+        "sentence_count": 15,
+        "mean_sentence_words": 18.066666666666666,
+        "mean_sentence_tree_depth": 4.933333333333334
+      }
+    },
+    {
+      "document_id": 20133348,
+      "year": 2013,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 27.0,
+        "mean_sentence_tree_depth": 5.636363636363637
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 17.466666666666665,
+        "mean_sentence_tree_depth": 5.933333333333334
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 23.90909090909091,
+        "mean_sentence_tree_depth": 6.7272727272727275
+      }
+    },
+    {
+      "document_id": 20133516,
+      "year": 2013,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 26.545454545454547,
+        "mean_sentence_tree_depth": 5.090909090909091
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 23.5,
+        "mean_sentence_tree_depth": 6.333333333333333
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.727272727272727,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20134090,
+      "year": 2013,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 23.555555555555557,
+        "mean_sentence_tree_depth": 5.444444444444445
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 18.8,
+        "mean_sentence_tree_depth": 5.9
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.555555555555555
+      }
+    },
+    {
+      "document_id": 20134171,
+      "year": 2013,
+      "source": {
+        "sentence_count": 17,
+        "mean_sentence_words": 18.470588235294116,
+        "mean_sentence_tree_depth": 4.411764705882353
+      },
+      "official": {
+        "sentence_count": 17,
+        "mean_sentence_words": 14.705882352941176,
+        "mean_sentence_tree_depth": 5.117647058823529
+      },
+      "generated": {
+        "sentence_count": 17,
+        "mean_sentence_words": 15.470588235294118,
+        "mean_sentence_tree_depth": 5.411764705882353
+      }
+    },
+    {
+      "document_id": 20134317,
+      "year": 2013,
+      "source": {
+        "sentence_count": 26,
+        "mean_sentence_words": 11.576923076923077,
+        "mean_sentence_tree_depth": 2.923076923076923
+      },
+      "official": {
+        "sentence_count": 16,
+        "mean_sentence_words": 16.6875,
+        "mean_sentence_tree_depth": 5.75
+      },
+      "generated": {
+        "sentence_count": 16,
+        "mean_sentence_words": 15.8125,
+        "mean_sentence_tree_depth": 5.4375
+      }
+    },
+    {
+      "document_id": 20143567,
+      "year": 2014,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 26.22222222222222,
+        "mean_sentence_tree_depth": 5.222222222222222
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 21.88888888888889,
+        "mean_sentence_tree_depth": 6.777777777777778
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.111111111111111
+      }
+    },
+    {
+      "document_id": 20143762,
+      "year": 2014,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 35.3,
+        "mean_sentence_tree_depth": 6.2
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 24.1,
+        "mean_sentence_tree_depth": 7.8
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 33.625,
+        "mean_sentence_tree_depth": 7.75
+      }
+    },
+    {
+      "document_id": 20143813,
+      "year": 2014,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 30.5,
+        "mean_sentence_tree_depth": 6.4
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 21.583333333333332,
+        "mean_sentence_tree_depth": 5.833333333333333
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.818181818181817,
+        "mean_sentence_tree_depth": 6.2727272727272725
+      }
+    },
+    {
+      "document_id": 20143980,
+      "year": 2014,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 29.0,
+        "mean_sentence_tree_depth": 5.5
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 28.571428571428573,
+        "mean_sentence_tree_depth": 6.285714285714286
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 23.375,
+        "mean_sentence_tree_depth": 6.125
+      }
+    },
+    {
+      "document_id": 20143995,
+      "year": 2014,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 20.571428571428573,
+        "mean_sentence_tree_depth": 4.428571428571429
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 15.625,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 16.0,
+        "mean_sentence_tree_depth": 5.571428571428571
+      }
+    },
+    {
+      "document_id": 20144017,
+      "year": 2014,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 31.75,
+        "mean_sentence_tree_depth": 5.875
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 26.625,
+        "mean_sentence_tree_depth": 7.5
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 26.625,
+        "mean_sentence_tree_depth": 8.25
+      }
+    },
+    {
+      "document_id": 20144285,
+      "year": 2014,
+      "source": {
+        "sentence_count": 4,
+        "mean_sentence_words": 35.5,
+        "mean_sentence_tree_depth": 6.75
+      },
+      "official": {
+        "sentence_count": 4,
+        "mean_sentence_words": 29.5,
+        "mean_sentence_tree_depth": 7.5
+      },
+      "generated": {
+        "sentence_count": 4,
+        "mean_sentence_words": 28.75,
+        "mean_sentence_tree_depth": 8.0
+      }
+    },
+    {
+      "document_id": 20144298,
+      "year": 2014,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 25.454545454545453,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.272727272727273,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.5
+      }
+    },
+    {
+      "document_id": 20153025,
+      "year": 2015,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.545454545454547,
+        "mean_sentence_tree_depth": 5.2727272727272725
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 19.727272727272727,
+        "mean_sentence_tree_depth": 6.7272727272727275
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 19.7,
+        "mean_sentence_tree_depth": 6.5
+      }
+    },
+    {
+      "document_id": 20153944,
+      "year": 2015,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 29.0,
+        "mean_sentence_tree_depth": 6.125
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 25.75,
+        "mean_sentence_tree_depth": 6.75
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 25.0,
+        "mean_sentence_tree_depth": 8.0
+      }
+    },
+    {
+      "document_id": 20154011,
+      "year": 2015,
+      "source": {
+        "sentence_count": 4,
+        "mean_sentence_words": 46.25,
+        "mean_sentence_tree_depth": 7.75
+      },
+      "official": {
+        "sentence_count": 5,
+        "mean_sentence_words": 32.2,
+        "mean_sentence_tree_depth": 7.6
+      },
+      "generated": {
+        "sentence_count": 4,
+        "mean_sentence_words": 37.5,
+        "mean_sentence_tree_depth": 10.0
+      }
+    },
+    {
+      "document_id": 20154103,
+      "year": 2015,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 36.44444444444444,
+        "mean_sentence_tree_depth": 6.444444444444445
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 27.0,
+        "mean_sentence_tree_depth": 7.333333333333333
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 30.0,
+        "mean_sentence_tree_depth": 7.555555555555555
+      }
+    },
+    {
+      "document_id": 20154174,
+      "year": 2015,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 29.333333333333332,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 18.357142857142858,
+        "mean_sentence_tree_depth": 5.571428571428571
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 22.833333333333332,
+        "mean_sentence_tree_depth": 5.833333333333333
+      }
+    },
+    {
+      "document_id": 20154198,
+      "year": 2015,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 18.8,
+        "mean_sentence_tree_depth": 4.4
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 18.333333333333332,
+        "mean_sentence_tree_depth": 5.333333333333333
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 14.5,
+        "mean_sentence_tree_depth": 4.8
+      }
+    },
+    {
+      "document_id": 20154268,
+      "year": 2015,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 36.875,
+        "mean_sentence_tree_depth": 7.375
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 27.0,
+        "mean_sentence_tree_depth": 8.5
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 28.125,
+        "mean_sentence_tree_depth": 8.125
+      }
+    },
+    {
+      "document_id": 20163035,
+      "year": 2016,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 25.615384615384617,
+        "mean_sentence_tree_depth": 5.076923076923077
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 23.416666666666668,
+        "mean_sentence_tree_depth": 6.75
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 20.153846153846153,
+        "mean_sentence_tree_depth": 6.538461538461538
+      }
+    },
+    {
+      "document_id": 20163049,
+      "year": 2016,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 22.923076923076923,
+        "mean_sentence_tree_depth": 5.538461538461538
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 18.166666666666668,
+        "mean_sentence_tree_depth": 5.5
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 18.0,
+        "mean_sentence_tree_depth": 5.923076923076923
+      }
+    },
+    {
+      "document_id": 20163068,
+      "year": 2016,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 22.0,
+        "mean_sentence_tree_depth": 5.714285714285714
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 22.285714285714285,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 19.857142857142858,
+        "mean_sentence_tree_depth": 5.714285714285714
+      }
+    },
+    {
+      "document_id": 20163212,
+      "year": 2016,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 34.833333333333336,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 31.0,
+        "mean_sentence_tree_depth": 8.666666666666666
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 33.666666666666664,
+        "mean_sentence_tree_depth": 8.5
+      }
+    },
+    {
+      "document_id": 20163604,
+      "year": 2016,
+      "source": {
+        "sentence_count": 5,
+        "mean_sentence_words": 35.4,
+        "mean_sentence_tree_depth": 5.4
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 29.666666666666668,
+        "mean_sentence_tree_depth": 7.5
+      },
+      "generated": {
+        "sentence_count": 5,
+        "mean_sentence_words": 32.2,
+        "mean_sentence_tree_depth": 8.8
+      }
+    },
+    {
+      "document_id": 20163612,
+      "year": 2016,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 18.181818181818183,
+        "mean_sentence_tree_depth": 3.909090909090909
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 21.22222222222222,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 22.0,
+        "mean_sentence_tree_depth": 6.625
+      }
+    },
+    {
+      "document_id": 20163685,
+      "year": 2016,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 27.583333333333332,
+        "mean_sentence_tree_depth": 5.083333333333333
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 20.846153846153847,
+        "mean_sentence_tree_depth": 5.769230769230769
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 21.583333333333332,
+        "mean_sentence_tree_depth": 6.333333333333333
+      }
+    },
+    {
+      "document_id": 20163830,
+      "year": 2016,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 25.833333333333332,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.714285714285714
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 19.285714285714285,
+        "mean_sentence_tree_depth": 7.142857142857143
+      }
+    },
+    {
+      "document_id": 20164082,
+      "year": 2016,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 24.636363636363637,
+        "mean_sentence_tree_depth": 4.818181818181818
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 25.4,
+        "mean_sentence_tree_depth": 6.2
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 26.77777777777778,
+        "mean_sentence_tree_depth": 7.333333333333333
+      }
+    },
+    {
+      "document_id": 20173226,
+      "year": 2017,
+      "source": {
+        "sentence_count": 3,
+        "mean_sentence_words": 48.0,
+        "mean_sentence_tree_depth": 6.666666666666667
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 21.333333333333332,
+        "mean_sentence_tree_depth": 7.833333333333333
+      },
+      "generated": {
+        "sentence_count": 3,
+        "mean_sentence_words": 36.0,
+        "mean_sentence_tree_depth": 7.666666666666667
+      }
+    },
+    {
+      "document_id": 20173231,
+      "year": 2017,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 33.0,
+        "mean_sentence_tree_depth": 6.714285714285714
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 28.714285714285715,
+        "mean_sentence_tree_depth": 7.714285714285714
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 27.714285714285715,
+        "mean_sentence_tree_depth": 9.0
+      }
+    },
+    {
+      "document_id": 20173760,
+      "year": 2017,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 24.666666666666668,
+        "mean_sentence_tree_depth": 5.333333333333333
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 25.11111111111111,
+        "mean_sentence_tree_depth": 6.888888888888889
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 24.555555555555557,
+        "mean_sentence_tree_depth": 6.111111111111111
+      }
+    },
+    {
+      "document_id": 20173815,
+      "year": 2017,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 22.0,
+        "mean_sentence_tree_depth": 4.3076923076923075
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.09090909090909,
+        "mean_sentence_tree_depth": 5.909090909090909
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 18.0,
+        "mean_sentence_tree_depth": 5.75
+      }
+    },
+    {
+      "document_id": 20173907,
+      "year": 2017,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 32.125,
+        "mean_sentence_tree_depth": 6.5
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.7,
+        "mean_sentence_tree_depth": 6.8
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 28.125,
+        "mean_sentence_tree_depth": 7.75
+      }
+    },
+    {
+      "document_id": 20173923,
+      "year": 2017,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 35.285714285714285,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 20.7,
+        "mean_sentence_tree_depth": 6.6
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 28.857142857142858,
+        "mean_sentence_tree_depth": 7.142857142857143
+      }
+    },
+    {
+      "document_id": 20174007,
+      "year": 2017,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 34.833333333333336,
+        "mean_sentence_tree_depth": 6.5
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 17.88888888888889,
+        "mean_sentence_tree_depth": 6.222222222222222
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 27.0,
+        "mean_sentence_tree_depth": 9.0
+      }
+    },
+    {
+      "document_id": 20174238,
+      "year": 2017,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 35.44444444444444,
+        "mean_sentence_tree_depth": 7.444444444444445
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 23.636363636363637,
+        "mean_sentence_tree_depth": 7.363636363636363
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 25.666666666666668,
+        "mean_sentence_tree_depth": 8.0
+      }
+    },
+    {
+      "document_id": 20183184,
+      "year": 2018,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 38.0,
+        "mean_sentence_tree_depth": 6.571428571428571
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 27.625,
+        "mean_sentence_tree_depth": 6.75
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 32.42857142857143,
+        "mean_sentence_tree_depth": 7.142857142857143
+      }
+    },
+    {
+      "document_id": 20183241,
+      "year": 2018,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 20.90909090909091,
+        "mean_sentence_tree_depth": 4.181818181818182
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 17.77777777777778,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 20.88888888888889,
+        "mean_sentence_tree_depth": 6.222222222222222
+      }
+    },
+    {
+      "document_id": 20183338,
+      "year": 2018,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 21.2,
+        "mean_sentence_tree_depth": 4.4
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 18.444444444444443,
+        "mean_sentence_tree_depth": 5.888888888888889
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 21.75,
+        "mean_sentence_tree_depth": 7.25
+      }
+    },
+    {
+      "document_id": 20183432,
+      "year": 2018,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 24.46153846153846,
+        "mean_sentence_tree_depth": 5.846153846153846
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 18.6,
+        "mean_sentence_tree_depth": 6.066666666666666
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 19.46153846153846,
+        "mean_sentence_tree_depth": 7.384615384615385
+      }
+    },
+    {
+      "document_id": 20184008,
+      "year": 2018,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 32.8,
+        "mean_sentence_tree_depth": 6.9
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 28.5,
+        "mean_sentence_tree_depth": 8.8
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 26.7,
+        "mean_sentence_tree_depth": 8.1
+      }
+    },
+    {
+      "document_id": 20184034,
+      "year": 2018,
+      "source": {
+        "sentence_count": 5,
+        "mean_sentence_words": 27.2,
+        "mean_sentence_tree_depth": 4.8
+      },
+      "official": {
+        "sentence_count": 6,
+        "mean_sentence_words": 19.0,
+        "mean_sentence_tree_depth": 6.166666666666667
+      },
+      "generated": {
+        "sentence_count": 5,
+        "mean_sentence_words": 21.8,
+        "mean_sentence_tree_depth": 6.6
+      }
+    },
+    {
+      "document_id": 20184219,
+      "year": 2018,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 27.833333333333332,
+        "mean_sentence_tree_depth": 7.5
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 20.875,
+        "mean_sentence_tree_depth": 8.125
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 26.5,
+        "mean_sentence_tree_depth": 8.166666666666666
+      }
+    },
+    {
+      "document_id": 20184330,
+      "year": 2018,
+      "source": {
+        "sentence_count": 14,
+        "mean_sentence_words": 24.357142857142858,
+        "mean_sentence_tree_depth": 5.785714285714286
+      },
+      "official": {
+        "sentence_count": 16,
+        "mean_sentence_words": 18.75,
+        "mean_sentence_tree_depth": 6.5
+      },
+      "generated": {
+        "sentence_count": 14,
+        "mean_sentence_words": 20.785714285714285,
+        "mean_sentence_tree_depth": 6.857142857142857
+      }
+    },
+    {
+      "document_id": 20193058,
+      "year": 2019,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 24.727272727272727,
+        "mean_sentence_tree_depth": 5.2727272727272725
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 22.636363636363637,
+        "mean_sentence_tree_depth": 6.454545454545454
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 22.09090909090909,
+        "mean_sentence_tree_depth": 6.818181818181818
+      }
+    },
+    {
+      "document_id": 20193309,
+      "year": 2019,
+      "source": {
+        "sentence_count": 6,
+        "mean_sentence_words": 26.166666666666668,
+        "mean_sentence_tree_depth": 5.333333333333333
+      },
+      "official": {
+        "sentence_count": 5,
+        "mean_sentence_words": 26.8,
+        "mean_sentence_tree_depth": 8.6
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 7.166666666666667
+      }
+    },
+    {
+      "document_id": 20193399,
+      "year": 2019,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 24.77777777777778,
+        "mean_sentence_tree_depth": 5.111111111111111
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 21.22222222222222,
+        "mean_sentence_tree_depth": 5.555555555555555
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 19.666666666666668,
+        "mean_sentence_tree_depth": 5.444444444444445
+      }
+    },
+    {
+      "document_id": 20193608,
+      "year": 2019,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 39.1,
+        "mean_sentence_tree_depth": 6.8
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 25.692307692307693,
+        "mean_sentence_tree_depth": 7.076923076923077
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 32.9,
+        "mean_sentence_tree_depth": 8.0
+      }
+    },
+    {
+      "document_id": 20194035,
+      "year": 2019,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 18.8,
+        "mean_sentence_tree_depth": 3.9
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 23.714285714285715,
+        "mean_sentence_tree_depth": 7.857142857142857
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 22.285714285714285,
+        "mean_sentence_tree_depth": 6.142857142857143
+      }
+    },
+    {
+      "document_id": 20194164,
+      "year": 2019,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 26.307692307692307,
+        "mean_sentence_tree_depth": 4.538461538461538
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 32.0,
+        "mean_sentence_tree_depth": 7.777777777777778
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 28.8,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20194434,
+      "year": 2019,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 30.636363636363637,
+        "mean_sentence_tree_depth": 6.545454545454546
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 23.923076923076923,
+        "mean_sentence_tree_depth": 7.384615384615385
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 23.583333333333332,
+        "mean_sentence_tree_depth": 6.416666666666667
+      }
+    },
+    {
+      "document_id": 20203069,
+      "year": 2020,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 34.55555555555556,
+        "mean_sentence_tree_depth": 6.666666666666667
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 33.44444444444444,
+        "mean_sentence_tree_depth": 9.666666666666666
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 33.625,
+        "mean_sentence_tree_depth": 9.125
+      }
+    },
+    {
+      "document_id": 20203116,
+      "year": 2020,
+      "source": {
+        "sentence_count": 16,
+        "mean_sentence_words": 16.9375,
+        "mean_sentence_tree_depth": 3.625
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 21.166666666666668,
+        "mean_sentence_tree_depth": 6.5
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 20.333333333333332,
+        "mean_sentence_tree_depth": 5.333333333333333
+      }
+    },
+    {
+      "document_id": 20203255,
+      "year": 2020,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 36.111111111111114,
+        "mean_sentence_tree_depth": 6.333333333333333
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 29.2,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 28.444444444444443,
+        "mean_sentence_tree_depth": 7.333333333333333
+      }
+    },
+    {
+      "document_id": 20203637,
+      "year": 2020,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 24.0,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 19.727272727272727,
+        "mean_sentence_tree_depth": 5.2727272727272725
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 16.90909090909091,
+        "mean_sentence_tree_depth": 5.090909090909091
+      }
+    },
+    {
+      "document_id": 20203872,
+      "year": 2020,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 38.875,
+        "mean_sentence_tree_depth": 7.125
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 27.7,
+        "mean_sentence_tree_depth": 6.5
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.3,
+        "mean_sentence_tree_depth": 7.6
+      }
+    },
+    {
+      "document_id": 20204105,
+      "year": 2020,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 26.1,
+        "mean_sentence_tree_depth": 4.8
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 22.1,
+        "mean_sentence_tree_depth": 6.6
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 20.9,
+        "mean_sentence_tree_depth": 7.3
+      }
+    },
+    {
+      "document_id": 20204458,
+      "year": 2020,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 27.272727272727273,
+        "mean_sentence_tree_depth": 5.090909090909091
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 19.866666666666667,
+        "mean_sentence_tree_depth": 5.266666666666667
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 23.454545454545453,
+        "mean_sentence_tree_depth": 6.181818181818182
+      }
+    },
+    {
+      "document_id": 20204525,
+      "year": 2020,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 18.142857142857142,
+        "mean_sentence_tree_depth": 4.571428571428571
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 17.142857142857142,
+        "mean_sentence_tree_depth": 5.857142857142857
+      },
+      "generated": {
+        "sentence_count": 6,
+        "mean_sentence_words": 16.166666666666668,
+        "mean_sentence_tree_depth": 5.0
+      }
+    },
+    {
+      "document_id": 20213131,
+      "year": 2021,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 32.416666666666664,
+        "mean_sentence_tree_depth": 6.25
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 21.857142857142858,
+        "mean_sentence_tree_depth": 6.428571428571429
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 24.916666666666668,
+        "mean_sentence_tree_depth": 6.833333333333333
+      }
+    },
+    {
+      "document_id": 20213133,
+      "year": 2021,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.307692307692307,
+        "mean_sentence_tree_depth": 4.6923076923076925
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 20.416666666666668,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 19.5,
+        "mean_sentence_tree_depth": 5.583333333333333
+      }
+    },
+    {
+      "document_id": 20213158,
+      "year": 2021,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.4,
+        "mean_sentence_tree_depth": 5.3
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 25.25,
+        "mean_sentence_tree_depth": 6.75
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 21.2,
+        "mean_sentence_tree_depth": 6.8
+      }
+    },
+    {
+      "document_id": 20213292,
+      "year": 2021,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 29.5,
+        "mean_sentence_tree_depth": 6.1
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 20.6,
+        "mean_sentence_tree_depth": 6.1
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.7,
+        "mean_sentence_tree_depth": 6.8
+      }
+    },
+    {
+      "document_id": 20213780,
+      "year": 2021,
+      "source": {
+        "sentence_count": 16,
+        "mean_sentence_words": 23.5,
+        "mean_sentence_tree_depth": 5.3125
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 24.76923076923077,
+        "mean_sentence_tree_depth": 5.846153846153846
+      },
+      "generated": {
+        "sentence_count": 15,
+        "mean_sentence_words": 21.6,
+        "mean_sentence_tree_depth": 6.733333333333333
+      }
+    },
+    {
+      "document_id": 20214095,
+      "year": 2021,
+      "source": {
+        "sentence_count": 5,
+        "mean_sentence_words": 37.0,
+        "mean_sentence_tree_depth": 6.6
+      },
+      "official": {
+        "sentence_count": 5,
+        "mean_sentence_words": 33.2,
+        "mean_sentence_tree_depth": 8.0
+      },
+      "generated": {
+        "sentence_count": 5,
+        "mean_sentence_words": 31.8,
+        "mean_sentence_tree_depth": 8.0
+      }
+    },
+    {
+      "document_id": 20214443,
+      "year": 2021,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 26.875,
+        "mean_sentence_tree_depth": 6.625
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 22.125,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 22.0,
+        "mean_sentence_tree_depth": 7.25
+      }
+    },
+    {
+      "document_id": 20223224,
+      "year": 2022,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 25.0,
+        "mean_sentence_tree_depth": 5.666666666666667
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 16.8,
+        "mean_sentence_tree_depth": 5.8
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 22.583333333333332,
+        "mean_sentence_tree_depth": 6.75
+      }
+    },
+    {
+      "document_id": 20223236,
+      "year": 2022,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 26.3,
+        "mean_sentence_tree_depth": 6.1
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 17.272727272727273,
+        "mean_sentence_tree_depth": 5.454545454545454
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.5
+      }
+    },
+    {
+      "document_id": 20223242,
+      "year": 2022,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 33.77777777777778,
+        "mean_sentence_tree_depth": 6.444444444444445
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 24.6,
+        "mean_sentence_tree_depth": 7.0
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 29.0,
+        "mean_sentence_tree_depth": 7.222222222222222
+      }
+    },
+    {
+      "document_id": 20223461,
+      "year": 2022,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 30.333333333333332,
+        "mean_sentence_tree_depth": 5.916666666666667
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 21.571428571428573,
+        "mean_sentence_tree_depth": 6.285714285714286
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 22.692307692307693,
+        "mean_sentence_tree_depth": 7.3076923076923075
+      }
+    },
+    {
+      "document_id": 20223571,
+      "year": 2022,
+      "source": {
+        "sentence_count": 16,
+        "mean_sentence_words": 30.0,
+        "mean_sentence_tree_depth": 6.125
+      },
+      "official": {
+        "sentence_count": 16,
+        "mean_sentence_words": 24.25,
+        "mean_sentence_tree_depth": 7.125
+      },
+      "generated": {
+        "sentence_count": 17,
+        "mean_sentence_words": 21.41176470588235,
+        "mean_sentence_tree_depth": 6.705882352941177
+      }
+    },
+    {
+      "document_id": 20223586,
+      "year": 2022,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 32.714285714285715,
+        "mean_sentence_tree_depth": 5.857142857142857
+      },
+      "official": {
+        "sentence_count": 7,
+        "mean_sentence_words": 25.0,
+        "mean_sentence_tree_depth": 6.428571428571429
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 25.142857142857142,
+        "mean_sentence_tree_depth": 7.571428571428571
+      }
+    },
+    {
+      "document_id": 20223767,
+      "year": 2022,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 30.076923076923077,
+        "mean_sentence_tree_depth": 5.461538461538462
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 23.333333333333332,
+        "mean_sentence_tree_depth": 6.6
+      },
+      "generated": {
+        "sentence_count": 14,
+        "mean_sentence_words": 20.928571428571427,
+        "mean_sentence_tree_depth": 6.357142857142857
+      }
+    },
+    {
+      "document_id": 20224348,
+      "year": 2022,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 36.0,
+        "mean_sentence_tree_depth": 7.857142857142857
+      },
+      "official": {
+        "sentence_count": 9,
+        "mean_sentence_words": 22.88888888888889,
+        "mean_sentence_tree_depth": 5.555555555555555
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 26.375,
+        "mean_sentence_tree_depth": 8.125
+      }
+    },
+    {
+      "document_id": 20233243,
+      "year": 2023,
+      "source": {
+        "sentence_count": 18,
+        "mean_sentence_words": 19.944444444444443,
+        "mean_sentence_tree_depth": 4.833333333333333
+      },
+      "official": {
+        "sentence_count": 16,
+        "mean_sentence_words": 20.4375,
+        "mean_sentence_tree_depth": 6.6875
+      },
+      "generated": {
+        "sentence_count": 17,
+        "mean_sentence_words": 18.529411764705884,
+        "mean_sentence_tree_depth": 6.0
+      }
+    },
+    {
+      "document_id": 20233318,
+      "year": 2023,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 31.7,
+        "mean_sentence_tree_depth": 5.9
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 24.727272727272727,
+        "mean_sentence_tree_depth": 7.090909090909091
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 26.1,
+        "mean_sentence_tree_depth": 7.9
+      }
+    },
+    {
+      "document_id": 20233838,
+      "year": 2023,
+      "source": {
+        "sentence_count": 15,
+        "mean_sentence_words": 26.4,
+        "mean_sentence_tree_depth": 5.066666666666666
+      },
+      "official": {
+        "sentence_count": 16,
+        "mean_sentence_words": 21.0,
+        "mean_sentence_tree_depth": 6.1875
+      },
+      "generated": {
+        "sentence_count": 16,
+        "mean_sentence_words": 20.0,
+        "mean_sentence_tree_depth": 6.9375
+      }
+    },
+    {
+      "document_id": 20233856,
+      "year": 2023,
+      "source": {
+        "sentence_count": 8,
+        "mean_sentence_words": 25.125,
+        "mean_sentence_tree_depth": 5.125
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 19.875,
+        "mean_sentence_tree_depth": 6.375
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 20.75,
+        "mean_sentence_tree_depth": 6.375
+      }
+    },
+    {
+      "document_id": 20234188,
+      "year": 2023,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 24.76923076923077,
+        "mean_sentence_tree_depth": 4.461538461538462
+      },
+      "official": {
+        "sentence_count": 14,
+        "mean_sentence_words": 18.785714285714285,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 20.53846153846154,
+        "mean_sentence_tree_depth": 5.538461538461538
+      }
+    },
+    {
+      "document_id": 20234521,
+      "year": 2023,
+      "source": {
+        "sentence_count": 11,
+        "mean_sentence_words": 29.818181818181817,
+        "mean_sentence_tree_depth": 6.0
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 20.583333333333332,
+        "mean_sentence_tree_depth": 6.083333333333333
+      },
+      "generated": {
+        "sentence_count": 12,
+        "mean_sentence_words": 20.666666666666668,
+        "mean_sentence_tree_depth": 6.666666666666667
+      }
+    },
+    {
+      "document_id": 20243210,
+      "year": 2024,
+      "source": {
+        "sentence_count": 12,
+        "mean_sentence_words": 18.833333333333332,
+        "mean_sentence_tree_depth": 4.416666666666667
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 16.583333333333332,
+        "mean_sentence_tree_depth": 5.25
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 17.818181818181817,
+        "mean_sentence_tree_depth": 5.636363636363637
+      }
+    },
+    {
+      "document_id": 20243273,
+      "year": 2024,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.7,
+        "mean_sentence_tree_depth": 5.3
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 18.545454545454547,
+        "mean_sentence_tree_depth": 5.7272727272727275
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 17.545454545454547,
+        "mean_sentence_tree_depth": 5.363636363636363
+      }
+    },
+    {
+      "document_id": 20243363,
+      "year": 2024,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 26.2,
+        "mean_sentence_tree_depth": 5.0
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.545454545454547,
+        "mean_sentence_tree_depth": 6.545454545454546
+      },
+      "generated": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.7,
+        "mean_sentence_tree_depth": 7.0
+      }
+    },
+    {
+      "document_id": 20244240,
+      "year": 2024,
+      "source": {
+        "sentence_count": 9,
+        "mean_sentence_words": 26.444444444444443,
+        "mean_sentence_tree_depth": 4.888888888888889
+      },
+      "official": {
+        "sentence_count": 8,
+        "mean_sentence_words": 20.375,
+        "mean_sentence_tree_depth": 6.25
+      },
+      "generated": {
+        "sentence_count": 8,
+        "mean_sentence_words": 21.5,
+        "mean_sentence_tree_depth": 5.25
+      }
+    },
+    {
+      "document_id": 20244319,
+      "year": 2024,
+      "source": {
+        "sentence_count": 19,
+        "mean_sentence_words": 20.789473684210527,
+        "mean_sentence_tree_depth": 4.2631578947368425
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 23.533333333333335,
+        "mean_sentence_tree_depth": 7.2
+      },
+      "generated": {
+        "sentence_count": 16,
+        "mean_sentence_words": 21.375,
+        "mean_sentence_tree_depth": 6.75
+      }
+    },
+    {
+      "document_id": 20253045,
+      "year": 2025,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 36.9,
+        "mean_sentence_tree_depth": 5.1
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 26.307692307692307,
+        "mean_sentence_tree_depth": 7.153846153846154
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 35.333333333333336,
+        "mean_sentence_tree_depth": 7.777777777777778
+      }
+    },
+    {
+      "document_id": 20253311,
+      "year": 2025,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 23.615384615384617,
+        "mean_sentence_tree_depth": 4.923076923076923
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 20.384615384615383,
+        "mean_sentence_tree_depth": 6.538461538461538
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.53846153846154,
+        "mean_sentence_tree_depth": 6.384615384615385
+      }
+    },
+    {
+      "document_id": 20253316,
+      "year": 2025,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 31.8,
+        "mean_sentence_tree_depth": 4.3
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.23076923076923,
+        "mean_sentence_tree_depth": 5.230769230769231
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 22.818181818181817,
+        "mean_sentence_tree_depth": 5.909090909090909
+      }
+    },
+    {
+      "document_id": 20253409,
+      "year": 2025,
+      "source": {
+        "sentence_count": 16,
+        "mean_sentence_words": 19.125,
+        "mean_sentence_tree_depth": 4.0625
+      },
+      "official": {
+        "sentence_count": 15,
+        "mean_sentence_words": 17.2,
+        "mean_sentence_tree_depth": 5.666666666666667
+      },
+      "generated": {
+        "sentence_count": 16,
+        "mean_sentence_words": 15.625,
+        "mean_sentence_tree_depth": 5.3125
+      }
+    },
+    {
+      "document_id": 20253444,
+      "year": 2025,
+      "source": {
+        "sentence_count": 14,
+        "mean_sentence_words": 25.785714285714285,
+        "mean_sentence_tree_depth": 5.928571428571429
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 21.076923076923077,
+        "mean_sentence_tree_depth": 6.923076923076923
+      },
+      "generated": {
+        "sentence_count": 14,
+        "mean_sentence_words": 22.642857142857142,
+        "mean_sentence_tree_depth": 7.071428571428571
+      }
+    },
+    {
+      "document_id": 20253559,
+      "year": 2025,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 30.3,
+        "mean_sentence_tree_depth": 5.9
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 19.666666666666668,
+        "mean_sentence_tree_depth": 6.166666666666667
+      },
+      "generated": {
+        "sentence_count": 11,
+        "mean_sentence_words": 22.636363636363637,
+        "mean_sentence_tree_depth": 6.909090909090909
+      }
+    },
+    {
+      "document_id": 20254084,
+      "year": 2025,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 27.4,
+        "mean_sentence_tree_depth": 5.2
+      },
+      "official": {
+        "sentence_count": 10,
+        "mean_sentence_words": 23.0,
+        "mean_sentence_tree_depth": 6.6
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 23.0,
+        "mean_sentence_tree_depth": 8.0
+      }
+    },
+    {
+      "document_id": 20254331,
+      "year": 2025,
+      "source": {
+        "sentence_count": 13,
+        "mean_sentence_words": 23.384615384615383,
+        "mean_sentence_tree_depth": 4.769230769230769
+      },
+      "official": {
+        "sentence_count": 12,
+        "mean_sentence_words": 18.916666666666668,
+        "mean_sentence_tree_depth": 6.166666666666667
+      },
+      "generated": {
+        "sentence_count": 13,
+        "mean_sentence_words": 17.615384615384617,
+        "mean_sentence_tree_depth": 5.615384615384615
+      }
+    },
+    {
+      "document_id": 20254642,
+      "year": 2025,
+      "source": {
+        "sentence_count": 7,
+        "mean_sentence_words": 35.857142857142854,
+        "mean_sentence_tree_depth": 5.714285714285714
+      },
+      "official": {
+        "sentence_count": 13,
+        "mean_sentence_words": 16.153846153846153,
+        "mean_sentence_tree_depth": 5.923076923076923
+      },
+      "generated": {
+        "sentence_count": 7,
+        "mean_sentence_words": 29.0,
+        "mean_sentence_tree_depth": 7.142857142857143
+      }
+    },
+    {
+      "document_id": 20254899,
+      "year": 2025,
+      "source": {
+        "sentence_count": 10,
+        "mean_sentence_words": 31.9,
+        "mean_sentence_tree_depth": 5.3
+      },
+      "official": {
+        "sentence_count": 11,
+        "mean_sentence_words": 21.363636363636363,
+        "mean_sentence_tree_depth": 6.181818181818182
+      },
+      "generated": {
+        "sentence_count": 9,
+        "mean_sentence_words": 25.0,
+        "mean_sentence_tree_depth": 6.888888888888889
+      }
+    }
+  ]
+}

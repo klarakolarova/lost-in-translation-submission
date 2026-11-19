@@ -1,0 +1,10 @@
+spacy==3.8.16
+numpy==2.5.3
+matplotlib==3.11.1
+wordfreq==3.1.1
+de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0-py3-none-any.whl
+sacrebleu==2.6.0
+pytest==9.1.1
+statsmodels==0.15.0
+fr-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.8.0/fr_core_news_sm-3.8.0-py3-none-any.whl
+lxml==6.1.3
