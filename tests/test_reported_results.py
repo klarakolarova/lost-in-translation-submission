@@ -145,3 +145,15 @@ def test_screening_annotations_cover_sample_and_flags():
     records = translations()["records"]
     checks = screen_translations(records)
     validate_annotations(records, checks)
+
+
+# Keep the decimal comma and the second finding in this previously split CSV note.
+def test_annotation_note_preserves_decimal_comma():
+    with open(
+        "data/screening_annotations.csv", encoding="utf-8", newline=""
+    ) as file_handle:
+        rows = list(csv.DictReader(file_handle))
+    assert all(None not in row for row in rows)
+    note = next(row["note"] for row in rows if row["document_id"] == "20003435")
+    assert '"14,5 Milliarden"' in note
+    assert '"Die Veröffentlichung erfolgt"' in note

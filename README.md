@@ -2,16 +2,22 @@
 
 **Klára Kolářová and Luisa Müller · Essentials in Text and Speech Processing, 2026**
 
-This submission compares TranslateGemma 4B translations of French Swiss parliamentary
-motion justifications with their official German versions. It contains the final
-analyses for the report, including the source-structure and chrF robustness checks.
-The report PDF is submitted separately.
+This project compares TranslateGemma 4B translations of French Swiss parliamentary
+motion justifications with their official German versions. It examines linguistic
+complexity, Swiss terminology and writing conventions, and translation similarity
+over time.
 
-The [results guide](results/README.md) explains each output and links to the analysis summaries, figures and supporting data.
+The fixed sample contains 260 motions from 2000–2025. Of these, 259 machine
+translations completed; one reached the output limit and is excluded from the
+comparisons. The report PDF is submitted separately.
 
-## Run the analysis
+## Reproduce the results
 
-Python 3.14 was used for validation. From this directory:
+### First run
+
+Open a terminal in this repository’s root directory. Python 3.14 was used for
+validation. Create an environment and install the dependencies, including the
+French and German spaCy models:
 
 ```bash
 python3 -m venv .venv
@@ -20,64 +26,82 @@ python -m pip install -r requirements.txt
 bash reproduce.sh
 ```
 
-The run takes a few minutes. After installation it works offline, using the saved
-translations and corpus data. It recreates the tables, figures and derived
-measurements, then runs the tests. It does not generate new translations or
-redownload data. Small floating-point and figure-rendering differences can occur
-between environments.
+Installation requires internet access. After installation, the analysis runs
+offline using the saved corpus, translations and manual annotations. No language
+model download or new translation generation is needed.
 
-## Where to start
+### Subsequent runs
 
-| Location | Purpose |
+```bash
+source .venv/bin/activate
+bash reproduce.sh
+```
+
+The script takes a few minutes and runs five stages: sample checks, complexity,
+Swiss conventions, historical comparisons, and automated tests. It regenerates
+the analysis reports, figures and measurements in `results/`. A successful run
+ends with:
+
+```text
+44 passed
+Reproduction completed successfully; all verification tests passed.
+```
+
+## Read the results
+
+Start with the **[results guide](results/README.md)**. It links every analysis to
+its summary and supporting data and explains how to read the comparisons.
+
+| Research question | Main summaries |
 |---|---|
-| `reproduce.sh` | The analysis steps in execution order |
-| `scripts/` | One named script per analysis; shared measurements in `linguistic_measures.py` |
-| `data/` | Fixed inputs, including the original translation attempts and screening annotations |
-| `results/*.md` and `results/*.csv` | Readable tables and term-by-term evidence |
-| `results/figures/` | Figures used in the report; `design_tikz.tex` is the static study diagram |
-| `results/data/` | Recomputed sample, author labels and per-document measurements |
-| `tests/` | Checks of sampling, measurement rules and reported results |
+| RQ1: How does linguistic complexity differ? | [Complexity comparison](results/translation_complexity_summary.md), with checks for repeated authors and French-source structure in the results guide |
+| RQ2: Are Swiss terms and conventions retained? | [Parliamentary terminology](results/swiss_terminology.md) and [spelling and formatting](results/swiss_writing_conventions.md) |
+| RQ3: Does translation similarity change over time? | [Similarity trend](results/translation_similarity.md), [adjustment for French inputs](results/source_adjusted_similarity.md) and [character conventions](results/character_conventions.md) |
 
-## Code and report
+## Project structure
 
-| Report analysis | Scripts | Main result |
-|---|---|---|
-| Corpus and sample | `classify_author_language.py`, `validate_sample.py` | 2,245 eligible French-author pairs; the same 260 sampled motions |
-| Translation screening | `screen_translations.py` | `translation_screening.md` |
-| RQ1: German complexity | `linguistic_measures.py`, `compare_translation_complexity.py`, `report_complexity_comparison.py` | `translation_complexity_summary.md`, `translation_complexity_details.md`, Figure 2 (`complexity_differences.png`) |
-| RQ1: repeated authors | `check_author_dependence.py` | `complexity_author_dependence.md` |
-| French-source preservation | `compare_sentence_counts.py`, `compare_tree_depth.py` | `source_sentence_counts.md`, `source_tree_depth.md` |
-| RQ2: terminology and conventions | `check_swiss_conventions.py` | `swiss_terminology.md`, `swiss_writing_conventions.md`, `terminology_matches.csv`, `terminology_examples.csv` |
-| RQ3: similarity over time | `compare_translation_similarity.py` | `translation_similarity.md`, Figure 3 (`translation_similarity.png`) |
-| RQ3: source adjustment | `adjust_similarity_for_source.py` | `source_adjusted_similarity.md` |
-| RQ3: special characters | `compare_character_conventions.py` | `character_conventions.md` |
+| Location | Contents |
+|---|---|
+| [reproduce.sh](reproduce.sh) | Analysis steps in execution order, with a description of each script |
+| [scripts/](scripts/) | Analysis scripts; shared linguistic measurements in `linguistic_measures.py` |
+| [data/](data/) | Fixed corpus, sample selection, translation attempts and manual annotations |
+| [results/](results/) | Readable summaries and CSV tables |
+| [results/figures/](results/figures/) | Report figures and `design_tikz.tex`, the static study-diagram source |
+| [results/data/](results/data/) | Regenerated sample checks, author labels and document measurements |
+| [tests/](tests/) | Checks of sampling, measurement rules and reported results |
 
-Author language is a proxy for original text language. The sample was constructed by retaining
-63 eligible completed translations from the earlier random sample and randomly
-filling each year to 10 motions with seed 48, excluding 30 development documents.
-This selection history and the final IDs are recorded in `data/sample_design.json`.
-Reproduction loads the fixed IDs and verifies eligibility, yearly counts and
-agreement with saved translation inputs; it does not draw a new sample.
+To run one analysis separately, activate the environment and use
+`python scripts/<script_name>.py` from the repository root. Some scripts use
+outputs from earlier steps; [reproduce.sh](reproduce.sh) shows the required order.
 
-## Fixed inputs
+## Sample and fixed inputs
 
-- `motion_corpus.json.gz`: cleaned motion justifications and exclusion flags,
-  2000–2025. The corpus contains 10,622 records, including 10,581 usable German
-  texts and 10,573 usable German–French pairs.
-- `motion_coverage.json`: yearly retrieval and coverage counts.
-- `authors/`: saved Parliament API author-role and member snapshots.
-- `sample_design.json`: sampling seed, reused IDs, excluded IDs and selected IDs.
-- `complexity_fr_author_translations.json`: all 260 attempts, model settings and
-  prompts; 259 completed outputs and one output-limit failure.
-- `screening_annotations.csv`: recorded judgements for the reading sample and
-  automatically flagged outputs. The script validates their coverage; it does
-  not generate these judgements.
+Author language is estimated from canton and biography information and serves as
+a proxy for original text language. Of 10,573 eligible French–German text pairs,
+2,245 are classified as French-authored.
 
-The texts and author records were retrieved from the Swiss Parliament's Curia Vista
-open data service in November 2026. This copy was prepared from commit `3cb3d43` of
-[the development repository](https://github.com/luisaellamueller/lost-in-translation),
-which retains the original raw downloads and development history. Input text,
-translation attempts, annotations and numerical results are preserved.
+The fixed sample contains 10 motions per year. The selected IDs and eligibility
+exclusions are recorded in `data/sample_design.json`; reproduction checks this
+selection without drawing new motions.
+
+The following inputs are stored in `data/`. The [input-data guide](data/README.md)
+explains their fields and how they link together:
+
+| Input | Contents |
+|---|---|
+| `motion_corpus.json.gz` | Cleaned motion justifications and exclusion flags for 2000–2025: 10,622 records, including 10,581 usable German texts and 10,573 usable German–French pairs |
+| `motion_coverage.json` | Yearly retrieval and coverage counts |
+| `authors/` | Archived Parliament API author-role and member records |
+| `sample_design.json` | Fixed sample IDs, yearly sample size and development exclusions |
+| `complexity_fr_author_translations.json` | All 260 translation attempts, model settings and prompts |
+| `screening_annotations.csv` | Saved human judgements for the reading sample and automatically flagged texts; reproduction checks their coverage but does not generate the judgements |
+
+The texts and author records were retrieved from the Swiss Parliament’s Curia
+Vista open-data service in November 2026. This submission was initially prepared
+from commit `3cb3d43` of [the development repository](https://github.com/luisaellamueller/lost-in-translation),
+which retains the original raw downloads and development history. The submission
+code has since been cleaned and reorganised; the archived source texts,
+translation attempts and manual annotations remain the fixed inputs.
 
 ## Optional regeneration
 
@@ -117,7 +141,7 @@ mkdir -p models
 
 Download `translategemma-4b-it-Q4_K_M.gguf` from
 [Menterium's model repository](https://huggingface.co/Menterium/translategemma-4b-it-GGUF)
-and place it in `models/`. The model used for the submitted translations has SHA-256:
+and place it in `models/`. The following SHA-256 checksum identifies the exact model file used (it is a file fingerprint, not a secret):
 
 ```text
 e7d9523174272fca61264b339f06d10c6115426267bb0f752b0124084e487b8e

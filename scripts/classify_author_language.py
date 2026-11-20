@@ -110,7 +110,8 @@ def classify_motions(roles: dict, members: dict) -> list[dict]:
 
     # Find each motion's submitting member
     rows = []
-    for document_id in roles["business_ids"]:
+    # The API inventory contains a repeated ID; classify each motion once.
+    for document_id in dict.fromkeys(roles["business_ids"]):
         authors = roles_by_motion.get(document_id, [])
         member_rows = [
             record for record in authors if record["MemberCouncilNumber"] in members

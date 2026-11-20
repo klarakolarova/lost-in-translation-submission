@@ -66,6 +66,18 @@ def validate_annotations(records: list[dict], checks: dict) -> tuple[list[str], 
     ]
     with open(ANNOTATIONS, encoding="utf-8") as file_handle:
         annotations = list(csv.DictReader(file_handle))
+    # Reject broken CSV rows before notes or duplicate judgements can be lost.
+    if any(
+        None in row or any(value is None for value in row.values())
+        for row in annotations
+    ):
+        raise ValueError(
+            "Each annotation must have exactly four CSV fields; check quoting around notes."
+        )
+    if len({(row["check"], row["document_id"]) for row in annotations}) != len(
+        annotations
+    ):
+        raise ValueError("Duplicate annotation for the same check and motion.")
     annotations_by_check = {
         check_name: {
             annotation["document_id"]: annotation
