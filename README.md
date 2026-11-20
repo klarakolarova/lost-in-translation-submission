@@ -7,6 +7,8 @@ motion justifications with their official German versions. It contains the final
 analyses for the report, including the source-structure and chrF robustness checks.
 The report PDF is submitted separately.
 
+The [results guide](results/README.md) explains each output and links to the analysis summaries, figures and supporting data.
+
 ## Run the analysis
 
 Python 3.14 was used for validation. From this directory:
@@ -19,7 +21,7 @@ bash reproduce.sh
 ```
 
 The run takes a few minutes. After installation it works offline, using the saved
-translations and historical scores. It recreates the tables, figures and derived
+translations and corpus data. It recreates the tables, figures and derived
 measurements, then runs the tests. It does not generate new translations or
 redownload data. Small floating-point and figure-rendering differences can occur
 between environments.
@@ -29,7 +31,7 @@ between environments.
 | Location | Purpose |
 |---|---|
 | `reproduce.sh` | The analysis steps in execution order |
-| `scripts/` | One named script per analysis; shared measurements in `metrics.py` |
+| `scripts/` | One named script per analysis; shared measurements in `linguistic_measures.py` |
 | `data/` | Fixed inputs, including the original translation attempts and screening annotations |
 | `results/*.md` and `results/*.csv` | Readable tables and term-by-term evidence |
 | `results/figures/` | Figures used in the report; `design_tikz.tex` is the static study diagram |
@@ -40,22 +42,22 @@ between environments.
 
 | Report analysis | Scripts | Main result |
 |---|---|---|
-| Corpus and sample | `authors.py`, `sample.py` | 2,245 eligible French-author pairs; the same 260 sampled motions |
-| RQ1: German complexity | `metrics.py`, `complexity.py`, `complexity_report.py` | `rq1_complexity.md`, `complexity_details.md`, Figure 2 (`paired_differences.png`) |
-| RQ1: repeated authors | `author_robustness.py` | `author_robustness.md` |
-| French-source preservation | `source_structure.py`, `source_syntax.py` | Sentence-count matching and raw/length-adjusted tree-depth correlations |
-| RQ2: terminology and conventions | `terminology.py` | `terminology_french.md`, convention counts and term contexts |
-| Translation screening | `screening.py` | `screening_french.md` |
-| RQ3: similarity over time | `similarity.py` | `similarity.md`, Figure 3 |
-| RQ3: source adjustment | `source_adjustment.py` | `similarity_source_adjustment.md` |
-| RQ3: special characters | `character_trends.py` | `character_trends.md` |
-| Historical appendix | `history.py` | `historical_summary.md`, `historical_complexity.png` |
+| Corpus and sample | `classify_author_language.py`, `validate_sample.py` | 2,245 eligible French-author pairs; the same 260 sampled motions |
+| Translation screening | `screen_translations.py` | `translation_screening.md` |
+| RQ1: German complexity | `linguistic_measures.py`, `compare_translation_complexity.py`, `report_complexity_comparison.py` | `translation_complexity_summary.md`, `translation_complexity_details.md`, Figure 2 (`complexity_differences.png`) |
+| RQ1: repeated authors | `check_author_dependence.py` | `complexity_author_dependence.md` |
+| French-source preservation | `compare_sentence_counts.py`, `compare_tree_depth.py` | `source_sentence_counts.md`, `source_tree_depth.md` |
+| RQ2: terminology and conventions | `check_swiss_conventions.py` | `swiss_terminology.md`, `swiss_writing_conventions.md`, `terminology_matches.csv`, `terminology_examples.csv` |
+| RQ3: similarity over time | `compare_translation_similarity.py` | `translation_similarity.md`, Figure 3 (`translation_similarity.png`) |
+| RQ3: source adjustment | `adjust_similarity_for_source.py` | `source_adjusted_similarity.md` |
+| RQ3: special characters | `compare_character_conventions.py` | `character_conventions.md` |
 
-Author language is a proxy for original text language. The sample retains the
-63 eligible completed translations from the earlier sample and fills each year
-to 10 motions with seed 48, excluding 30 development documents. These IDs and the
-selected sample are recorded in `data/sample_design.json`, so the earlier pilot
-files are not needed to reconstruct the final sample.
+Author language is a proxy for original text language. The sample was constructed by retaining
+63 eligible completed translations from the earlier random sample and randomly
+filling each year to 10 motions with seed 48, excluding 30 development documents.
+This selection history and the final IDs are recorded in `data/sample_design.json`.
+Reproduction loads the fixed IDs and verifies eligibility, yearly counts and
+agreement with saved translation inputs; it does not draw a new sample.
 
 ## Fixed inputs
 
@@ -70,9 +72,6 @@ files are not needed to reconstruct the final sample.
 - `screening_annotations.csv`: recorded judgements for the reading sample and
   automatically flagged outputs. The script validates their coverage; it does
   not generate these judgements.
-- `historical_scores.json.gz`: the six numerical measures used in the appendix,
-  with original yearly summaries and bootstrap intervals. Duplicate sentence
-  text and unused measures have been removed from this snapshot.
 
 The texts and author records were retrieved from the Swiss Parliament's Curia Vista
 open data service in November 2026. This copy was prepared from commit `3cb3d43` of
@@ -82,23 +81,66 @@ translation attempts, annotations and numerical results are preserved.
 
 ## Optional regeneration
 
-These slower steps are not part of the normal run:
+These commands regenerate inputs; they are not needed to reproduce the report.
+Run them from the project root after creating the Python environment above.
+Each script supports `--help`, reports progress and prints its output locations.
 
-- **Corpus:** `python scripts/collect_corpus.py` downloads raw pages and writes a
-  rebuilt corpus under `results/`, leaving the submitted inputs intact. The live
-  API can change; archived inputs define the report's dataset.
-- **Historical scores:** `python scripts/history.py --rescore` reparses all
-  10,581 German texts and writes new scores under `results/data/`. Subsequent
-  appendix runs use these scores if present.
-- **Translations:** install `requirements-translation.txt`; place
-  `translategemma-4b-it-Q4_K_M.gguf` from
-  [Menterium's model repository](https://huggingface.co/Menterium/translategemma-4b-it-GGUF)
-  in `models/`. Its SHA-256 is
-  `e7d9523174272fca61264b339f06d10c6115426267bb0f752b0124084e487b8e`.
-  After the normal run has reconstructed the sample, run
-  `python scripts/translate.py`. This writes `results/data/translations_rerun.json`
-  and resumes from it if interrupted. The main analyses continue to use the
-  submitted translations. Generation may differ across hardware and libraries.
+### Download the corpus again
+
+```bash
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python scripts/collect_corpus.py
+```
+
+This retrieves German and French motion justifications for 2000–2025. Internet
+access is needed for uncached pages. Downloads are saved in `results/raw/`;
+rerunning the command reuses those pages and rebuilds the cleaned data.
+
+- Cleaned corpus: `results/data/motion_corpus.json`
+- Retrieval and coverage counts: `results/data/motion_coverage.json`
+
+The live API can change, so a fresh download may differ from the submitted
+snapshot. The main analyses continue to read the archived inputs in `data/`.
+
+### Generate the translations again
+
+Prepare the environment and the fixed sample:
+
+```bash
+source .venv/bin/activate
+python -m pip install -r requirements-translation.txt
+python scripts/classify_author_language.py
+python scripts/validate_sample.py
+mkdir -p models
+```
+
+Download `translategemma-4b-it-Q4_K_M.gguf` from
+[Menterium's model repository](https://huggingface.co/Menterium/translategemma-4b-it-GGUF)
+and place it in `models/`. The model used for the submitted translations has SHA-256:
+
+```text
+e7d9523174272fca61264b339f06d10c6115426267bb0f752b0124084e487b8e
+```
+
+Then run:
+
+```bash
+python scripts/translate_sample.py
+```
+
+This translates the fixed French sample and saves each attempt to
+`results/data/translations_rerun.json`. The terminal shows progress by document.
+Model loading and generation can take substantially longer than `reproduce.sh`,
+depending on the hardware.
+
+If interrupted, run the same command again: it processes only unattempted texts.
+Failed attempts stay recorded and are not automatically retried. The script
+checks that saved inputs and settings match before resuming. To start from
+scratch, move the rerun JSON elsewhere first.
+
+The submitted translations are preserved, and `reproduce.sh` continues to use
+them. Regenerated wording may differ across hardware and library versions.
 
 ## Licence
 

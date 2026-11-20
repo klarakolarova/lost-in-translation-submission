@@ -9,7 +9,7 @@ document_id,author_type,member_id,canton,author_language,method
 20003018,member,515,AG,DE,canton
 20003032,member,527,VD,FR,canton
 20003033,parl_group,,,,parl_group
-20003034,member,334,FR,DE,bilingual canton + biography language
+20003034,member,334,FR,,unknown
 20003037,member,210,GE,FR,canton
 20003038,member,210,GE,FR,canton
 20003039,member,498,VD,FR,canton
@@ -21,7 +21,7 @@ document_id,author_type,member_id,canton,author_language,method
 20003052,member,524,NE,FR,canton
 20003053,parl_group,,,,parl_group
 20003054,parl_group,,,,parl_group
-20003055,member,363,BE,DE,bilingual canton + biography language
+20003055,member,363,BE,,unknown
 20003057,member,314,OW,DE,canton
 20003058,parl_group,,,,parl_group
 20003065,member,348,BS,DE,canton
@@ -32,12 +32,12 @@ document_id,author_type,member_id,canton,author_language,method
 20003083,member,12,BE,DE,bilingual canton + biography language
 20003084,member,211,ZH,DE,canton
 20003086,parl_group,,,,parl_group
-20003091,member,326,BE,DE,bilingual canton + biography language
+20003091,member,326,BE,,unknown
 20003092,member,298,ZH,DE,canton
 20003094,member,498,VD,FR,canton
 20003103,member,74,BS,DE,canton
 20003105,member,407,ZH,DE,canton
-20003113,member,521,BE,DE,bilingual canton + biography language
+20003113,member,521,BE,,unknown
 20003114,member,313,GE,FR,canton
 20003117,member,356,AG,DE,canton
 20003127,member,366,SG,DE,canton
@@ -230,7 +230,7 @@ document_id,author_type,member_id,canton,author_language,method
 20003506,member,462,VD,FR,canton
 20003509,member,491,VD,FR,canton
 20003510,member,156,ZH,DE,canton
-20003513,member,334,FR,DE,bilingual canton + biography language
+20003513,member,334,FR,,unknown
 20003516,member,332,BL,DE,canton
 20003519,member,375,JU,FR,canton
 20003521,member,478,BE,DE,bilingual canton + biography language
@@ -449,14 +449,14 @@ document_id,author_type,member_id,canton,author_language,method
 20013307,member,341,GE,FR,canton
 20013308,member,440,VS,,unknown
 20013309,member,323,GE,FR,canton
-20013310,member,521,BE,DE,bilingual canton + biography language
+20013310,member,521,BE,,unknown
 20013313,member,455,VS,FR,bilingual canton + biography language
 20013315,member,323,GE,FR,canton
 20013321,member,467,BE,,unknown
 20013323,member,460,BS,DE,canton
 20013328,member,255,AG,DE,canton
 20013329,member,543,SG,DE,canton
-20013330,member,363,BE,DE,bilingual canton + biography language
+20013330,member,363,BE,,unknown
 20013334,member,375,JU,FR,canton
 20013340,member,81,AG,DE,canton
 20013343,member,406,VS,FR,bilingual canton + biography language
@@ -549,7 +549,7 @@ document_id,author_type,member_id,canton,author_language,method
 20013586,member,298,ZH,DE,canton
 20013587,member,298,ZH,DE,canton
 20013590,member,359,BE,DE,bilingual canton + biography language
-20013592,member,363,BE,DE,bilingual canton + biography language
+20013592,member,363,BE,,unknown
 20013595,member,512,BE,DE,bilingual canton + biography language
 20013597,member,512,BE,DE,bilingual canton + biography language
 20013599,member,146,ZH,DE,canton
@@ -823,7 +823,7 @@ document_id,author_type,member_id,canton,author_language,method
 20023579,member,543,SG,DE,canton
 20023584,member,482,BL,DE,canton
 20023587,member,328,BS,DE,canton
-20023598,member,363,BE,DE,bilingual canton + biography language
+20023598,member,363,BE,,unknown
 20023601,member,336,LU,DE,canton
 20023602,member,512,BE,DE,bilingual canton + biography language
 20023603,member,806,BL,DE,canton
@@ -871,7 +871,7 @@ document_id,author_type,member_id,canton,author_language,method
 20023718,member,359,BE,DE,bilingual canton + biography language
 20023720,member,797,BE,DE,bilingual canton + biography language
 20023721,member,449,ZH,DE,canton
-20023722,member,363,BE,DE,bilingual canton + biography language
+20023722,member,363,BE,,unknown
 20023723,member,405,ZH,DE,canton
 20023724,member,368,ZH,DE,canton
 20023736,member,72,VS,FR,bilingual canton + biography language
@@ -956,7 +956,7 @@ document_id,author_type,member_id,canton,author_language,method
 20033210,parl_group,,,,parl_group
 20033211,member,81,AG,DE,canton
 20033212,member,328,BS,DE,canton
-20033214,member,363,BE,DE,bilingual canton + biography language
+20033214,member,363,BE,,unknown
 20033216,parl_group,,,,parl_group
 20033217,member,797,BE,DE,bilingual canton + biography language
 20033223,parl_group,,,,parl_group
@@ -1218,7 +1218,7 @@ document_id,author_type,member_id,canton,author_language,method
 20043280,member,241,VD,FR,canton
 20043285,member,1130,SZ,DE,canton
 20043288,member,343,ZH,DE,canton
-20043292,member,326,BE,DE,bilingual canton + biography language
+20043292,member,326,BE,,unknown
 20043295,member,518,VD,FR,canton
 20043297,parl_group,,,,parl_group
 20043300,member,1127,VS,FR,bilingual canton + biography language
@@ -1252,7 +1252,7 @@ document_id,author_type,member_id,canton,author_language,method
 20043369,member,85,SZ,DE,canton
 20043370,member,371,JU,FR,canton
 20043374,member,504,VS,FR,bilingual canton + biography language
-20043376,member,521,BE,DE,bilingual canton + biography language
+20043376,member,521,BE,,unknown
 20043377,member,1159,SZ,DE,canton
 20043378,member,1159,SZ,DE,canton
 20043379,parl_group,,,,parl_group
@@ -1343,7 +1343,7 @@ document_id,author_type,member_id,canton,author_language,method
 20043632,member,494,SG,DE,canton
 20043634,member,478,BE,DE,bilingual canton + biography language
 20043640,member,494,SG,DE,canton
-20043642,member,326,BE,DE,bilingual canton + biography language
+20043642,member,326,BE,,unknown
 20043654,member,477,BL,DE,canton
 20043655,member,409,OW,DE,canton
 20043656,member,241,VD,FR,canton
@@ -1417,7 +1417,7 @@ document_id,author_type,member_id,canton,author_language,method
 20053004,committee,,,,committee
 20053005,committee,,,,committee
 20053009,parl_group,,,,parl_group
-20053012,member,326,BE,DE,bilingual canton + biography language
+20053012,member,326,BE,,unknown
 20053013,parl_group,,,,parl_group
 20053014,member,1154,JU,FR,canton
 20053015,parl_group,,,,parl_group
@@ -1454,7 +1454,7 @@ document_id,author_type,member_id,canton,author_language,method
 20053120,parl_group,,,,parl_group
 20053127,parl_group,,,,parl_group
 20053129,member,346,BS,DE,canton
-20053134,member,521,BE,DE,bilingual canton + biography language
+20053134,member,521,BE,,unknown
 20053135,member,331,ZH,DE,canton
 20053136,member,331,ZH,DE,canton
 20053137,member,331,ZH,DE,canton
@@ -1507,7 +1507,7 @@ document_id,author_type,member_id,canton,author_language,method
 20053259,parl_group,,,,parl_group
 20053264,member,1130,SZ,DE,canton
 20053270,member,241,VD,FR,canton
-20053274,member,521,BE,DE,bilingual canton + biography language
+20053274,member,521,BE,,unknown
 20053276,member,494,SG,DE,canton
 20053279,member,241,VD,FR,canton
 20053287,member,805,BE,DE,bilingual canton + biography language
@@ -1735,7 +1735,7 @@ document_id,author_type,member_id,canton,author_language,method
 20053842,member,1112,AG,DE,canton
 20053843,member,511,TI,IT,canton
 20053845,member,371,JU,FR,canton
-20053846,member,363,BE,DE,bilingual canton + biography language
+20053846,member,363,BE,,unknown
 20053855,member,1158,ZG,DE,canton
 20053858,member,1293,NE,FR,canton
 20053859,member,1293,NE,FR,canton
@@ -3065,7 +3065,7 @@ document_id,author_type,member_id,canton,author_language,method
 20093232,member,3907,VD,FR,canton
 20093233,member,3870,JU,FR,canton
 20093234,member,542,ZH,DE,canton
-20093237,member,4001,FR,DE,bilingual canton + biography language
+20093237,member,4001,FR,,unknown
 20093239,member,3870,JU,FR,canton
 20093243,member,1127,VS,FR,bilingual canton + biography language
 20093244,member,3894,BE,FR,bilingual canton + biography language
@@ -3104,7 +3104,7 @@ document_id,author_type,member_id,canton,author_language,method
 20093304,parl_group,,,,parl_group
 20093305,member,455,VS,FR,bilingual canton + biography language
 20093306,parl_group,,,,parl_group
-20093307,member,4001,FR,DE,bilingual canton + biography language
+20093307,member,4001,FR,,unknown
 20093309,member,806,BL,DE,canton
 20093311,member,214,AG,DE,canton
 20093312,member,214,AG,DE,canton
@@ -3314,7 +3314,7 @@ document_id,author_type,member_id,canton,author_language,method
 20093703,member,304,TG,DE,canton
 20093705,member,3830,TI,IT,canton
 20093706,member,1147,BE,DE,bilingual canton + biography language
-20093711,member,4001,FR,DE,bilingual canton + biography language
+20093711,member,4001,FR,,unknown
 20093713,member,1130,SZ,DE,canton
 20093714,member,1130,SZ,DE,canton
 20093715,member,3910,BE,DE,bilingual canton + biography language
@@ -3555,7 +3555,7 @@ document_id,author_type,member_id,canton,author_language,method
 20094282,member,3893,BS,DE,canton
 20094284,member,3833,VD,FR,canton
 20094285,member,3833,VD,FR,canton
-20094288,member,4001,FR,DE,bilingual canton + biography language
+20094288,member,4001,FR,,unknown
 20094291,member,502,ZH,DE,canton
 20094294,member,91,AG,DE,canton
 20094297,member,1159,SZ,DE,canton
@@ -3904,7 +3904,7 @@ document_id,author_type,member_id,canton,author_language,method
 20103777,member,1135,BE,DE,bilingual canton + biography language
 20103779,member,3886,BE,DE,bilingual canton + biography language
 20103780,member,1233,ZH,DE,canton
-20103783,member,4001,FR,DE,bilingual canton + biography language
+20103783,member,4001,FR,,unknown
 20103786,member,1108,VD,FR,canton
 20103788,member,519,TG,DE,canton
 20103789,member,4014,BE,DE,bilingual canton + biography language
@@ -4344,7 +4344,7 @@ document_id,author_type,member_id,canton,author_language,method
 20113598,member,487,BL,DE,canton
 20113599,member,1156,SO,DE,canton
 20113600,member,1127,VS,FR,bilingual canton + biography language
-20113602,member,4001,FR,DE,bilingual canton + biography language
+20113602,member,4001,FR,,unknown
 20113604,member,3876,LU,DE,canton
 20113608,member,503,TI,IT,canton
 20113611,member,3884,BE,FR,bilingual canton + biography language
@@ -8130,7 +8130,7 @@ document_id,author_type,member_id,canton,author_language,method
 20203230,member,4154,VS,FR,bilingual canton + biography language
 20203231,member,4069,AG,DE,canton
 20203232,member,4154,VS,FR,bilingual canton + biography language
-20203235,member,4247,BE,DE,bilingual canton + biography language
+20203235,member,4247,BE,,unknown
 20203236,parl_group,,,,parl_group
 20203237,parl_group,,,,parl_group
 20203239,parl_group,,,,parl_group
@@ -8158,14 +8158,14 @@ document_id,author_type,member_id,canton,author_language,method
 20203285,member,4240,JU,FR,canton
 20203286,member,4239,BS,DE,canton
 20203287,member,4315,BL,DE,canton
-20203294,member,4247,BE,DE,bilingual canton + biography language
+20203294,member,4247,BE,,unknown
 20203295,member,4230,VS,DE,bilingual canton + biography language
-20203299,member,4247,BE,DE,bilingual canton + biography language
+20203299,member,4247,BE,,unknown
 20203300,parl_group,,,,parl_group
 20203301,member,3910,BE,DE,bilingual canton + biography language
 20203303,member,1337,LU,DE,canton
-20203306,member,4273,GR,DE,bilingual canton + biography language
-20203310,member,4247,BE,DE,bilingual canton + biography language
+20203306,member,4273,GR,,unknown
+20203310,member,4247,BE,,unknown
 20203313,member,3999,ZH,DE,canton
 20203314,parl_group,,,,parl_group
 20203315,member,4120,TI,IT,canton
@@ -8291,7 +8291,7 @@ document_id,author_type,member_id,canton,author_language,method
 20203637,member,4272,GE,FR,canton
 20203647,member,4289,ZH,DE,canton
 20203648,member,4289,ZH,DE,canton
-20203653,member,4247,BE,DE,bilingual canton + biography language
+20203653,member,4247,BE,,unknown
 20203654,member,4271,VS,FR,bilingual canton + biography language
 20203664,member,1295,TG,DE,canton
 20203665,member,4207,LU,DE,canton
@@ -8881,7 +8881,7 @@ document_id,author_type,member_id,canton,author_language,method
 20213770,member,4263,BE,DE,bilingual canton + biography language
 20213772,member,4198,ZH,DE,canton
 20213774,member,74,BS,DE,canton
-20213777,member,4247,BE,DE,bilingual canton + biography language
+20213777,member,4247,BE,,unknown
 20213779,member,4275,GE,FR,canton
 20213780,member,4077,VD,FR,canton
 20213785,member,4046,TI,IT,canton
@@ -9722,7 +9722,7 @@ document_id,author_type,member_id,canton,author_language,method
 20233056,member,4244,GL,DE,canton
 20233058,member,4065,BE,DE,bilingual canton + biography language
 20233063,member,3876,LU,DE,canton
-20233067,member,4273,GR,DE,bilingual canton + biography language
+20233067,member,4273,GR,,unknown
 20233068,parl_group,,,,parl_group
 20233069,parl_group,,,,parl_group
 20233072,parl_group,,,,parl_group
@@ -11086,7 +11086,7 @@ document_id,author_type,member_id,canton,author_language,method
 20253727,member,4046,TI,IT,canton
 20253730,member,4272,GE,FR,canton
 20253733,member,4305,LU,DE,canton
-20253735,member,4247,BE,DE,bilingual canton + biography language
+20253735,member,4247,BE,,unknown
 20253736,parl_group,,,,parl_group
 20253737,parl_group,,,,parl_group
 20253738,member,10839,GE,FR,canton
@@ -11273,7 +11273,7 @@ document_id,author_type,member_id,canton,author_language,method
 20254202,member,4137,GE,FR,canton
 20254206,member,4077,VD,FR,canton
 20254207,member,11506,SO,DE,canton
-20254212,member,4247,BE,DE,bilingual canton + biography language
+20254212,member,4247,BE,,unknown
 20254213,member,10821,LU,DE,canton
 20254216,member,4179,AR,DE,canton
 20254222,member,14803,AG,DE,canton
