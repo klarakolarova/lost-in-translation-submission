@@ -1,251 +1,251 @@
 term,document_id,official_keeps,machine_keeps,machine_rendering
-motion,20003277,1,0,Antrag
-motion,20003307,1,0,other
-motion,20003270,1,1,kept
-motion,20013334,1,0,Antrag
-motion,20013568,1,0,Antrag
 motion,20013606,1,1,kept
+motion,20013568,1,0,Antrag
+motion,20013334,1,0,Antrag
 motion,20023076,1,1,kept
 motion,20023692,1,1,kept
-motion,20023529,1,1,kept
-motion,20033519,1,0,other
 motion,20033201,1,0,other
-motion,20033320,1,1,kept
 motion,20033106,1,0,other
-motion,20043605,1,0,Antrag
-motion,20053394,1,0,other
-motion,20053560,1,0,other
-motion,20053559,1,1,kept
 motion,20053768,1,0,other
+motion,20053394,1,0,other
 motion,20063303,0,1,kept
 motion,20083348,1,0,other
-motion,20094051,0,0,other
-motion,20094269,0,0,other
-motion,20093145,1,1,kept
-motion,20103874,1,1,kept
-motion,20124073,1,1,kept
-motion,20123072,1,0,Antrag
-motion,20123320,1,0,other
-motion,20153048,1,1,kept
 motion,20153575,1,0,Antrag
-motion,20153792,1,0,Antrag
-motion,20174279,1,1,kept
-motion,20173772,1,0,Antrag
 motion,20173901,1,1,kept
-motion,20183313,1,1,kept
-motion,20183128,1,0,Antrag
+motion,20174279,1,1,kept
 motion,20183500,1,1,kept
-motion,20193434,1,0,Antrag
-motion,20223582,1,0,other
+motion,20183128,1,0,Antrag
+motion,20183313,1,1,kept
 motion,20223976,1,1,kept
 motion,20223194,1,0,Antrag
 motion,20233389,1,1,kept
+motion,20244483,1,0,Antrag
+motion,20254533,1,1,kept
+motion,20253317,0,1,kept
+motion,20253254,1,0,Antrag
+motion,20254082,1,0,Antrag
+motion,20253054,1,0,Antrag
+motion,20003270,1,1,kept
+motion,20003307,1,0,other
+motion,20003277,1,0,Antrag
+motion,20023529,1,1,kept
+motion,20033519,1,0,other
+motion,20033320,1,1,kept
+motion,20043605,1,0,Antrag
+motion,20053559,1,1,kept
+motion,20053560,1,0,other
+motion,20093145,1,1,kept
+motion,20094269,0,0,other
+motion,20094051,0,0,other
+motion,20103874,1,1,kept
+motion,20123320,1,0,other
+motion,20124073,1,1,kept
+motion,20123072,1,0,Antrag
+motion,20153048,1,1,kept
+motion,20153792,1,0,Antrag
+motion,20173772,1,0,Antrag
+motion,20193434,1,0,Antrag
+motion,20223582,1,0,other
 motion,20233822,1,1,kept
 motion,20233901,1,0,Antrag
-motion,20244483,1,0,Antrag
 motion,20243484,1,0,other
-motion,20253317,0,1,kept
-motion,20253054,1,0,Antrag
 motion,20254643,1,1,kept
-motion,20254533,1,1,kept
-motion,20254082,1,0,Antrag
-motion,20253254,1,0,Antrag
-interpellation,20023755,1,0,Anfrage
 interpellation,20023255,1,1,kept
-interpellation,20033285,1,1,kept
 interpellation,20033675,1,0,Anfrage
+interpellation,20033285,1,1,kept
 interpellation,20043611,1,0,Anfrage
 interpellation,20053773,1,0,Anfrage
+interpellation,20123739,1,0,Anfrage
+interpellation,20143568,1,0,Anfrage
+interpellation,20173597,1,1,kept
+interpellation,20023755,1,0,Anfrage
 interpellation,20093145,1,0,Anfrage
 interpellation,20103909,1,0,Anfrage
 interpellation,20124073,1,0,Anfrage
-interpellation,20123739,1,0,Anfrage
-interpellation,20143568,1,0,Anfrage
 interpellation,20163215,1,0,Anfrage
-interpellation,20173117,1,0,Anfrage
-interpellation,20173772,1,0,Anfrage
-interpellation,20173597,1,1,kept
 interpellation,20174287,1,0,Anfrage
+interpellation,20173772,1,0,Anfrage
+interpellation,20173117,1,0,Anfrage
 interpellation,20193237,1,1,kept
 interpellation,20223493,1,1,kept
 interpellation,20233634,1,0,Anfrage
 interpellation,20233822,1,0,lost
-interpellation,20243350,1,0,Anfrage
 interpellation,20244559,1,1,kept
-interpellation,20254388,1,0,Anfrage
+interpellation,20243350,1,0,Anfrage
 interpellation,20254017,1,1,kept
+interpellation,20254388,1,0,Anfrage
 postulat,20003238,1,0,other
-postulat,20033531,1,0,other
 postulat,20123739,1,0,other
-postulat,20123072,1,0,other
 postulat,20154173,1,1,kept
 postulat,20183249,1,1,kept
+postulat,20033531,1,0,other
+postulat,20123072,1,0,other
 postulat,20243060,0,1,kept
 initiative parlementaire,20113707,1,0,other
 initiative parlementaire,20223795,1,0,other
-Conseil fédéral,20003277,1,1,kept
-Conseil fédéral,20003498,1,1,kept
-Conseil fédéral,20003269,1,1,kept
-Conseil fédéral,20013334,1,1,kept
-Conseil fédéral,20013278,1,1,kept
-Conseil fédéral,20013568,1,1,kept
-Conseil fédéral,20013066,1,1,kept
 Conseil fédéral,20013606,1,1,kept
-Conseil fédéral,20013414,1,1,kept
-Conseil fédéral,20023755,1,1,kept
+Conseil fédéral,20013568,1,1,kept
+Conseil fédéral,20013334,1,1,kept
+Conseil fédéral,20023255,1,1,kept
+Conseil fédéral,20023149,1,1,kept
+Conseil fédéral,20023407,1,1,kept
+Conseil fédéral,20023490,1,1,kept
 Conseil fédéral,20023569,1,1,kept
 Conseil fédéral,20023451,1,1,kept
-Conseil fédéral,20023407,1,1,kept
 Conseil fédéral,20023349,1,1,kept
-Conseil fédéral,20023490,1,1,kept
 Conseil fédéral,20023692,1,1,kept
-Conseil fédéral,20023149,1,1,kept
-Conseil fédéral,20023255,1,1,kept
-Conseil fédéral,20023529,1,1,kept
-Conseil fédéral,20023343,1,1,kept
-Conseil fédéral,20033519,1,1,kept
+Conseil fédéral,20033404,1,0,Bundesregierung
+Conseil fédéral,20033675,1,1,kept
 Conseil fédéral,20033285,1,1,kept
 Conseil fédéral,20033106,1,1,kept
-Conseil fédéral,20033531,1,1,kept
-Conseil fédéral,20033404,1,0,Bundesregierung
-Conseil fédéral,20033515,1,1,kept
-Conseil fédéral,20033675,1,1,kept
-Conseil fédéral,20043605,1,1,kept
-Conseil fédéral,20043494,1,1,kept
-Conseil fédéral,20043346,1,1,kept
 Conseil fédéral,20043611,1,1,kept
 Conseil fédéral,20043815,1,1,kept
-Conseil fédéral,20053201,1,1,kept
-Conseil fédéral,20053559,1,1,kept
-Conseil fédéral,20053773,1,1,kept
+Conseil fédéral,20043346,1,1,kept
 Conseil fédéral,20053768,1,1,kept
-Conseil fédéral,20053859,1,1,kept
-Conseil fédéral,20063674,1,1,kept
-Conseil fédéral,20063584,1,1,kept
+Conseil fédéral,20053773,1,1,kept
 Conseil fédéral,20063672,1,1,kept
 Conseil fédéral,20063028,1,1,kept
-Conseil fédéral,20073782,1,1,kept
-Conseil fédéral,20073311,1,1,kept
-Conseil fédéral,20073546,1,1,kept
-Conseil fédéral,20073755,1,1,kept
-Conseil fédéral,20073473,1,1,kept
 Conseil fédéral,20073788,1,1,kept
+Conseil fédéral,20073546,1,1,kept
 Conseil fédéral,20083348,1,1,kept
-Conseil fédéral,20094117,1,1,kept
-Conseil fédéral,20094269,1,1,kept
 Conseil fédéral,20093790,1,0,Bundesregierung
-Conseil fédéral,20093145,1,1,kept
-Conseil fédéral,20093457,1,1,kept
 Conseil fédéral,20093858,1,1,kept
-Conseil fédéral,20103909,1,1,kept
-Conseil fédéral,20103874,1,1,kept
-Conseil fédéral,20103820,1,1,kept
-Conseil fédéral,20104149,1,1,kept
+Conseil fédéral,20094117,1,1,kept
 Conseil fédéral,20104147,1,1,kept
 Conseil fédéral,20103724,1,1,kept
-Conseil fédéral,20103133,1,1,kept
-Conseil fédéral,20113705,1,1,kept
 Conseil fédéral,20114115,1,1,kept
-Conseil fédéral,20113720,1,1,kept
-Conseil fédéral,20124073,1,1,kept
 Conseil fédéral,20123739,1,1,kept
-Conseil fédéral,20123072,1,1,kept
-Conseil fédéral,20123320,1,0,Bundesregierung
-Conseil fédéral,20133649,1,1,kept
-Conseil fédéral,20133808,1,1,kept
-Conseil fédéral,20133949,1,1,kept
-Conseil fédéral,20144300,1,1,kept
-Conseil fédéral,20143310,1,1,kept
-Conseil fédéral,20143407,1,1,kept
-Conseil fédéral,20143269,1,1,kept
 Conseil fédéral,20143568,1,1,kept
+Conseil fédéral,20144300,1,1,kept
 Conseil fédéral,20143759,1,1,kept
-Conseil fédéral,20153048,1,1,kept
-Conseil fédéral,20153586,1,1,kept
-Conseil fédéral,20154173,1,1,kept
-Conseil fédéral,20154192,1,1,kept
+Conseil fédéral,20143310,1,1,kept
 Conseil fédéral,20153145,1,1,kept
-Conseil fédéral,20154160,1,1,kept
-Conseil fédéral,20153575,1,1,kept
+Conseil fédéral,20154173,1,1,kept
 Conseil fédéral,20153975,1,1,kept
-Conseil fédéral,20163297,1,1,kept
-Conseil fédéral,20163877,1,1,kept
-Conseil fédéral,20163689,1,1,kept
-Conseil fédéral,20163494,1,1,kept
-Conseil fédéral,20164126,1,1,kept
-Conseil fédéral,20163069,1,0,Bundesregierung
+Conseil fédéral,20154192,1,1,kept
+Conseil fédéral,20153575,1,1,kept
 Conseil fédéral,20163941,1,1,kept
-Conseil fédéral,20163215,1,1,kept
-Conseil fédéral,20174279,1,1,kept
-Conseil fédéral,20173117,1,1,kept
-Conseil fédéral,20173772,1,1,kept
-Conseil fédéral,20173597,1,1,kept
-Conseil fédéral,20174287,1,1,kept
+Conseil fédéral,20163494,1,1,kept
+Conseil fédéral,20163297,1,1,kept
 Conseil fédéral,20173901,1,1,kept
-Conseil fédéral,20173458,1,1,kept
-Conseil fédéral,20173053,0,1,kept
-Conseil fédéral,20183249,1,1,kept
-Conseil fédéral,20183579,1,1,kept
-Conseil fédéral,20183753,1,1,kept
-Conseil fédéral,20183616,1,1,kept
-Conseil fédéral,20183313,1,0,other
+Conseil fédéral,20173597,1,1,kept
+Conseil fédéral,20174279,1,1,kept
 Conseil fédéral,20183128,1,1,kept
-Conseil fédéral,20183603,1,1,kept
+Conseil fédéral,20183313,1,0,other
+Conseil fédéral,20183249,1,1,kept
 Conseil fédéral,20193320,1,1,kept
 Conseil fédéral,20193815,1,0,Bundesregierung
-Conseil fédéral,20194100,1,1,kept
+Conseil fédéral,20204574,1,1,kept
+Conseil fédéral,20203285,1,0,Bundesregierung
+Conseil fédéral,20213882,1,1,kept
+Conseil fédéral,20223128,1,1,kept
+Conseil fédéral,20223976,1,1,kept
+Conseil fédéral,20223773,1,1,kept
+Conseil fédéral,20223929,1,1,kept
+Conseil fédéral,20233389,1,1,kept
+Conseil fédéral,20233458,1,1,kept
+Conseil fédéral,20244042,1,1,kept
+Conseil fédéral,20253317,1,1,kept
+Conseil fédéral,20254082,1,1,kept
+Conseil fédéral,20254497,1,1,kept
+Conseil fédéral,20253572,1,0,Bundesregierung
+Conseil fédéral,20003498,1,1,kept
+Conseil fédéral,20003269,1,1,kept
+Conseil fédéral,20003277,1,1,kept
+Conseil fédéral,20013414,1,1,kept
+Conseil fédéral,20013278,1,1,kept
+Conseil fédéral,20013066,1,1,kept
+Conseil fédéral,20023529,1,1,kept
+Conseil fédéral,20023343,1,1,kept
+Conseil fédéral,20023755,1,1,kept
+Conseil fédéral,20033515,1,1,kept
+Conseil fédéral,20033519,1,1,kept
+Conseil fédéral,20033531,1,1,kept
+Conseil fédéral,20043605,1,1,kept
+Conseil fédéral,20043494,1,1,kept
+Conseil fédéral,20053559,1,1,kept
+Conseil fédéral,20053201,1,1,kept
+Conseil fédéral,20053859,1,1,kept
+Conseil fédéral,20063584,1,1,kept
+Conseil fédéral,20063674,1,1,kept
+Conseil fédéral,20073782,1,1,kept
+Conseil fédéral,20073755,1,1,kept
+Conseil fédéral,20073473,1,1,kept
+Conseil fédéral,20073311,1,1,kept
+Conseil fédéral,20093145,1,1,kept
+Conseil fédéral,20094269,1,1,kept
+Conseil fédéral,20093457,1,1,kept
+Conseil fédéral,20103909,1,1,kept
+Conseil fédéral,20104149,1,1,kept
+Conseil fédéral,20103874,1,1,kept
+Conseil fédéral,20103820,1,1,kept
+Conseil fédéral,20103133,1,1,kept
+Conseil fédéral,20113705,1,1,kept
+Conseil fédéral,20113720,1,1,kept
+Conseil fédéral,20123320,1,0,Bundesregierung
+Conseil fédéral,20124073,1,1,kept
+Conseil fédéral,20123072,1,1,kept
+Conseil fédéral,20133808,1,1,kept
+Conseil fédéral,20133949,1,1,kept
+Conseil fédéral,20133649,1,1,kept
+Conseil fédéral,20143407,1,1,kept
+Conseil fédéral,20143269,1,1,kept
+Conseil fédéral,20154160,1,1,kept
+Conseil fédéral,20153048,1,1,kept
+Conseil fédéral,20153586,1,1,kept
+Conseil fédéral,20163069,1,0,Bundesregierung
+Conseil fédéral,20163877,1,1,kept
+Conseil fédéral,20163689,1,1,kept
+Conseil fédéral,20163215,1,1,kept
+Conseil fédéral,20164126,1,1,kept
+Conseil fédéral,20174287,1,1,kept
+Conseil fédéral,20173772,1,1,kept
+Conseil fédéral,20173117,1,1,kept
+Conseil fédéral,20173053,0,1,kept
+Conseil fédéral,20173458,1,1,kept
+Conseil fédéral,20183603,1,1,kept
+Conseil fédéral,20183616,1,1,kept
+Conseil fédéral,20183579,1,1,kept
+Conseil fédéral,20183753,1,1,kept
 Conseil fédéral,20193451,1,0,Bundesregierung
-Conseil fédéral,20194365,1,1,kept
+Conseil fédéral,20194100,1,1,kept
 Conseil fédéral,20193434,1,1,kept
 Conseil fédéral,20193237,0,1,kept
+Conseil fédéral,20194365,1,1,kept
 Conseil fédéral,20203015,1,1,kept
-Conseil fédéral,20203266,1,0,Bundesregierung
-Conseil fédéral,20203285,1,0,Bundesregierung
-Conseil fédéral,20204574,1,1,kept
 Conseil fédéral,20204534,1,1,kept
-Conseil fédéral,20213882,1,1,kept
-Conseil fédéral,20213136,1,1,kept
+Conseil fédéral,20203266,1,0,Bundesregierung
 Conseil fédéral,20214186,1,1,kept
-Conseil fédéral,20223929,1,1,kept
-Conseil fédéral,20223105,1,1,kept
+Conseil fédéral,20213136,1,1,kept
 Conseil fédéral,20223493,1,1,kept
-Conseil fédéral,20223795,1,0,Bundesregierung
 Conseil fédéral,20223622,1,1,kept
+Conseil fédéral,20223105,1,1,kept
 Conseil fédéral,20223752,1,1,kept
 Conseil fédéral,20223582,1,1,kept
-Conseil fédéral,20223976,1,1,kept
-Conseil fédéral,20223128,1,1,kept
-Conseil fédéral,20223773,1,1,kept
-Conseil fédéral,20233458,1,1,kept
+Conseil fédéral,20223795,1,0,Bundesregierung
 Conseil fédéral,20233634,1,1,kept
-Conseil fédéral,20233389,1,1,kept
-Conseil fédéral,20233822,1,1,kept
 Conseil fédéral,20234227,1,1,kept
-Conseil fédéral,20233901,1,1,kept
+Conseil fédéral,20233822,1,1,kept
 Conseil fédéral,20234085,1,1,kept
+Conseil fédéral,20233901,1,1,kept
 Conseil fédéral,20243060,1,1,kept
 Conseil fédéral,20243350,1,1,kept
-Conseil fédéral,20244042,1,1,kept
-Conseil fédéral,20254388,1,1,kept
-Conseil fédéral,20253317,1,1,kept
-Conseil fédéral,20253572,1,0,Bundesregierung
 Conseil fédéral,20254643,1,1,kept
 Conseil fédéral,20254017,1,1,kept
+Conseil fédéral,20254388,1,1,kept
 Conseil fédéral,20254469,1,1,kept
-Conseil fédéral,20254497,1,1,kept
-Conseil fédéral,20254082,1,1,kept
 Conseil national,20003238,1,1,kept
-Conseil national,20003269,1,1,kept
-Conseil national,20023529,1,1,kept
 Conseil national,20033285,1,1,kept
 Conseil national,20073148,1,1,kept
+Conseil national,20154173,1,1,kept
+Conseil national,20163941,1,1,kept
+Conseil national,20233224,1,1,kept
+Conseil national,20003269,1,1,kept
+Conseil national,20023529,1,1,kept
 Conseil national,20083229,1,1,kept
 Conseil national,20113720,1,1,kept
 Conseil national,20143269,1,1,kept
-Conseil national,20154173,1,1,kept
-Conseil national,20163941,1,1,kept
 Conseil national,20203266,1,1,kept
-Conseil national,20233224,1,1,kept
 Conseil des Etats,20013568,1,1,kept
 Conseil des Etats,20073148,1,1,kept
 Conseil des Etats,20123320,1,1,kept

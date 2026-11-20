@@ -171,7 +171,9 @@ def compare_trends(rows: list[dict]) -> dict:
 
 
 # Save the model results and a readable comparison of the two trends.
-def save_report(output: dict) -> None:
+def save_report(output: dict, output_dir: Path | None = None) -> None:
+    output_dir = output_dir or ROOT / "results"
+    DATA = output_dir / "data"
     DATA.mkdir(parents=True, exist_ok=True)
     unadjusted_result, adjusted_result = output["unadjusted"], output["adjusted"]
     difference = output["change_in_year_coefficient"]
@@ -217,7 +219,7 @@ def save_report(output: dict) -> None:
         "",
         "See [translation similarity](translation_similarity.md) for the period averages and [source_adjusted_similarity.json](data/source_adjusted_similarity.json) for the saved estimates.",
     ]
-    (ROOT / "results/source_adjusted_similarity.md").write_text(
+    (output_dir / "source_adjusted_similarity.md").write_text(
         "\n".join(lines) + "\n", encoding="utf-8"
     )
 

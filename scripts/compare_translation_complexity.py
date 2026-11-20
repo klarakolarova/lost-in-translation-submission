@@ -59,7 +59,7 @@ def add_bootstrap_intervals(results: dict, selected: list[dict]) -> None:
 
 
 # Save the detailed comparison, interval interpretation and excluded failures.
-def save_report(results: dict) -> None:
+def save_report(results: dict, report_path: Path | None = None) -> None:
     labels = {key: label for key, label, _ in REPORTED_MEASURES}
     labels.update(
         {
@@ -79,7 +79,7 @@ def save_report(results: dict) -> None:
         "",
         "## Results",
         "",
-        "Higher / lower / tied counts compare the machine value with the official value in each pair. MATTR uses 50-word windows and is available for 257 pairs.",
+        f"Higher / lower / tied counts compare the machine value with the official value in each pair. MATTR uses 50-word windows and is available for {results['summary']['mattr_50']['paired_count']} pairs.",
         "",
         "| Measure | Pairs | Official mean | Machine mean | Difference | 95% confidence interval | Higher / lower / tied |",
         "|---|---:|---:|---:|---:|---|---|",
@@ -94,7 +94,7 @@ def save_report(results: dict) -> None:
             "",
             "## Excluded output",
             "",
-            "The following generation reached its output limit. The full attempt remains in the input file.",
+            ("The following generation reached its output limit. The full attempt remains in the input file." if results["excluded_failures"] else "No failed outputs are included in this completed-pair comparison."),
             "",
         ]
     )
@@ -102,7 +102,7 @@ def save_report(results: dict) -> None:
         f"- {row['document_id']}: {row['finish_reason']}."
         for row in results["excluded_failures"]
     )
-    REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (report_path or REPORT).write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 # Check the sample, calculate the measures and save the comparison.

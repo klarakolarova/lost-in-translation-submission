@@ -109,7 +109,8 @@ def compare_german_counts(records: list[dict]) -> list[dict]:
 
 
 # Save the sentence-count comparison and the German-count consistency check.
-def save_report(output: dict, mismatches: list[dict]) -> None:
+def save_report(output: dict, mismatches: list[dict], output_dir: Path | None = None) -> None:
+    output_dir = output_dir or RESULTS
     summary = output["analyses"]["punctuation_and_lines"]["summary"]
     lines = [
         "# Preservation of French sentence counts",
@@ -143,7 +144,7 @@ def save_report(output: dict, mismatches: list[dict]) -> None:
         f"German count mismatches against the complexity results: {len(mismatches)}.",
         "Sentence and word counts are saved in [source_sentence_counts.json](data/source_sentence_counts.json). Word counts also support the [source-adjusted similarity analysis](source_adjusted_similarity.md).",
     ]
-    (RESULTS / "source_sentence_counts.md").write_text(
+    (output_dir / "source_sentence_counts.md").write_text(
         "\n".join(lines) + "\n", encoding="utf-8"
     )
 

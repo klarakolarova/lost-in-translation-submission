@@ -14,3 +14,6 @@ Number of texts containing each feature at least once; a text may contain more t
 | thousands with dot (10.000) | 6 | 46 |
 | thousands with space/apostrophe (10 000, 10'000) | 39 | 0 |
 
+## Related results
+
+See [parliamentary terminology](swiss_terminology.md) for institutional terms and [character conventions](../../../results/character_conventions.md) for comparisons with the wider corpus.

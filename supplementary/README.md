@@ -35,10 +35,12 @@ The broad patterns persist, but differences vary across terms: both versions ret
 
 | Analysis | Expanded sample | New-only sample |
 |---|---|---|
-| Complexity, with original results for comparison | [Combined comparison](results/balanced_complexity_summary.md) | Same table |
-| Spelling and formatting | [Conventions](results/expanded/writing_conventions.md) | [Conventions](results/new_only/writing_conventions.md) |
-| Institutional terms and abbreviations | [Terminology](results/expanded/terminology.md) | [Terminology](results/new_only/terminology.md) |
-| Historical similarity and source structure | [Similarity and structure](results/expanded/similarity_and_structure.md) | [Similarity and structure](results/new_only/similarity_and_structure.md) |
+| Complexity | [Complexity comparison](results/expanded/translation_complexity_summary.md) | [Complexity comparison](results/new_only/translation_complexity_summary.md) |
+| Spelling and formatting | [Conventions](results/expanded/swiss_writing_conventions.md) | [Conventions](results/new_only/swiss_writing_conventions.md) |
+| Institutional terms and abbreviations | [Terminology](results/expanded/swiss_terminology.md) | [Terminology](results/new_only/swiss_terminology.md) |
+| Historical similarity and source structure | [Results guide](results/expanded/README.md) | [Results guide](results/new_only/README.md) |
+
+Each sample has the same report filenames, table layouts and figures as the main results. The [combined complexity table](results/balanced_complexity_summary.md) also compares both samples directly with the original.
 
 Complexity intervals use 2,000 paired resamples within year; this supplementary analysis does not repeat the author-adjusted mixed models or multiple-comparison correction. MATTR requires sufficient text length and covers 592 expanded and 334 new-only pairs. Similarity-trend intervals use 2,000 author-cluster resamples. Their adjustment includes French sentence length, tree depth and log word count. Increasing similarity does not identify whether official translators used MT.
 

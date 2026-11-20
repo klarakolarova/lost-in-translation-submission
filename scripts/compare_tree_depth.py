@@ -145,11 +145,12 @@ def measure_versions(
 
 
 # Save the raw and length-adjusted correlations with their interpretation.
-def save_report(summaries: dict) -> None:
+def save_report(summaries: dict, sample_count: int = 259, output_dir: Path | None = None) -> None:
+    output_dir = output_dir or ROOT / "results"
     report = [
         "# Association between French and German sentence depth",
         "",
-        "This exploratory comparison uses 259 French sources and their two German versions to assess how closely sentence depth varies with the source. German measurements are reused from the complexity analysis.",
+        f"This exploratory comparison uses {sample_count} French sources and their two German versions to assess how closely sentence depth varies with the source. German measurements are reused from the complexity analysis.",
         "",
         "French: fr_core_news_sm 3.8.0 (UD Sequoia). German: de_core_news_sm 3.8.0 (TIGER/Tiger2Dep). Different annotation schemes prevent interpreting raw cross-language depth gaps as structural preservation.",
         "",
@@ -178,7 +179,7 @@ def save_report(summaries: dict) -> None:
         "- Exploratory intervals resample paired documents within year; repeated authors and multiple comparisons are not accounted for.",
         "",
     ]
-    (ROOT / "results" / "source_tree_depth.md").write_text(
+    (output_dir / "source_tree_depth.md").write_text(
         "\n".join(report), encoding="utf-8"
     )
 

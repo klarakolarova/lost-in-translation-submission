@@ -1,0 +1,6016 @@
+{
+  "n": 598,
+  "authors": 149,
+  "seed": 50,
+  "bootstrap_draws": 2000,
+  "population": "Existing 598 completed French-author translation pairs, 2000–2025; not the full corpus.",
+  "models": {
+    "unadjusted": "chrF ~ intercept + (year-2000)/10",
+    "adjusted": "chrF ~ intercept + (year-2000)/10 + French mean sentence words + French mean tree depth + log French document word count"
+  },
+  "uncertainty": "Percentile author-cluster bootstrap; authors sampled with replacement, all their documents retained. No multiplicity correction.",
+  "unadjusted": {
+    "slope_per_decade": 1.5984552376687544,
+    "author_bootstrap_95_ci": [
+      0.9150060928800519,
+      2.333733005839674
+    ]
+  },
+  "adjusted": {
+    "slope_per_decade": 1.73747821091769,
+    "author_bootstrap_95_ci": [
+      1.2375189422934751,
+      2.2832241803911866
+    ]
+  },
+  "change_in_year_coefficient": {
+    "slope_difference_adjusted_minus_unadjusted": 0.13902297324893564,
+    "paired_author_bootstrap_95_ci": [
+      -0.31733151959061856,
+      0.5986000579057539
+    ]
+  },
+  "interpretation": "This comparison checks whether the similarity trend persists after accounting for the measured French-source properties. It cannot separate MT use from other explanations, such as changing topics or overlap with the model’s training data.",
+  "records": [
+    {
+      "document_id": 20003048,
+      "year": 2000,
+      "chrf": 54.346976863316584,
+      "bleu": 16.419850313254194,
+      "author": "241",
+      "source_mean_sentence_words": 22.375,
+      "source_mean_sentence_tree_depth": 5.75,
+      "source_word_count": 179
+    },
+    {
+      "document_id": 20003094,
+      "year": 2000,
+      "chrf": 55.722811514777426,
+      "bleu": 18.160200672437075,
+      "author": "498",
+      "source_mean_sentence_words": 26.23076923076923,
+      "source_mean_sentence_tree_depth": 4.6923076923076925,
+      "source_word_count": 341
+    },
+    {
+      "document_id": 20003255,
+      "year": 2000,
+      "chrf": 50.25353430789995,
+      "bleu": 17.07996714697216,
+      "author": "535",
+      "source_mean_sentence_words": 17.25,
+      "source_mean_sentence_tree_depth": 3.5,
+      "source_word_count": 138
+    },
+    {
+      "document_id": 20003276,
+      "year": 2000,
+      "chrf": 60.39633896577765,
+      "bleu": 19.46495521408829,
+      "author": "498",
+      "source_mean_sentence_words": 26.58695652173913,
+      "source_mean_sentence_tree_depth": 5.3478260869565215,
+      "source_word_count": 1223
+    },
+    {
+      "document_id": 20003360,
+      "year": 2000,
+      "chrf": 59.78799826460367,
+      "bleu": 11.631936537346895,
+      "author": "323",
+      "source_mean_sentence_words": 28.3,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 283
+    },
+    {
+      "document_id": 20003435,
+      "year": 2000,
+      "chrf": 61.20209292519054,
+      "bleu": 21.92573445922123,
+      "author": "527",
+      "source_mean_sentence_words": 25.97142857142857,
+      "source_mean_sentence_tree_depth": 5.257142857142857,
+      "source_word_count": 909
+    },
+    {
+      "document_id": 20003240,
+      "year": 2000,
+      "chrf": 61.5650846505895,
+      "bleu": 24.550809017894537,
+      "author": "497",
+      "source_mean_sentence_words": 21.923076923076923,
+      "source_mean_sentence_tree_depth": 5.076923076923077,
+      "source_word_count": 285
+    },
+    {
+      "document_id": 20003527,
+      "year": 2000,
+      "chrf": 63.07625378135685,
+      "bleu": 20.272165439633504,
+      "author": "341",
+      "source_mean_sentence_words": 46.833333333333336,
+      "source_mean_sentence_tree_depth": 6.166666666666667,
+      "source_word_count": 281
+    },
+    {
+      "document_id": 20003555,
+      "year": 2000,
+      "chrf": 53.75405679505677,
+      "bleu": 16.69035674334549,
+      "author": "305",
+      "source_mean_sentence_words": 35.42857142857143,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 248
+    },
+    {
+      "document_id": 20003277,
+      "year": 2000,
+      "chrf": 56.05345546733793,
+      "bleu": 19.441274004955538,
+      "author": "498",
+      "source_mean_sentence_words": 17.24,
+      "source_mean_sentence_tree_depth": 3.64,
+      "source_word_count": 431
+    },
+    {
+      "document_id": 20003519,
+      "year": 2000,
+      "chrf": 59.51004597666579,
+      "bleu": 18.720124643787766,
+      "author": "375",
+      "source_mean_sentence_words": 25.772727272727273,
+      "source_mean_sentence_tree_depth": 6.136363636363637,
+      "source_word_count": 567
+    },
+    {
+      "document_id": 20003616,
+      "year": 2000,
+      "chrf": 55.70806009579683,
+      "bleu": 14.961228280340483,
+      "author": "198",
+      "source_mean_sentence_words": 28.714285714285715,
+      "source_mean_sentence_tree_depth": 4.857142857142857,
+      "source_word_count": 201
+    },
+    {
+      "document_id": 20003269,
+      "year": 2000,
+      "chrf": 62.49641436544473,
+      "bleu": 25.318552713502854,
+      "author": "509",
+      "source_mean_sentence_words": 25.90909090909091,
+      "source_mean_sentence_tree_depth": 5.545454545454546,
+      "source_word_count": 285
+    },
+    {
+      "document_id": 20003735,
+      "year": 2000,
+      "chrf": 56.57160528593778,
+      "bleu": 18.496405505285566,
+      "author": "311",
+      "source_mean_sentence_words": 27.75,
+      "source_mean_sentence_tree_depth": 5.25,
+      "source_word_count": 333
+    },
+    {
+      "document_id": 20003453,
+      "year": 2000,
+      "chrf": 42.13917214168359,
+      "bleu": 4.572763624860835,
+      "author": "517",
+      "source_mean_sentence_words": 27.5,
+      "source_mean_sentence_tree_depth": 4.5,
+      "source_word_count": 55
+    },
+    {
+      "document_id": 20003136,
+      "year": 2000,
+      "chrf": 54.47350278200162,
+      "bleu": 5.822563154904576,
+      "author": "406",
+      "source_mean_sentence_words": 36.333333333333336,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 109
+    },
+    {
+      "document_id": 20003307,
+      "year": 2000,
+      "chrf": 58.31341925027386,
+      "bleu": 13.169898009653426,
+      "author": "498",
+      "source_mean_sentence_words": 26.857142857142858,
+      "source_mean_sentence_tree_depth": 6.285714285714286,
+      "source_word_count": 188
+    },
+    {
+      "document_id": 20003238,
+      "year": 2000,
+      "chrf": 55.667446068242135,
+      "bleu": 14.19942916469109,
+      "author": "497",
+      "source_mean_sentence_words": 28.4,
+      "source_mean_sentence_tree_depth": 5.6,
+      "source_word_count": 142
+    },
+    {
+      "document_id": 20003270,
+      "year": 2000,
+      "chrf": 60.90990325051771,
+      "bleu": 22.781844752780895,
+      "author": "509",
+      "source_mean_sentence_words": 18.70175438596491,
+      "source_mean_sentence_tree_depth": 3.7719298245614037,
+      "source_word_count": 1066
+    },
+    {
+      "document_id": 20003449,
+      "year": 2000,
+      "chrf": 58.25571246733033,
+      "bleu": 21.139501723714908,
+      "author": "497",
+      "source_mean_sentence_words": 30.0,
+      "source_mean_sentence_tree_depth": 5.428571428571429,
+      "source_word_count": 420
+    },
+    {
+      "document_id": 20003498,
+      "year": 2000,
+      "chrf": 62.502196941667385,
+      "bleu": 20.956011891948812,
+      "author": "435",
+      "source_mean_sentence_words": 24.1,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 241
+    },
+    {
+      "document_id": 20003718,
+      "year": 2000,
+      "chrf": 46.72420383734298,
+      "bleu": 9.12231537611203,
+      "author": "498",
+      "source_mean_sentence_words": 27.4,
+      "source_mean_sentence_tree_depth": 6.2,
+      "source_word_count": 137
+    },
+    {
+      "document_id": 20003445,
+      "year": 2000,
+      "chrf": 55.04110664998618,
+      "bleu": 20.154351107743327,
+      "author": "509",
+      "source_mean_sentence_words": 32.333333333333336,
+      "source_mean_sentence_tree_depth": 6.444444444444445,
+      "source_word_count": 291
+    },
+    {
+      "document_id": 20013028,
+      "year": 2001,
+      "chrf": 57.91236242309862,
+      "bleu": 21.26483370470988,
+      "author": "498",
+      "source_mean_sentence_words": 29.1,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 291
+    },
+    {
+      "document_id": 20013167,
+      "year": 2001,
+      "chrf": 58.08621542610772,
+      "bleu": 11.460533036663758,
+      "author": "210",
+      "source_mean_sentence_words": 28.583333333333332,
+      "source_mean_sentence_tree_depth": 5.25,
+      "source_word_count": 343
+    },
+    {
+      "document_id": 20013206,
+      "year": 2001,
+      "chrf": 60.80119958535241,
+      "bleu": 17.90254638113783,
+      "author": "72",
+      "source_mean_sentence_words": 16.666666666666668,
+      "source_mean_sentence_tree_depth": 3.757575757575758,
+      "source_word_count": 550
+    },
+    {
+      "document_id": 20013085,
+      "year": 2001,
+      "chrf": 48.47159003161431,
+      "bleu": 8.335516277728736,
+      "author": "241",
+      "source_mean_sentence_words": 28.2,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 141
+    },
+    {
+      "document_id": 20013130,
+      "year": 2001,
+      "chrf": 46.33367645174788,
+      "bleu": 3.9253456897493937,
+      "author": "323",
+      "source_mean_sentence_words": 28.0,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 28
+    },
+    {
+      "document_id": 20013149,
+      "year": 2001,
+      "chrf": 49.898454676398416,
+      "bleu": 5.200470398190207,
+      "author": "241",
+      "source_mean_sentence_words": 28.5,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 114
+    },
+    {
+      "document_id": 20013164,
+      "year": 2001,
+      "chrf": 61.888090685972955,
+      "bleu": 23.801445478083412,
+      "author": "210",
+      "source_mean_sentence_words": 35.07692307692308,
+      "source_mean_sentence_tree_depth": 5.769230769230769,
+      "source_word_count": 456
+    },
+    {
+      "document_id": 20013307,
+      "year": 2001,
+      "chrf": 55.03871425099687,
+      "bleu": 15.610148995353061,
+      "author": "341",
+      "source_mean_sentence_words": 34.625,
+      "source_mean_sentence_tree_depth": 7.375,
+      "source_word_count": 277
+    },
+    {
+      "document_id": 20013389,
+      "year": 2001,
+      "chrf": 57.878320732927214,
+      "bleu": 20.28811206840888,
+      "author": "518",
+      "source_mean_sentence_words": 26.5,
+      "source_mean_sentence_tree_depth": 5.416666666666667,
+      "source_word_count": 318
+    },
+    {
+      "document_id": 20013468,
+      "year": 2001,
+      "chrf": 58.42001978156611,
+      "bleu": 17.140971513456236,
+      "author": "524",
+      "source_mean_sentence_words": 35.22222222222222,
+      "source_mean_sentence_tree_depth": 6.444444444444445,
+      "source_word_count": 317
+    },
+    {
+      "document_id": 20013334,
+      "year": 2001,
+      "chrf": 55.769258744346175,
+      "bleu": 19.40899245202658,
+      "author": "375",
+      "source_mean_sentence_words": 17.24,
+      "source_mean_sentence_tree_depth": 3.64,
+      "source_word_count": 431
+    },
+    {
+      "document_id": 20013397,
+      "year": 2001,
+      "chrf": 60.064908913007656,
+      "bleu": 19.052604732883392,
+      "author": "504",
+      "source_mean_sentence_words": 33.42857142857143,
+      "source_mean_sentence_tree_depth": 6.785714285714286,
+      "source_word_count": 468
+    },
+    {
+      "document_id": 20013300,
+      "year": 2001,
+      "chrf": 52.64002008203021,
+      "bleu": 19.6363726093875,
+      "author": "349",
+      "source_mean_sentence_words": 38.875,
+      "source_mean_sentence_tree_depth": 5.875,
+      "source_word_count": 311
+    },
+    {
+      "document_id": 20013606,
+      "year": 2001,
+      "chrf": 60.255033711177454,
+      "bleu": 19.34565967879176,
+      "author": "509",
+      "source_mean_sentence_words": 29.1,
+      "source_mean_sentence_tree_depth": 5.6,
+      "source_word_count": 291
+    },
+    {
+      "document_id": 20013039,
+      "year": 2001,
+      "chrf": 59.174020126398794,
+      "bleu": 17.373792199964036,
+      "author": "495",
+      "source_mean_sentence_words": 28.105263157894736,
+      "source_mean_sentence_tree_depth": 5.526315789473684,
+      "source_word_count": 534
+    },
+    {
+      "document_id": 20013414,
+      "year": 2001,
+      "chrf": 59.31139194148529,
+      "bleu": 25.480418945900265,
+      "author": "246",
+      "source_mean_sentence_words": 35.0,
+      "source_mean_sentence_tree_depth": 6.333333333333333,
+      "source_word_count": 105
+    },
+    {
+      "document_id": 20013066,
+      "year": 2001,
+      "chrf": 62.92359772906811,
+      "bleu": 20.498455332208334,
+      "author": "501",
+      "source_mean_sentence_words": 31.428571428571427,
+      "source_mean_sentence_tree_depth": 6.071428571428571,
+      "source_word_count": 440
+    },
+    {
+      "document_id": 20013531,
+      "year": 2001,
+      "chrf": 61.741715768062335,
+      "bleu": 21.260604032613653,
+      "author": "198",
+      "source_mean_sentence_words": 19.0,
+      "source_mean_sentence_tree_depth": 3.8,
+      "source_word_count": 190
+    },
+    {
+      "document_id": 20013568,
+      "year": 2001,
+      "chrf": 58.56918503752334,
+      "bleu": 18.575844796116616,
+      "author": "280",
+      "source_mean_sentence_words": 32.833333333333336,
+      "source_mean_sentence_tree_depth": 5.833333333333333,
+      "source_word_count": 394
+    },
+    {
+      "document_id": 20013156,
+      "year": 2001,
+      "chrf": 62.86269059102737,
+      "bleu": 21.688560835178954,
+      "author": "524",
+      "source_mean_sentence_words": 29.59375,
+      "source_mean_sentence_tree_depth": 5.71875,
+      "source_word_count": 947
+    },
+    {
+      "document_id": 20013550,
+      "year": 2001,
+      "chrf": 53.166405872254266,
+      "bleu": 8.791296581758928,
+      "author": "198",
+      "source_mean_sentence_words": 31.6,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 158
+    },
+    {
+      "document_id": 20013278,
+      "year": 2001,
+      "chrf": 61.04980634871855,
+      "bleu": 21.592857263476358,
+      "author": "351",
+      "source_mean_sentence_words": 21.63157894736842,
+      "source_mean_sentence_tree_depth": 4.157894736842105,
+      "source_word_count": 411
+    },
+    {
+      "document_id": 20013076,
+      "year": 2001,
+      "chrf": 63.2797621569395,
+      "bleu": 22.50010487733941,
+      "author": "495",
+      "source_mean_sentence_words": 31.125,
+      "source_mean_sentence_tree_depth": 6.4375,
+      "source_word_count": 498
+    },
+    {
+      "document_id": 20023445,
+      "year": 2002,
+      "chrf": 61.948599889246935,
+      "bleu": 18.83286290828712,
+      "author": "323",
+      "source_mean_sentence_words": 33.0,
+      "source_mean_sentence_tree_depth": 7.578947368421052,
+      "source_word_count": 627
+    },
+    {
+      "document_id": 20023171,
+      "year": 2002,
+      "chrf": 56.845749010613986,
+      "bleu": 17.88005257498496,
+      "author": "72",
+      "source_mean_sentence_words": 26.055555555555557,
+      "source_mean_sentence_tree_depth": 4.944444444444445,
+      "source_word_count": 469
+    },
+    {
+      "document_id": 20023196,
+      "year": 2002,
+      "chrf": 61.077588986786516,
+      "bleu": 16.748617812965,
+      "author": "495",
+      "source_mean_sentence_words": 35.608695652173914,
+      "source_mean_sentence_tree_depth": 6.391304347826087,
+      "source_word_count": 819
+    },
+    {
+      "document_id": 20023261,
+      "year": 2002,
+      "chrf": 64.3433230507329,
+      "bleu": 18.797995757362987,
+      "author": "495",
+      "source_mean_sentence_words": 31.333333333333332,
+      "source_mean_sentence_tree_depth": 6.458333333333333,
+      "source_word_count": 752
+    },
+    {
+      "document_id": 20023304,
+      "year": 2002,
+      "chrf": 56.0313306286985,
+      "bleu": 15.648766334137214,
+      "author": "498",
+      "source_mean_sentence_words": 35.625,
+      "source_mean_sentence_tree_depth": 6.375,
+      "source_word_count": 285
+    },
+    {
+      "document_id": 20023575,
+      "year": 2002,
+      "chrf": 55.67208680826652,
+      "bleu": 19.028651759451567,
+      "author": "305",
+      "source_mean_sentence_words": 35.36363636363637,
+      "source_mean_sentence_tree_depth": 6.818181818181818,
+      "source_word_count": 389
+    },
+    {
+      "document_id": 20023578,
+      "year": 2002,
+      "chrf": 42.206009371676004,
+      "bleu": 7.095798779226283,
+      "author": "349",
+      "source_mean_sentence_words": 25.0,
+      "source_mean_sentence_tree_depth": 4.8,
+      "source_word_count": 125
+    },
+    {
+      "document_id": 20023662,
+      "year": 2002,
+      "chrf": 60.671484785403415,
+      "bleu": 17.502952785174205,
+      "author": "527",
+      "source_mean_sentence_words": 22.825,
+      "source_mean_sentence_tree_depth": 4.875,
+      "source_word_count": 913
+    },
+    {
+      "document_id": 20023714,
+      "year": 2002,
+      "chrf": 64.31535313405857,
+      "bleu": 20.805764244577823,
+      "author": "491",
+      "source_mean_sentence_words": 25.714285714285715,
+      "source_mean_sentence_tree_depth": 5.214285714285714,
+      "source_word_count": 360
+    },
+    {
+      "document_id": 20023736,
+      "year": 2002,
+      "chrf": 60.946429065622596,
+      "bleu": 17.59048858933782,
+      "author": "72",
+      "source_mean_sentence_words": 23.676470588235293,
+      "source_mean_sentence_tree_depth": 5.4411764705882355,
+      "source_word_count": 805
+    },
+    {
+      "document_id": 20023349,
+      "year": 2002,
+      "chrf": 57.98485548579442,
+      "bleu": 15.224785440392646,
+      "author": "323",
+      "source_mean_sentence_words": 21.764705882352942,
+      "source_mean_sentence_tree_depth": 4.764705882352941,
+      "source_word_count": 370
+    },
+    {
+      "document_id": 20023529,
+      "year": 2002,
+      "chrf": 63.47253694089753,
+      "bleu": 22.73300285789688,
+      "author": "70",
+      "source_mean_sentence_words": 39.90909090909091,
+      "source_mean_sentence_tree_depth": 5.545454545454546,
+      "source_word_count": 439
+    },
+    {
+      "document_id": 20023343,
+      "year": 2002,
+      "chrf": 62.263858001167094,
+      "bleu": 21.235419004001667,
+      "author": "305",
+      "source_mean_sentence_words": 31.933333333333334,
+      "source_mean_sentence_tree_depth": 5.933333333333334,
+      "source_word_count": 479
+    },
+    {
+      "document_id": 20023755,
+      "year": 2002,
+      "chrf": 61.66165682511835,
+      "bleu": 18.19861787491865,
+      "author": "492",
+      "source_mean_sentence_words": 23.647058823529413,
+      "source_mean_sentence_tree_depth": 5.4411764705882355,
+      "source_word_count": 804
+    },
+    {
+      "document_id": 20023451,
+      "year": 2002,
+      "chrf": 60.84877306776032,
+      "bleu": 18.365108049153903,
+      "author": "463",
+      "source_mean_sentence_words": 20.166666666666668,
+      "source_mean_sentence_tree_depth": 4.666666666666667,
+      "source_word_count": 121
+    },
+    {
+      "document_id": 20023255,
+      "year": 2002,
+      "chrf": 62.674349020984266,
+      "bleu": 22.41674204024263,
+      "author": "463",
+      "source_mean_sentence_words": 27.31578947368421,
+      "source_mean_sentence_tree_depth": 5.526315789473684,
+      "source_word_count": 519
+    },
+    {
+      "document_id": 20023407,
+      "year": 2002,
+      "chrf": 55.965523283870574,
+      "bleu": 23.054860068728512,
+      "author": "313",
+      "source_mean_sentence_words": 24.0,
+      "source_mean_sentence_tree_depth": 6.375,
+      "source_word_count": 192
+    },
+    {
+      "document_id": 20023076,
+      "year": 2002,
+      "chrf": 56.63015499736888,
+      "bleu": 14.374346453172468,
+      "author": "501",
+      "source_mean_sentence_words": 49.57142857142857,
+      "source_mean_sentence_tree_depth": 7.142857142857143,
+      "source_word_count": 347
+    },
+    {
+      "document_id": 20023490,
+      "year": 2002,
+      "chrf": 47.53752053515472,
+      "bleu": 9.504125865771035,
+      "author": "498",
+      "source_mean_sentence_words": 23.166666666666668,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 139
+    },
+    {
+      "document_id": 20023081,
+      "year": 2002,
+      "chrf": 55.25378142678766,
+      "bleu": 9.414581660560332,
+      "author": "435",
+      "source_mean_sentence_words": 28.25,
+      "source_mean_sentence_tree_depth": 6.5,
+      "source_word_count": 226
+    },
+    {
+      "document_id": 20023569,
+      "year": 2002,
+      "chrf": 53.54705411399774,
+      "bleu": 17.14185282669273,
+      "author": "70",
+      "source_mean_sentence_words": 20.23076923076923,
+      "source_mean_sentence_tree_depth": 4.923076923076923,
+      "source_word_count": 263
+    },
+    {
+      "document_id": 20023692,
+      "year": 2002,
+      "chrf": 53.80965064590715,
+      "bleu": 17.256277850922796,
+      "author": "313",
+      "source_mean_sentence_words": 19.875,
+      "source_mean_sentence_tree_depth": 4.3125,
+      "source_word_count": 318
+    },
+    {
+      "document_id": 20023149,
+      "year": 2002,
+      "chrf": 53.446090309774306,
+      "bleu": 11.697396055446822,
+      "author": "455",
+      "source_mean_sentence_words": 36.57142857142857,
+      "source_mean_sentence_tree_depth": 6.285714285714286,
+      "source_word_count": 256
+    },
+    {
+      "document_id": 20033119,
+      "year": 2003,
+      "chrf": 53.502160588505475,
+      "bleu": 13.440240299712952,
+      "author": "504",
+      "source_mean_sentence_words": 19.9,
+      "source_mean_sentence_tree_depth": 4.3,
+      "source_word_count": 199
+    },
+    {
+      "document_id": 20033444,
+      "year": 2003,
+      "chrf": 55.8138588211668,
+      "bleu": 15.023315760463673,
+      "author": "70",
+      "source_mean_sentence_words": 18.1875,
+      "source_mean_sentence_tree_depth": 4.0625,
+      "source_word_count": 291
+    },
+    {
+      "document_id": 20033057,
+      "year": 2003,
+      "chrf": 61.59085226993118,
+      "bleu": 26.662014985287453,
+      "author": "210",
+      "source_mean_sentence_words": 26.444444444444443,
+      "source_mean_sentence_tree_depth": 5.111111111111111,
+      "source_word_count": 238
+    },
+    {
+      "document_id": 20033105,
+      "year": 2003,
+      "chrf": 56.37066230186839,
+      "bleu": 17.84788591165563,
+      "author": "454",
+      "source_mean_sentence_words": 17.28125,
+      "source_mean_sentence_tree_depth": 4.0,
+      "source_word_count": 553
+    },
+    {
+      "document_id": 20033112,
+      "year": 2003,
+      "chrf": 57.40742392343788,
+      "bleu": 18.001649347360278,
+      "author": "462",
+      "source_mean_sentence_words": 27.727272727272727,
+      "source_mean_sentence_tree_depth": 6.090909090909091,
+      "source_word_count": 305
+    },
+    {
+      "document_id": 20033120,
+      "year": 2003,
+      "chrf": 57.074965871372676,
+      "bleu": 14.487831526728614,
+      "author": "504",
+      "source_mean_sentence_words": 33.0,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 264
+    },
+    {
+      "document_id": 20033373,
+      "year": 2003,
+      "chrf": 58.910039560728464,
+      "bleu": 11.284327004226471,
+      "author": "210",
+      "source_mean_sentence_words": 30.181818181818183,
+      "source_mean_sentence_tree_depth": 5.454545454545454,
+      "source_word_count": 332
+    },
+    {
+      "document_id": 20033405,
+      "year": 2003,
+      "chrf": 57.53844015600988,
+      "bleu": 19.371019285707177,
+      "author": "495",
+      "source_mean_sentence_words": 26.157894736842106,
+      "source_mean_sentence_tree_depth": 5.473684210526316,
+      "source_word_count": 497
+    },
+    {
+      "document_id": 20033518,
+      "year": 2003,
+      "chrf": 57.49032247555468,
+      "bleu": 14.68611737994824,
+      "author": "535",
+      "source_mean_sentence_words": 24.153846153846153,
+      "source_mean_sentence_tree_depth": 4.153846153846154,
+      "source_word_count": 314
+    },
+    {
+      "document_id": 20033626,
+      "year": 2003,
+      "chrf": 58.91575313840632,
+      "bleu": 13.339855456041697,
+      "author": "504",
+      "source_mean_sentence_words": 41.63636363636363,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 458
+    },
+    {
+      "document_id": 20033106,
+      "year": 2003,
+      "chrf": 59.51479176915768,
+      "bleu": 24.808163908005568,
+      "author": "498",
+      "source_mean_sentence_words": 21.2,
+      "source_mean_sentence_tree_depth": 5.4,
+      "source_word_count": 106
+    },
+    {
+      "document_id": 20033531,
+      "year": 2003,
+      "chrf": 61.528652331133074,
+      "bleu": 22.472903004420534,
+      "author": "305",
+      "source_mean_sentence_words": 26.90909090909091,
+      "source_mean_sentence_tree_depth": 5.045454545454546,
+      "source_word_count": 592
+    },
+    {
+      "document_id": 20033519,
+      "year": 2003,
+      "chrf": 62.88568092317014,
+      "bleu": 15.673266623080986,
+      "author": "72",
+      "source_mean_sentence_words": 32.03448275862069,
+      "source_mean_sentence_tree_depth": 5.793103448275862,
+      "source_word_count": 929
+    },
+    {
+      "document_id": 20033515,
+      "year": 2003,
+      "chrf": 59.2154721922258,
+      "bleu": 18.74455599128932,
+      "author": "323",
+      "source_mean_sentence_words": 32.90909090909091,
+      "source_mean_sentence_tree_depth": 6.181818181818182,
+      "source_word_count": 362
+    },
+    {
+      "document_id": 20033404,
+      "year": 2003,
+      "chrf": 59.881670791473574,
+      "bleu": 13.316172060106382,
+      "author": "495",
+      "source_mean_sentence_words": 30.3,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 909
+    },
+    {
+      "document_id": 20033675,
+      "year": 2003,
+      "chrf": 67.12331786694754,
+      "bleu": 25.26538110927861,
+      "author": "524",
+      "source_mean_sentence_words": 22.423076923076923,
+      "source_mean_sentence_tree_depth": 4.538461538461538,
+      "source_word_count": 583
+    },
+    {
+      "document_id": 20033132,
+      "year": 2003,
+      "chrf": 42.75514160214918,
+      "bleu": 11.08860825974578,
+      "author": "453",
+      "source_mean_sentence_words": 52.0,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 104
+    },
+    {
+      "document_id": 20033320,
+      "year": 2003,
+      "chrf": 56.902427684700484,
+      "bleu": 16.822685342358692,
+      "author": "198",
+      "source_mean_sentence_words": 30.545454545454547,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 336
+    },
+    {
+      "document_id": 20033084,
+      "year": 2003,
+      "chrf": 56.793694529803254,
+      "bleu": 18.44917177683217,
+      "author": "492",
+      "source_mean_sentence_words": 22.157894736842106,
+      "source_mean_sentence_tree_depth": 4.842105263157895,
+      "source_word_count": 421
+    },
+    {
+      "document_id": 20033266,
+      "year": 2003,
+      "chrf": 54.21313814300679,
+      "bleu": 17.41997521753665,
+      "author": "70",
+      "source_mean_sentence_words": 23.875,
+      "source_mean_sentence_tree_depth": 5.625,
+      "source_word_count": 191
+    },
+    {
+      "document_id": 20033201,
+      "year": 2003,
+      "chrf": 61.42071103110057,
+      "bleu": 20.17034913592954,
+      "author": "498",
+      "source_mean_sentence_words": 22.454545454545453,
+      "source_mean_sentence_tree_depth": 5.484848484848484,
+      "source_word_count": 741
+    },
+    {
+      "document_id": 20033205,
+      "year": 2003,
+      "chrf": 59.9639258262845,
+      "bleu": 16.18182059258615,
+      "author": "498",
+      "source_mean_sentence_words": 29.1,
+      "source_mean_sentence_tree_depth": 5.9,
+      "source_word_count": 291
+    },
+    {
+      "document_id": 20033285,
+      "year": 2003,
+      "chrf": 58.16206828437025,
+      "bleu": 18.291683877857135,
+      "author": "495",
+      "source_mean_sentence_words": 30.318181818181817,
+      "source_mean_sentence_tree_depth": 5.590909090909091,
+      "source_word_count": 667
+    },
+    {
+      "document_id": 20043108,
+      "year": 2004,
+      "chrf": 57.512972001361504,
+      "bleu": 14.418944487491101,
+      "author": "495",
+      "source_mean_sentence_words": 35.166666666666664,
+      "source_mean_sentence_tree_depth": 6.208333333333333,
+      "source_word_count": 844
+    },
+    {
+      "document_id": 20043407,
+      "year": 2004,
+      "chrf": 63.12954410071576,
+      "bleu": 21.523094179176937,
+      "author": "463",
+      "source_mean_sentence_words": 27.31578947368421,
+      "source_mean_sentence_tree_depth": 5.526315789473684,
+      "source_word_count": 519
+    },
+    {
+      "document_id": 20043552,
+      "year": 2004,
+      "chrf": 58.64844128934703,
+      "bleu": 17.043028312603184,
+      "author": "1127",
+      "source_mean_sentence_words": 26.333333333333332,
+      "source_mean_sentence_tree_depth": 5.222222222222222,
+      "source_word_count": 237
+    },
+    {
+      "document_id": 20043027,
+      "year": 2004,
+      "chrf": 59.56152789393315,
+      "bleu": 14.87214140974759,
+      "author": "1117",
+      "source_mean_sentence_words": 24.4,
+      "source_mean_sentence_tree_depth": 5.3,
+      "source_word_count": 732
+    },
+    {
+      "document_id": 20043320,
+      "year": 2004,
+      "chrf": 57.647812007648845,
+      "bleu": 11.478838685663149,
+      "author": "1154",
+      "source_mean_sentence_words": 22.0,
+      "source_mean_sentence_tree_depth": 5.142857142857143,
+      "source_word_count": 154
+    },
+    {
+      "document_id": 20043341,
+      "year": 2004,
+      "chrf": 58.160373525521024,
+      "bleu": 12.474329500495095,
+      "author": "1134",
+      "source_mean_sentence_words": 54.875,
+      "source_mean_sentence_tree_depth": 7.375,
+      "source_word_count": 439
+    },
+    {
+      "document_id": 20043559,
+      "year": 2004,
+      "chrf": 62.28959783086601,
+      "bleu": 19.24475229859177,
+      "author": "504",
+      "source_mean_sentence_words": 27.25,
+      "source_mean_sentence_tree_depth": 6.25,
+      "source_word_count": 327
+    },
+    {
+      "document_id": 20043686,
+      "year": 2004,
+      "chrf": 59.68122595106819,
+      "bleu": 26.108678145069614,
+      "author": "1115",
+      "source_mean_sentence_words": 30.545454545454547,
+      "source_mean_sentence_tree_depth": 5.636363636363637,
+      "source_word_count": 336
+    },
+    {
+      "document_id": 20043779,
+      "year": 2004,
+      "chrf": 50.33730463274115,
+      "bleu": 4.836784157157891,
+      "author": "241",
+      "source_mean_sentence_words": 22.0,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 132
+    },
+    {
+      "document_id": 20043810,
+      "year": 2004,
+      "chrf": 45.65504297177901,
+      "bleu": 7.127742438688908,
+      "author": "463",
+      "source_mean_sentence_words": 27.0,
+      "source_mean_sentence_tree_depth": 4.75,
+      "source_word_count": 108
+    },
+    {
+      "document_id": 20043494,
+      "year": 2004,
+      "chrf": 65.61619073378668,
+      "bleu": 22.68563811188715,
+      "author": "305",
+      "source_mean_sentence_words": 25.4,
+      "source_mean_sentence_tree_depth": 5.3,
+      "source_word_count": 508
+    },
+    {
+      "document_id": 20043210,
+      "year": 2004,
+      "chrf": 63.433400704171284,
+      "bleu": 20.357722065750405,
+      "author": "1154",
+      "source_mean_sentence_words": 25.875,
+      "source_mean_sentence_tree_depth": 5.125,
+      "source_word_count": 207
+    },
+    {
+      "document_id": 20043669,
+      "year": 2004,
+      "chrf": 51.305789149378654,
+      "bleu": 11.549751558001873,
+      "author": "241",
+      "source_mean_sentence_words": 21.833333333333332,
+      "source_mean_sentence_tree_depth": 5.166666666666667,
+      "source_word_count": 131
+    },
+    {
+      "document_id": 20043304,
+      "year": 2004,
+      "chrf": 51.36927842979182,
+      "bleu": 10.958457996893575,
+      "author": "1133",
+      "source_mean_sentence_words": 28.714285714285715,
+      "source_mean_sentence_tree_depth": 6.142857142857143,
+      "source_word_count": 201
+    },
+    {
+      "document_id": 20043815,
+      "year": 2004,
+      "chrf": 60.29648311498481,
+      "bleu": 21.547930990711965,
+      "author": "518",
+      "source_mean_sentence_words": 27.85,
+      "source_mean_sentence_tree_depth": 5.25,
+      "source_word_count": 557
+    },
+    {
+      "document_id": 20043322,
+      "year": 2004,
+      "chrf": 55.92510455499047,
+      "bleu": 19.18967517194612,
+      "author": "1127",
+      "source_mean_sentence_words": 18.65714285714286,
+      "source_mean_sentence_tree_depth": 4.6,
+      "source_word_count": 653
+    },
+    {
+      "document_id": 20043611,
+      "year": 2004,
+      "chrf": 62.710788246889535,
+      "bleu": 22.701107070563946,
+      "author": "305",
+      "source_mean_sentence_words": 30.96,
+      "source_mean_sentence_tree_depth": 5.92,
+      "source_word_count": 774
+    },
+    {
+      "document_id": 20043044,
+      "year": 2004,
+      "chrf": 44.54582355234055,
+      "bleu": 2.1689867909724576,
+      "author": "241",
+      "source_mean_sentence_words": 19.333333333333332,
+      "source_mean_sentence_tree_depth": 4.166666666666667,
+      "source_word_count": 116
+    },
+    {
+      "document_id": 20043346,
+      "year": 2004,
+      "chrf": 63.31410293193511,
+      "bleu": 23.437368654886832,
+      "author": "459",
+      "source_mean_sentence_words": 23.19047619047619,
+      "source_mean_sentence_tree_depth": 4.333333333333333,
+      "source_word_count": 487
+    },
+    {
+      "document_id": 20043605,
+      "year": 2004,
+      "chrf": 58.9979078052482,
+      "bleu": 13.239486965728764,
+      "author": "1146",
+      "source_mean_sentence_words": 43.75,
+      "source_mean_sentence_tree_depth": 8.625,
+      "source_word_count": 350
+    },
+    {
+      "document_id": 20043009,
+      "year": 2004,
+      "chrf": 53.57885748236757,
+      "bleu": 13.388935348671918,
+      "author": "1127",
+      "source_mean_sentence_words": 30.352941176470587,
+      "source_mean_sentence_tree_depth": 5.588235294117647,
+      "source_word_count": 516
+    },
+    {
+      "document_id": 20043312,
+      "year": 2004,
+      "chrf": 60.416862796594536,
+      "bleu": 15.025071277218453,
+      "author": "1150",
+      "source_mean_sentence_words": 32.869565217391305,
+      "source_mean_sentence_tree_depth": 5.434782608695652,
+      "source_word_count": 756
+    },
+    {
+      "document_id": 20043374,
+      "year": 2004,
+      "chrf": 57.81445022020698,
+      "bleu": 18.194004667380096,
+      "author": "504",
+      "source_mean_sentence_words": 28.363636363636363,
+      "source_mean_sentence_tree_depth": 6.636363636363637,
+      "source_word_count": 312
+    },
+    {
+      "document_id": 20053245,
+      "year": 2005,
+      "chrf": 51.86468560554241,
+      "bleu": 16.032326437047107,
+      "author": "1117",
+      "source_mean_sentence_words": 29.307692307692307,
+      "source_mean_sentence_tree_depth": 5.3076923076923075,
+      "source_word_count": 381
+    },
+    {
+      "document_id": 20053582,
+      "year": 2005,
+      "chrf": 59.089541796039754,
+      "bleu": 16.12630938816478,
+      "author": "241",
+      "source_mean_sentence_words": 24.25,
+      "source_mean_sentence_tree_depth": 5.25,
+      "source_word_count": 291
+    },
+    {
+      "document_id": 20053631,
+      "year": 2005,
+      "chrf": 54.75662685864384,
+      "bleu": 15.582722715116946,
+      "author": "1127",
+      "source_mean_sentence_words": 22.333333333333332,
+      "source_mean_sentence_tree_depth": 4.833333333333333,
+      "source_word_count": 268
+    },
+    {
+      "document_id": 20053040,
+      "year": 2005,
+      "chrf": 63.57479914720561,
+      "bleu": 30.27441973782036,
+      "author": "1133",
+      "source_mean_sentence_words": 23.428571428571427,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 164
+    },
+    {
+      "document_id": 20053244,
+      "year": 2005,
+      "chrf": 61.11963393836418,
+      "bleu": 20.55141316691968,
+      "author": "1115",
+      "source_mean_sentence_words": 18.571428571428573,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 130
+    },
+    {
+      "document_id": 20053297,
+      "year": 2005,
+      "chrf": 57.396013661413534,
+      "bleu": 19.473452524462772,
+      "author": "349",
+      "source_mean_sentence_words": 43.0,
+      "source_mean_sentence_tree_depth": 7.333333333333333,
+      "source_word_count": 258
+    },
+    {
+      "document_id": 20053444,
+      "year": 2005,
+      "chrf": 58.5241224841377,
+      "bleu": 20.2284501125812,
+      "author": "350",
+      "source_mean_sentence_words": 25.153846153846153,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 327
+    },
+    {
+      "document_id": 20053521,
+      "year": 2005,
+      "chrf": 63.17829297592367,
+      "bleu": 22.679832027944453,
+      "author": "1115",
+      "source_mean_sentence_words": 24.0,
+      "source_mean_sentence_tree_depth": 4.933333333333334,
+      "source_word_count": 360
+    },
+    {
+      "document_id": 20053581,
+      "year": 2005,
+      "chrf": 61.27157764172466,
+      "bleu": 24.380735211941108,
+      "author": "1146",
+      "source_mean_sentence_words": 37.333333333333336,
+      "source_mean_sentence_tree_depth": 5.222222222222222,
+      "source_word_count": 336
+    },
+    {
+      "document_id": 20053858,
+      "year": 2005,
+      "chrf": 56.61852663723543,
+      "bleu": 13.092520639241522,
+      "author": "1293",
+      "source_mean_sentence_words": 31.666666666666668,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 95
+    },
+    {
+      "document_id": 20053773,
+      "year": 2005,
+      "chrf": 60.52859136992117,
+      "bleu": 20.436868476657203,
+      "author": "1116",
+      "source_mean_sentence_words": 39.2,
+      "source_mean_sentence_tree_depth": 7.3,
+      "source_word_count": 392
+    },
+    {
+      "document_id": 20053845,
+      "year": 2005,
+      "chrf": 60.46861142433936,
+      "bleu": 14.8546180234391,
+      "author": "371",
+      "source_mean_sentence_words": 30.142857142857142,
+      "source_mean_sentence_tree_depth": 6.857142857142857,
+      "source_word_count": 211
+    },
+    {
+      "document_id": 20053859,
+      "year": 2005,
+      "chrf": 69.91576481830583,
+      "bleu": 37.25929222693559,
+      "author": "1293",
+      "source_mean_sentence_words": 27.0,
+      "source_mean_sentence_tree_depth": 5.75,
+      "source_word_count": 108
+    },
+    {
+      "document_id": 20053319,
+      "year": 2005,
+      "chrf": 54.21532703229218,
+      "bleu": 14.832955197375076,
+      "author": "1108",
+      "source_mean_sentence_words": 44.6,
+      "source_mean_sentence_tree_depth": 6.2,
+      "source_word_count": 223
+    },
+    {
+      "document_id": 20053560,
+      "year": 2005,
+      "chrf": 63.65037397195835,
+      "bleu": 25.86401934953879,
+      "author": "453",
+      "source_mean_sentence_words": 48.0,
+      "source_mean_sentence_tree_depth": 8.8,
+      "source_word_count": 240
+    },
+    {
+      "document_id": 20053768,
+      "year": 2005,
+      "chrf": 55.495743981727884,
+      "bleu": 17.2905463797184,
+      "author": "313",
+      "source_mean_sentence_words": 19.545454545454547,
+      "source_mean_sentence_tree_depth": 4.0,
+      "source_word_count": 215
+    },
+    {
+      "document_id": 20053559,
+      "year": 2005,
+      "chrf": 57.552073520674455,
+      "bleu": 15.209269729215114,
+      "author": "241",
+      "source_mean_sentence_words": 24.75,
+      "source_mean_sentence_tree_depth": 6.75,
+      "source_word_count": 198
+    },
+    {
+      "document_id": 20053546,
+      "year": 2005,
+      "chrf": 47.944479267053865,
+      "bleu": 6.663961655637913,
+      "author": "1123",
+      "source_mean_sentence_words": 24.333333333333332,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 73
+    },
+    {
+      "document_id": 20053636,
+      "year": 2005,
+      "chrf": 62.99222223954221,
+      "bleu": 24.5005776482287,
+      "author": "350",
+      "source_mean_sentence_words": 25.823529411764707,
+      "source_mean_sentence_tree_depth": 5.588235294117647,
+      "source_word_count": 439
+    },
+    {
+      "document_id": 20053198,
+      "year": 2005,
+      "chrf": 46.73480752625973,
+      "bleu": 3.6865985849061707,
+      "author": "1146",
+      "source_mean_sentence_words": 40.25,
+      "source_mean_sentence_tree_depth": 7.5,
+      "source_word_count": 161
+    },
+    {
+      "document_id": 20053394,
+      "year": 2005,
+      "chrf": 66.23905125359056,
+      "bleu": 28.051753358558738,
+      "author": "313",
+      "source_mean_sentence_words": 25.375,
+      "source_mean_sentence_tree_depth": 5.75,
+      "source_word_count": 203
+    },
+    {
+      "document_id": 20053490,
+      "year": 2005,
+      "chrf": 59.38209758545347,
+      "bleu": 22.16188659372292,
+      "author": "313",
+      "source_mean_sentence_words": 29.9,
+      "source_mean_sentence_tree_depth": 5.7,
+      "source_word_count": 299
+    },
+    {
+      "document_id": 20053201,
+      "year": 2005,
+      "chrf": 58.24897298309018,
+      "bleu": 14.715869573357217,
+      "author": "241",
+      "source_mean_sentence_words": 40.0,
+      "source_mean_sentence_tree_depth": 8.0,
+      "source_word_count": 120
+    },
+    {
+      "document_id": 20063768,
+      "year": 2006,
+      "chrf": 53.738860332676495,
+      "bleu": 15.97125448143563,
+      "author": "313",
+      "source_mean_sentence_words": 19.2,
+      "source_mean_sentence_tree_depth": 4.666666666666667,
+      "source_word_count": 288
+    },
+    {
+      "document_id": 20063105,
+      "year": 2006,
+      "chrf": 54.293642489141305,
+      "bleu": 20.52768682392516,
+      "author": "1134",
+      "source_mean_sentence_words": 40.5,
+      "source_mean_sentence_tree_depth": 6.5,
+      "source_word_count": 162
+    },
+    {
+      "document_id": 20063230,
+      "year": 2006,
+      "chrf": 53.51783019894507,
+      "bleu": 12.069565562942826,
+      "author": "453",
+      "source_mean_sentence_words": 46.22222222222222,
+      "source_mean_sentence_tree_depth": 7.111111111111111,
+      "source_word_count": 416
+    },
+    {
+      "document_id": 20063312,
+      "year": 2006,
+      "chrf": 54.797627825604145,
+      "bleu": 13.775255478420387,
+      "author": "1146",
+      "source_mean_sentence_words": 28.666666666666668,
+      "source_mean_sentence_tree_depth": 5.666666666666667,
+      "source_word_count": 258
+    },
+    {
+      "document_id": 20063383,
+      "year": 2006,
+      "chrf": 60.208913013120714,
+      "bleu": 16.449771515843373,
+      "author": "1117",
+      "source_mean_sentence_words": 26.4,
+      "source_mean_sentence_tree_depth": 5.266666666666667,
+      "source_word_count": 396
+    },
+    {
+      "document_id": 20063573,
+      "year": 2006,
+      "chrf": 52.917649129239294,
+      "bleu": 17.829196047095014,
+      "author": "1127",
+      "source_mean_sentence_words": 28.0,
+      "source_mean_sentence_tree_depth": 4.333333333333333,
+      "source_word_count": 168
+    },
+    {
+      "document_id": 20063616,
+      "year": 2006,
+      "chrf": 51.19506061241622,
+      "bleu": 13.942460379650418,
+      "author": "1127",
+      "source_mean_sentence_words": 21.583333333333332,
+      "source_mean_sentence_tree_depth": 4.416666666666667,
+      "source_word_count": 259
+    },
+    {
+      "document_id": 20063662,
+      "year": 2006,
+      "chrf": 54.24978407548385,
+      "bleu": 15.1316985474426,
+      "author": "1279",
+      "source_mean_sentence_words": 33.666666666666664,
+      "source_mean_sentence_tree_depth": 7.111111111111111,
+      "source_word_count": 303
+    },
+    {
+      "document_id": 20063817,
+      "year": 2006,
+      "chrf": 56.39747142981887,
+      "bleu": 19.886361093087242,
+      "author": "1127",
+      "source_mean_sentence_words": 25.333333333333332,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 76
+    },
+    {
+      "document_id": 20063838,
+      "year": 2006,
+      "chrf": 53.779363432174286,
+      "bleu": 8.413824638403819,
+      "author": "1065",
+      "source_mean_sentence_words": 39.7,
+      "source_mean_sentence_tree_depth": 6.2,
+      "source_word_count": 397
+    },
+    {
+      "document_id": 20063845,
+      "year": 2006,
+      "chrf": 61.21696473691301,
+      "bleu": 29.15978933361187,
+      "author": "455",
+      "source_mean_sentence_words": 20.714285714285715,
+      "source_mean_sentence_tree_depth": 5.714285714285714,
+      "source_word_count": 145
+    },
+    {
+      "document_id": 20063873,
+      "year": 2006,
+      "chrf": 54.29503304453044,
+      "bleu": 12.801628350293027,
+      "author": "1133",
+      "source_mean_sentence_words": 21.375,
+      "source_mean_sentence_tree_depth": 5.125,
+      "source_word_count": 171
+    },
+    {
+      "document_id": 20063718,
+      "year": 2006,
+      "chrf": 51.91883833987063,
+      "bleu": 17.229052338961363,
+      "author": "313",
+      "source_mean_sentence_words": 17.5,
+      "source_mean_sentence_tree_depth": 4.125,
+      "source_word_count": 140
+    },
+    {
+      "document_id": 20063326,
+      "year": 2006,
+      "chrf": 58.43936861499448,
+      "bleu": 18.090436054024412,
+      "author": "241",
+      "source_mean_sentence_words": 41.333333333333336,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 124
+    },
+    {
+      "document_id": 20063303,
+      "year": 2006,
+      "chrf": 63.44046610727576,
+      "bleu": 21.466638503441455,
+      "author": "280",
+      "source_mean_sentence_words": 19.523809523809526,
+      "source_mean_sentence_tree_depth": 3.9047619047619047,
+      "source_word_count": 410
+    },
+    {
+      "document_id": 20063773,
+      "year": 2006,
+      "chrf": 51.87150325778174,
+      "bleu": 13.178430564382502,
+      "author": "1124",
+      "source_mean_sentence_words": 23.833333333333332,
+      "source_mean_sentence_tree_depth": 5.166666666666667,
+      "source_word_count": 143
+    },
+    {
+      "document_id": 20063672,
+      "year": 2006,
+      "chrf": 59.50160211435409,
+      "bleu": 27.045470521075494,
+      "author": "435",
+      "source_mean_sentence_words": 18.142857142857142,
+      "source_mean_sentence_tree_depth": 4.0,
+      "source_word_count": 254
+    },
+    {
+      "document_id": 20063774,
+      "year": 2006,
+      "chrf": 56.14370814084783,
+      "bleu": 5.937508616437392,
+      "author": "1124",
+      "source_mean_sentence_words": 21.555555555555557,
+      "source_mean_sentence_tree_depth": 4.555555555555555,
+      "source_word_count": 194
+    },
+    {
+      "document_id": 20063584,
+      "year": 2006,
+      "chrf": 61.782732491356484,
+      "bleu": 22.14553039553491,
+      "author": "1117",
+      "source_mean_sentence_words": 35.0,
+      "source_mean_sentence_tree_depth": 7.375,
+      "source_word_count": 280
+    },
+    {
+      "document_id": 20063674,
+      "year": 2006,
+      "chrf": 56.98213451541485,
+      "bleu": 21.264559113722083,
+      "author": "1124",
+      "source_mean_sentence_words": 24.6,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 246
+    },
+    {
+      "document_id": 20063082,
+      "year": 2006,
+      "chrf": 58.751771329855565,
+      "bleu": 20.163192779904787,
+      "author": "241",
+      "source_mean_sentence_words": 26.0,
+      "source_mean_sentence_tree_depth": 6.5,
+      "source_word_count": 52
+    },
+    {
+      "document_id": 20063791,
+      "year": 2006,
+      "chrf": 41.584799775973615,
+      "bleu": 7.705449167931872,
+      "author": "1127",
+      "source_mean_sentence_words": 32.0,
+      "source_mean_sentence_tree_depth": 8.2,
+      "source_word_count": 160
+    },
+    {
+      "document_id": 20063028,
+      "year": 2006,
+      "chrf": 61.51841456723932,
+      "bleu": 24.337497520539735,
+      "author": "350",
+      "source_mean_sentence_words": 36.27272727272727,
+      "source_mean_sentence_tree_depth": 6.454545454545454,
+      "source_word_count": 399
+    },
+    {
+      "document_id": 20073402,
+      "year": 2007,
+      "chrf": 45.099566515230954,
+      "bleu": 4.616695653659318,
+      "author": "241",
+      "source_mean_sentence_words": 40.0,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 120
+    },
+    {
+      "document_id": 20073047,
+      "year": 2007,
+      "chrf": 64.9797977390643,
+      "bleu": 27.84483316702817,
+      "author": "1314",
+      "source_mean_sentence_words": 20.75,
+      "source_mean_sentence_tree_depth": 3.8214285714285716,
+      "source_word_count": 581
+    },
+    {
+      "document_id": 20073201,
+      "year": 2007,
+      "chrf": 61.0773066358947,
+      "bleu": 27.82327818837228,
+      "author": "435",
+      "source_mean_sentence_words": 18.733333333333334,
+      "source_mean_sentence_tree_depth": 4.8,
+      "source_word_count": 281
+    },
+    {
+      "document_id": 20073234,
+      "year": 2007,
+      "chrf": 56.5500254703337,
+      "bleu": 20.494461031057714,
+      "author": "1148",
+      "source_mean_sentence_words": 27.2,
+      "source_mean_sentence_tree_depth": 5.9,
+      "source_word_count": 272
+    },
+    {
+      "document_id": 20073355,
+      "year": 2007,
+      "chrf": 54.98867928598173,
+      "bleu": 18.139233181030804,
+      "author": "1065",
+      "source_mean_sentence_words": 28.7,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 287
+    },
+    {
+      "document_id": 20073469,
+      "year": 2007,
+      "chrf": 48.94095063269769,
+      "bleu": 24.26975501016919,
+      "author": "454",
+      "source_mean_sentence_words": 17.333333333333332,
+      "source_mean_sentence_tree_depth": 4.0,
+      "source_word_count": 52
+    },
+    {
+      "document_id": 20073700,
+      "year": 2007,
+      "chrf": 52.37744673359997,
+      "bleu": 17.695848441659663,
+      "author": "241",
+      "source_mean_sentence_words": 23.0,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 69
+    },
+    {
+      "document_id": 20073816,
+      "year": 2007,
+      "chrf": 58.60013306156966,
+      "bleu": 7.529126187205393,
+      "author": "241",
+      "source_mean_sentence_words": 17.857142857142858,
+      "source_mean_sentence_tree_depth": 4.142857142857143,
+      "source_word_count": 125
+    },
+    {
+      "document_id": 20073848,
+      "year": 2007,
+      "chrf": 53.477916961071124,
+      "bleu": 10.504056693266211,
+      "author": "1289",
+      "source_mean_sentence_words": 24.125,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 193
+    },
+    {
+      "document_id": 20073863,
+      "year": 2007,
+      "chrf": 59.71483714251554,
+      "bleu": 12.955841406189109,
+      "author": "1120",
+      "source_mean_sentence_words": 45.5,
+      "source_mean_sentence_tree_depth": 9.0,
+      "source_word_count": 273
+    },
+    {
+      "document_id": 20073546,
+      "year": 2007,
+      "chrf": 58.51006182070808,
+      "bleu": 21.894596895264137,
+      "author": "1124",
+      "source_mean_sentence_words": 21.208333333333332,
+      "source_mean_sentence_tree_depth": 4.666666666666667,
+      "source_word_count": 509
+    },
+    {
+      "document_id": 20073782,
+      "year": 2007,
+      "chrf": 58.320424202796076,
+      "bleu": 22.08605600047055,
+      "author": "1289",
+      "source_mean_sentence_words": 24.875,
+      "source_mean_sentence_tree_depth": 5.1875,
+      "source_word_count": 398
+    },
+    {
+      "document_id": 20073479,
+      "year": 2007,
+      "chrf": 55.79401968918837,
+      "bleu": 15.936699974924895,
+      "author": "1134",
+      "source_mean_sentence_words": 98.75,
+      "source_mean_sentence_tree_depth": 11.5,
+      "source_word_count": 395
+    },
+    {
+      "document_id": 20073885,
+      "year": 2007,
+      "chrf": 43.07536469067208,
+      "bleu": 4.041856033120542,
+      "author": "1293",
+      "source_mean_sentence_words": 37.0,
+      "source_mean_sentence_tree_depth": 7.5,
+      "source_word_count": 74
+    },
+    {
+      "document_id": 20073349,
+      "year": 2007,
+      "chrf": 51.35566612567944,
+      "bleu": 5.398938032712862,
+      "author": "1293",
+      "source_mean_sentence_words": 34.5,
+      "source_mean_sentence_tree_depth": 8.0,
+      "source_word_count": 207
+    },
+    {
+      "document_id": 20073473,
+      "year": 2007,
+      "chrf": 61.21170458082218,
+      "bleu": 27.3496004213137,
+      "author": "1146",
+      "source_mean_sentence_words": 24.214285714285715,
+      "source_mean_sentence_tree_depth": 4.571428571428571,
+      "source_word_count": 339
+    },
+    {
+      "document_id": 20073311,
+      "year": 2007,
+      "chrf": 53.909963552181594,
+      "bleu": 12.510700836290427,
+      "author": "72",
+      "source_mean_sentence_words": 22.77777777777778,
+      "source_mean_sentence_tree_depth": 6.666666666666667,
+      "source_word_count": 205
+    },
+    {
+      "document_id": 20073581,
+      "year": 2007,
+      "chrf": 59.68407154687099,
+      "bleu": 18.43753741440871,
+      "author": "313",
+      "source_mean_sentence_words": 30.5,
+      "source_mean_sentence_tree_depth": 5.6,
+      "source_word_count": 305
+    },
+    {
+      "document_id": 20073240,
+      "year": 2007,
+      "chrf": 45.13317470780214,
+      "bleu": 14.581446305435458,
+      "author": "1127",
+      "source_mean_sentence_words": 57.0,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 57
+    },
+    {
+      "document_id": 20073755,
+      "year": 2007,
+      "chrf": 54.497116847381264,
+      "bleu": 12.223296837070402,
+      "author": "1120",
+      "source_mean_sentence_words": 30.625,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 245
+    },
+    {
+      "document_id": 20073416,
+      "year": 2007,
+      "chrf": 40.91019972821714,
+      "bleu": 6.201626595152065,
+      "author": "325",
+      "source_mean_sentence_words": 32.0,
+      "source_mean_sentence_tree_depth": 4.666666666666667,
+      "source_word_count": 96
+    },
+    {
+      "document_id": 20073148,
+      "year": 2007,
+      "chrf": 50.80793482471936,
+      "bleu": 13.661753668050162,
+      "author": "341",
+      "source_mean_sentence_words": 31.75,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 381
+    },
+    {
+      "document_id": 20073788,
+      "year": 2007,
+      "chrf": 52.315427728101795,
+      "bleu": 21.136759082142362,
+      "author": "3833",
+      "source_mean_sentence_words": 34.0,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 204
+    },
+    {
+      "document_id": 20083386,
+      "year": 2008,
+      "chrf": 37.714472215646154,
+      "bleu": 4.256741038358406,
+      "author": "241",
+      "source_mean_sentence_words": 20.5,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 82
+    },
+    {
+      "document_id": 20083738,
+      "year": 2008,
+      "chrf": 60.16264752571274,
+      "bleu": 19.250788694593663,
+      "author": "504",
+      "source_mean_sentence_words": 32.57142857142857,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 228
+    },
+    {
+      "document_id": 20083824,
+      "year": 2008,
+      "chrf": 61.5691280419407,
+      "bleu": 24.056709458593176,
+      "author": "1289",
+      "source_mean_sentence_words": 31.2,
+      "source_mean_sentence_tree_depth": 7.1,
+      "source_word_count": 312
+    },
+    {
+      "document_id": 20083138,
+      "year": 2008,
+      "chrf": 59.00372390908416,
+      "bleu": 16.14252819372711,
+      "author": "3915",
+      "source_mean_sentence_words": 33.888888888888886,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 305
+    },
+    {
+      "document_id": 20083398,
+      "year": 2008,
+      "chrf": 57.963510655807745,
+      "bleu": 20.171170627436254,
+      "author": "1115",
+      "source_mean_sentence_words": 26.5,
+      "source_mean_sentence_tree_depth": 5.25,
+      "source_word_count": 212
+    },
+    {
+      "document_id": 20083404,
+      "year": 2008,
+      "chrf": 51.822349118742295,
+      "bleu": 13.306744934392276,
+      "author": "504",
+      "source_mean_sentence_words": 23.571428571428573,
+      "source_mean_sentence_tree_depth": 5.428571428571429,
+      "source_word_count": 165
+    },
+    {
+      "document_id": 20083550,
+      "year": 2008,
+      "chrf": 60.72640304269397,
+      "bleu": 32.954075719835636,
+      "author": "3924",
+      "source_mean_sentence_words": 26.928571428571427,
+      "source_mean_sentence_tree_depth": 4.642857142857143,
+      "source_word_count": 377
+    },
+    {
+      "document_id": 20083789,
+      "year": 2008,
+      "chrf": 66.45268296249166,
+      "bleu": 29.406626275549552,
+      "author": "3833",
+      "source_mean_sentence_words": 32.333333333333336,
+      "source_mean_sentence_tree_depth": 5.777777777777778,
+      "source_word_count": 291
+    },
+    {
+      "document_id": 20083902,
+      "year": 2008,
+      "chrf": 59.13743259690671,
+      "bleu": 14.84671919449389,
+      "author": "241",
+      "source_mean_sentence_words": 26.0,
+      "source_mean_sentence_tree_depth": 5.666666666666667,
+      "source_word_count": 156
+    },
+    {
+      "document_id": 20083928,
+      "year": 2008,
+      "chrf": 48.80921146836062,
+      "bleu": 9.788060647377456,
+      "author": "1116",
+      "source_mean_sentence_words": 24.818181818181817,
+      "source_mean_sentence_tree_depth": 4.7272727272727275,
+      "source_word_count": 273
+    },
+    {
+      "document_id": 20083237,
+      "year": 2008,
+      "chrf": 48.50697139721286,
+      "bleu": 10.07364909000279,
+      "author": "1161",
+      "source_mean_sentence_words": 25.0,
+      "source_mean_sentence_tree_depth": 6.5,
+      "source_word_count": 100
+    },
+    {
+      "document_id": 20083224,
+      "year": 2008,
+      "chrf": 53.98892637146591,
+      "bleu": 15.700487675777229,
+      "author": "241",
+      "source_mean_sentence_words": 19.90909090909091,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 219
+    },
+    {
+      "document_id": 20083329,
+      "year": 2008,
+      "chrf": 55.84354027627381,
+      "bleu": 17.46923128142536,
+      "author": "3833",
+      "source_mean_sentence_words": 27.666666666666668,
+      "source_mean_sentence_tree_depth": 5.583333333333333,
+      "source_word_count": 332
+    },
+    {
+      "document_id": 20083720,
+      "year": 2008,
+      "chrf": 56.704897918472874,
+      "bleu": 14.669874450527233,
+      "author": "1124",
+      "source_mean_sentence_words": 28.333333333333332,
+      "source_mean_sentence_tree_depth": 5.25,
+      "source_word_count": 340
+    },
+    {
+      "document_id": 20083024,
+      "year": 2008,
+      "chrf": 56.33496835892217,
+      "bleu": 9.080835486824352,
+      "author": "349",
+      "source_mean_sentence_words": 28.166666666666668,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 169
+    },
+    {
+      "document_id": 20083348,
+      "year": 2008,
+      "chrf": 62.72212317290411,
+      "bleu": 23.316822546937694,
+      "author": "3872",
+      "source_mean_sentence_words": 19.88235294117647,
+      "source_mean_sentence_tree_depth": 4.470588235294118,
+      "source_word_count": 338
+    },
+    {
+      "document_id": 20083795,
+      "year": 2008,
+      "chrf": 57.12167578281391,
+      "bleu": 21.975667332178315,
+      "author": "3889",
+      "source_mean_sentence_words": 26.545454545454547,
+      "source_mean_sentence_tree_depth": 4.7272727272727275,
+      "source_word_count": 292
+    },
+    {
+      "document_id": 20083171,
+      "year": 2008,
+      "chrf": 49.22544984109623,
+      "bleu": 14.450262459533931,
+      "author": "504",
+      "source_mean_sentence_words": 30.25,
+      "source_mean_sentence_tree_depth": 5.75,
+      "source_word_count": 242
+    },
+    {
+      "document_id": 20083688,
+      "year": 2008,
+      "chrf": 53.81307443283124,
+      "bleu": 11.614643481849003,
+      "author": "455",
+      "source_mean_sentence_words": 20.0,
+      "source_mean_sentence_tree_depth": 5.166666666666667,
+      "source_word_count": 240
+    },
+    {
+      "document_id": 20083250,
+      "year": 2008,
+      "chrf": 54.02567607252814,
+      "bleu": 14.241430821573827,
+      "author": "1124",
+      "source_mean_sentence_words": 29.0,
+      "source_mean_sentence_tree_depth": 5.666666666666667,
+      "source_word_count": 174
+    },
+    {
+      "document_id": 20083167,
+      "year": 2008,
+      "chrf": 51.44437898707398,
+      "bleu": 12.236526740143875,
+      "author": "504",
+      "source_mean_sentence_words": 26.666666666666668,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 160
+    },
+    {
+      "document_id": 20083308,
+      "year": 2008,
+      "chrf": 49.87458009734282,
+      "bleu": 12.923241281672933,
+      "author": "3888",
+      "source_mean_sentence_words": 33.75,
+      "source_mean_sentence_tree_depth": 7.5,
+      "source_word_count": 135
+    },
+    {
+      "document_id": 20083229,
+      "year": 2008,
+      "chrf": 48.36409871488383,
+      "bleu": 9.474799242195727,
+      "author": "1133",
+      "source_mean_sentence_words": 27.333333333333332,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 164
+    },
+    {
+      "document_id": 20093634,
+      "year": 2009,
+      "chrf": 51.86687302246001,
+      "bleu": 14.542658446493343,
+      "author": "3833",
+      "source_mean_sentence_words": 23.0,
+      "source_mean_sentence_tree_depth": 5.6,
+      "source_word_count": 230
+    },
+    {
+      "document_id": 20093222,
+      "year": 2009,
+      "chrf": 59.64971432855547,
+      "bleu": 18.925493510467874,
+      "author": "241",
+      "source_mean_sentence_words": 18.076923076923077,
+      "source_mean_sentence_tree_depth": 4.846153846153846,
+      "source_word_count": 235
+    },
+    {
+      "document_id": 20093239,
+      "year": 2009,
+      "chrf": 56.00557498036347,
+      "bleu": 7.50738488959845,
+      "author": "3870",
+      "source_mean_sentence_words": 26.142857142857142,
+      "source_mean_sentence_tree_depth": 5.571428571428571,
+      "source_word_count": 183
+    },
+    {
+      "document_id": 20093345,
+      "year": 2009,
+      "chrf": 48.07088294839672,
+      "bleu": 4.216037349890163,
+      "author": "341",
+      "source_mean_sentence_words": 29.166666666666668,
+      "source_mean_sentence_tree_depth": 6.5,
+      "source_word_count": 175
+    },
+    {
+      "document_id": 20093520,
+      "year": 2009,
+      "chrf": 59.234243810716634,
+      "bleu": 18.200075457039734,
+      "author": "3907",
+      "source_mean_sentence_words": 26.636363636363637,
+      "source_mean_sentence_tree_depth": 5.545454545454546,
+      "source_word_count": 293
+    },
+    {
+      "document_id": 20093830,
+      "year": 2009,
+      "chrf": 58.475799063015124,
+      "bleu": 25.043957614609223,
+      "author": "349",
+      "source_mean_sentence_words": 28.375,
+      "source_mean_sentence_tree_depth": 5.625,
+      "source_word_count": 227
+    },
+    {
+      "document_id": 20093919,
+      "year": 2009,
+      "chrf": 59.11332754407525,
+      "bleu": 20.978500677467714,
+      "author": "504",
+      "source_mean_sentence_words": 22.5,
+      "source_mean_sentence_tree_depth": 4.375,
+      "source_word_count": 180
+    },
+    {
+      "document_id": 20094134,
+      "year": 2009,
+      "chrf": 63.342990092279074,
+      "bleu": 22.778654980745536,
+      "author": "3889",
+      "source_mean_sentence_words": 21.933333333333334,
+      "source_mean_sentence_tree_depth": 4.6,
+      "source_word_count": 329
+    },
+    {
+      "document_id": 20094164,
+      "year": 2009,
+      "chrf": 58.815663067880465,
+      "bleu": 15.238827937535824,
+      "author": "435",
+      "source_mean_sentence_words": 24.0,
+      "source_mean_sentence_tree_depth": 4.555555555555555,
+      "source_word_count": 216
+    },
+    {
+      "document_id": 20094285,
+      "year": 2009,
+      "chrf": 54.280302414644375,
+      "bleu": 12.515649029387955,
+      "author": "3833",
+      "source_mean_sentence_words": 33.55555555555556,
+      "source_mean_sentence_tree_depth": 5.555555555555555,
+      "source_word_count": 302
+    },
+    {
+      "document_id": 20094269,
+      "year": 2009,
+      "chrf": 56.66653290682026,
+      "bleu": 18.829760240911117,
+      "author": "1127",
+      "source_mean_sentence_words": 46.666666666666664,
+      "source_mean_sentence_tree_depth": 7.833333333333333,
+      "source_word_count": 280
+    },
+    {
+      "document_id": 20094305,
+      "year": 2009,
+      "chrf": 60.35951494114759,
+      "bleu": 9.27627365889748,
+      "author": "1120",
+      "source_mean_sentence_words": 23.833333333333332,
+      "source_mean_sentence_tree_depth": 4.5,
+      "source_word_count": 143
+    },
+    {
+      "document_id": 20094051,
+      "year": 2009,
+      "chrf": 57.409347249127826,
+      "bleu": 17.854580813906715,
+      "author": "1279",
+      "source_mean_sentence_words": 24.933333333333334,
+      "source_mean_sentence_tree_depth": 5.2,
+      "source_word_count": 374
+    },
+    {
+      "document_id": 20094244,
+      "year": 2009,
+      "chrf": 56.931427569619444,
+      "bleu": 19.459422563245184,
+      "author": "504",
+      "source_mean_sentence_words": 26.833333333333332,
+      "source_mean_sentence_tree_depth": 5.166666666666667,
+      "source_word_count": 161
+    },
+    {
+      "document_id": 20094117,
+      "year": 2009,
+      "chrf": 63.08198291834574,
+      "bleu": 20.36232250224457,
+      "author": "3894",
+      "source_mean_sentence_words": 32.142857142857146,
+      "source_mean_sentence_tree_depth": 6.714285714285714,
+      "source_word_count": 225
+    },
+    {
+      "document_id": 20093443,
+      "year": 2009,
+      "chrf": 51.447154119,
+      "bleu": 11.718211373960361,
+      "author": "1120",
+      "source_mean_sentence_words": 27.272727272727273,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 300
+    },
+    {
+      "document_id": 20093145,
+      "year": 2009,
+      "chrf": 58.52466159640007,
+      "bleu": 21.48433057613097,
+      "author": "3883",
+      "source_mean_sentence_words": 29.555555555555557,
+      "source_mean_sentence_tree_depth": 5.444444444444445,
+      "source_word_count": 266
+    },
+    {
+      "document_id": 20093790,
+      "year": 2009,
+      "chrf": 55.58533260923144,
+      "bleu": 11.700359212897594,
+      "author": "1127",
+      "source_mean_sentence_words": 26.941176470588236,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 458
+    },
+    {
+      "document_id": 20093858,
+      "year": 2009,
+      "chrf": 66.20372298279533,
+      "bleu": 30.17137373534814,
+      "author": "241",
+      "source_mean_sentence_words": 21.571428571428573,
+      "source_mean_sentence_tree_depth": 3.857142857142857,
+      "source_word_count": 151
+    },
+    {
+      "document_id": 20093195,
+      "year": 2009,
+      "chrf": 58.971393104967795,
+      "bleu": 18.493136708768578,
+      "author": "1065",
+      "source_mean_sentence_words": 25.0,
+      "source_mean_sentence_tree_depth": 5.142857142857143,
+      "source_word_count": 350
+    },
+    {
+      "document_id": 20093180,
+      "year": 2009,
+      "chrf": 54.4366598974379,
+      "bleu": 16.903690395660412,
+      "author": "241",
+      "source_mean_sentence_words": 34.0,
+      "source_mean_sentence_tree_depth": 5.6,
+      "source_word_count": 170
+    },
+    {
+      "document_id": 20094214,
+      "year": 2009,
+      "chrf": 58.904048313289834,
+      "bleu": 10.88227535948376,
+      "author": "1279",
+      "source_mean_sentence_words": 18.642857142857142,
+      "source_mean_sentence_tree_depth": 4.857142857142857,
+      "source_word_count": 261
+    },
+    {
+      "document_id": 20093457,
+      "year": 2009,
+      "chrf": 58.337153930006714,
+      "bleu": 19.384114067232193,
+      "author": "3922",
+      "source_mean_sentence_words": 21.40909090909091,
+      "source_mean_sentence_tree_depth": 4.7272727272727275,
+      "source_word_count": 471
+    },
+    {
+      "document_id": 20103219,
+      "year": 2010,
+      "chrf": 62.402089977095464,
+      "bleu": 17.298636753383704,
+      "author": "350",
+      "source_mean_sentence_words": 26.5,
+      "source_mean_sentence_tree_depth": 5.857142857142857,
+      "source_word_count": 371
+    },
+    {
+      "document_id": 20103659,
+      "year": 2010,
+      "chrf": 61.68934075837288,
+      "bleu": 24.118652148660605,
+      "author": "3872",
+      "source_mean_sentence_words": 35.0,
+      "source_mean_sentence_tree_depth": 5.777777777777778,
+      "source_word_count": 315
+    },
+    {
+      "document_id": 20103850,
+      "year": 2010,
+      "chrf": 54.88201140709295,
+      "bleu": 21.370968818999895,
+      "author": "1124",
+      "source_mean_sentence_words": 20.764705882352942,
+      "source_mean_sentence_tree_depth": 4.588235294117647,
+      "source_word_count": 353
+    },
+    {
+      "document_id": 20103025,
+      "year": 2010,
+      "chrf": 52.463603588847974,
+      "bleu": 14.774972908377963,
+      "author": "3900",
+      "source_mean_sentence_words": 22.333333333333332,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 335
+    },
+    {
+      "document_id": 20103215,
+      "year": 2010,
+      "chrf": 59.04377094328505,
+      "bleu": 30.73407531479522,
+      "author": "3870",
+      "source_mean_sentence_words": 44.6,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 223
+    },
+    {
+      "document_id": 20103599,
+      "year": 2010,
+      "chrf": 53.23540624610824,
+      "bleu": 10.583294264471723,
+      "author": "3889",
+      "source_mean_sentence_words": 26.0,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 182
+    },
+    {
+      "document_id": 20103731,
+      "year": 2010,
+      "chrf": 57.88093932118081,
+      "bleu": 18.092469214815644,
+      "author": "3900",
+      "source_mean_sentence_words": 24.46153846153846,
+      "source_mean_sentence_tree_depth": 4.3076923076923075,
+      "source_word_count": 318
+    },
+    {
+      "document_id": 20103751,
+      "year": 2010,
+      "chrf": 64.87495904221767,
+      "bleu": 25.69371053455125,
+      "author": "349",
+      "source_mean_sentence_words": 36.6,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 183
+    },
+    {
+      "document_id": 20103762,
+      "year": 2010,
+      "chrf": 54.92790241130966,
+      "bleu": 15.223804570277215,
+      "author": "1289",
+      "source_mean_sentence_words": 16.357142857142858,
+      "source_mean_sentence_tree_depth": 3.857142857142857,
+      "source_word_count": 229
+    },
+    {
+      "document_id": 20103786,
+      "year": 2010,
+      "chrf": 54.63139917557861,
+      "bleu": 18.527462435722693,
+      "author": "1108",
+      "source_mean_sentence_words": 28.375,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 227
+    },
+    {
+      "document_id": 20103874,
+      "year": 2010,
+      "chrf": 56.37985955227598,
+      "bleu": 20.594314882378562,
+      "author": "241",
+      "source_mean_sentence_words": 28.666666666666668,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 86
+    },
+    {
+      "document_id": 20103820,
+      "year": 2010,
+      "chrf": 60.81149342329139,
+      "bleu": 21.091717628098166,
+      "author": "1133",
+      "source_mean_sentence_words": 18.4,
+      "source_mean_sentence_tree_depth": 4.4,
+      "source_word_count": 184
+    },
+    {
+      "document_id": 20104147,
+      "year": 2010,
+      "chrf": 58.656481741000334,
+      "bleu": 19.439479583654308,
+      "author": "1133",
+      "source_mean_sentence_words": 40.0,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 320
+    },
+    {
+      "document_id": 20104149,
+      "year": 2010,
+      "chrf": 54.1770954095463,
+      "bleu": 16.642967568235743,
+      "author": "3885",
+      "source_mean_sentence_words": 27.428571428571427,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 192
+    },
+    {
+      "document_id": 20104070,
+      "year": 2010,
+      "chrf": 56.19834099063776,
+      "bleu": 24.460653717767002,
+      "author": "1127",
+      "source_mean_sentence_words": 31.4,
+      "source_mean_sentence_tree_depth": 6.4,
+      "source_word_count": 157
+    },
+    {
+      "document_id": 20103745,
+      "year": 2010,
+      "chrf": 52.57790617736446,
+      "bleu": 16.53081816401016,
+      "author": "341",
+      "source_mean_sentence_words": 35.6,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 178
+    },
+    {
+      "document_id": 20103724,
+      "year": 2010,
+      "chrf": 59.2815387476359,
+      "bleu": 21.387711046624727,
+      "author": "3915",
+      "source_mean_sentence_words": 24.615384615384617,
+      "source_mean_sentence_tree_depth": 4.538461538461538,
+      "source_word_count": 320
+    },
+    {
+      "document_id": 20103508,
+      "year": 2010,
+      "chrf": 57.71990969013734,
+      "bleu": 22.873288208207295,
+      "author": "1117",
+      "source_mean_sentence_words": 23.0625,
+      "source_mean_sentence_tree_depth": 3.875,
+      "source_word_count": 369
+    },
+    {
+      "document_id": 20104054,
+      "year": 2010,
+      "chrf": 59.317985788202336,
+      "bleu": 18.213620286184412,
+      "author": "1127",
+      "source_mean_sentence_words": 24.384615384615383,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 317
+    },
+    {
+      "document_id": 20103819,
+      "year": 2010,
+      "chrf": 51.748997203859105,
+      "bleu": 14.57255647296114,
+      "author": "1133",
+      "source_mean_sentence_words": 18.625,
+      "source_mean_sentence_tree_depth": 4.125,
+      "source_word_count": 149
+    },
+    {
+      "document_id": 20103470,
+      "year": 2010,
+      "chrf": 53.7839143953735,
+      "bleu": 13.393250412687014,
+      "author": "241",
+      "source_mean_sentence_words": 18.333333333333332,
+      "source_mean_sentence_tree_depth": 4.333333333333333,
+      "source_word_count": 55
+    },
+    {
+      "document_id": 20103909,
+      "year": 2010,
+      "chrf": 52.7981904634271,
+      "bleu": 6.669433306823215,
+      "author": "3895",
+      "source_mean_sentence_words": 34.3,
+      "source_mean_sentence_tree_depth": 6.9,
+      "source_word_count": 343
+    },
+    {
+      "document_id": 20103133,
+      "year": 2010,
+      "chrf": 55.24569345818746,
+      "bleu": 10.927444811687018,
+      "author": "3915",
+      "source_mean_sentence_words": 25.666666666666668,
+      "source_mean_sentence_tree_depth": 5.444444444444445,
+      "source_word_count": 231
+    },
+    {
+      "document_id": 20113095,
+      "year": 2011,
+      "chrf": 60.85872885084468,
+      "bleu": 19.661493869853622,
+      "author": "3894",
+      "source_mean_sentence_words": 14.705882352941176,
+      "source_mean_sentence_tree_depth": 3.411764705882353,
+      "source_word_count": 250
+    },
+    {
+      "document_id": 20113841,
+      "year": 2011,
+      "chrf": 53.91561498602797,
+      "bleu": 7.051997111996995,
+      "author": "3888",
+      "source_mean_sentence_words": 34.7,
+      "source_mean_sentence_tree_depth": 6.7,
+      "source_word_count": 347
+    },
+    {
+      "document_id": 20113950,
+      "year": 2011,
+      "chrf": 60.06940971796473,
+      "bleu": 14.907611826255376,
+      "author": "3884",
+      "source_mean_sentence_words": 25.214285714285715,
+      "source_mean_sentence_tree_depth": 5.285714285714286,
+      "source_word_count": 353
+    },
+    {
+      "document_id": 20113038,
+      "year": 2011,
+      "chrf": 51.841197267502714,
+      "bleu": 12.906385577443817,
+      "author": "349",
+      "source_mean_sentence_words": 30.333333333333332,
+      "source_mean_sentence_tree_depth": 5.666666666666667,
+      "source_word_count": 182
+    },
+    {
+      "document_id": 20113636,
+      "year": 2011,
+      "chrf": 55.148130824794016,
+      "bleu": 16.893448223826706,
+      "author": "1346",
+      "source_mean_sentence_words": 28.428571428571427,
+      "source_mean_sentence_tree_depth": 7.285714285714286,
+      "source_word_count": 199
+    },
+    {
+      "document_id": 20113806,
+      "year": 2011,
+      "chrf": 54.12455746195454,
+      "bleu": 11.97961087670646,
+      "author": "498",
+      "source_mean_sentence_words": 45.0,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 90
+    },
+    {
+      "document_id": 20113847,
+      "year": 2011,
+      "chrf": 53.37838711284457,
+      "bleu": 17.889348556457577,
+      "author": "3888",
+      "source_mean_sentence_words": 21.384615384615383,
+      "source_mean_sentence_tree_depth": 5.3076923076923075,
+      "source_word_count": 278
+    },
+    {
+      "document_id": 20113979,
+      "year": 2011,
+      "chrf": 40.0468471490241,
+      "bleu": 4.137042074988102,
+      "author": "3911",
+      "source_mean_sentence_words": 26.0,
+      "source_mean_sentence_tree_depth": 4.25,
+      "source_word_count": 104
+    },
+    {
+      "document_id": 20114117,
+      "year": 2011,
+      "chrf": 59.22392098081616,
+      "bleu": 20.25287516973813,
+      "author": "4018",
+      "source_mean_sentence_words": 31.333333333333332,
+      "source_mean_sentence_tree_depth": 5.444444444444445,
+      "source_word_count": 282
+    },
+    {
+      "document_id": 20114198,
+      "year": 2011,
+      "chrf": 62.10585746529886,
+      "bleu": 24.365359882672394,
+      "author": "1124",
+      "source_mean_sentence_words": 25.09090909090909,
+      "source_mean_sentence_tree_depth": 4.636363636363637,
+      "source_word_count": 276
+    },
+    {
+      "document_id": 20113078,
+      "year": 2011,
+      "chrf": 56.64818716443036,
+      "bleu": 19.36284273450605,
+      "author": "3923",
+      "source_mean_sentence_words": 25.636363636363637,
+      "source_mean_sentence_tree_depth": 5.2727272727272725,
+      "source_word_count": 282
+    },
+    {
+      "document_id": 20113189,
+      "year": 2011,
+      "chrf": 53.70492979698075,
+      "bleu": 9.021251996384379,
+      "author": "1150",
+      "source_mean_sentence_words": 34.9,
+      "source_mean_sentence_tree_depth": 6.8,
+      "source_word_count": 349
+    },
+    {
+      "document_id": 20113707,
+      "year": 2011,
+      "chrf": 49.46060139130193,
+      "bleu": 14.201758116284122,
+      "author": "1346",
+      "source_mean_sentence_words": 29.0,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 116
+    },
+    {
+      "document_id": 20113238,
+      "year": 2011,
+      "chrf": 55.01871487776587,
+      "bleu": 16.772134108103668,
+      "author": "1293",
+      "source_mean_sentence_words": 25.333333333333332,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 228
+    },
+    {
+      "document_id": 20113720,
+      "year": 2011,
+      "chrf": 56.71006499299616,
+      "bleu": 10.324842038003007,
+      "author": "3900",
+      "source_mean_sentence_words": 35.333333333333336,
+      "source_mean_sentence_tree_depth": 6.666666666666667,
+      "source_word_count": 212
+    },
+    {
+      "document_id": 20114115,
+      "year": 2011,
+      "chrf": 49.988124440644555,
+      "bleu": 11.959332742426115,
+      "author": "1108",
+      "source_mean_sentence_words": 31.75,
+      "source_mean_sentence_tree_depth": 7.25,
+      "source_word_count": 127
+    },
+    {
+      "document_id": 20114153,
+      "year": 2011,
+      "chrf": 57.238059767550176,
+      "bleu": 17.251705796203403,
+      "author": "3888",
+      "source_mean_sentence_words": 26.307692307692307,
+      "source_mean_sentence_tree_depth": 5.846153846153846,
+      "source_word_count": 342
+    },
+    {
+      "document_id": 20113937,
+      "year": 2011,
+      "chrf": 60.21346330015491,
+      "bleu": 21.8817927640612,
+      "author": "341",
+      "source_mean_sentence_words": 25.88888888888889,
+      "source_mean_sentence_tree_depth": 5.611111111111111,
+      "source_word_count": 466
+    },
+    {
+      "document_id": 20113439,
+      "year": 2011,
+      "chrf": 56.265620520141546,
+      "bleu": 16.87602024103315,
+      "author": "1120",
+      "source_mean_sentence_words": 28.77777777777778,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 259
+    },
+    {
+      "document_id": 20113237,
+      "year": 2011,
+      "chrf": 49.859786578287355,
+      "bleu": 7.403729493611283,
+      "author": "453",
+      "source_mean_sentence_words": 22.375,
+      "source_mean_sentence_tree_depth": 4.75,
+      "source_word_count": 179
+    },
+    {
+      "document_id": 20113827,
+      "year": 2011,
+      "chrf": 58.15295093274875,
+      "bleu": 21.41730218789513,
+      "author": "1293",
+      "source_mean_sentence_words": 26.25,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 105
+    },
+    {
+      "document_id": 20113705,
+      "year": 2011,
+      "chrf": 62.354194798943695,
+      "bleu": 22.7305708559144,
+      "author": "1120",
+      "source_mean_sentence_words": 33.0,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 363
+    },
+    {
+      "document_id": 20113818,
+      "year": 2011,
+      "chrf": 53.4469911749439,
+      "bleu": 12.977930591190201,
+      "author": "3870",
+      "source_mean_sentence_words": 86.0,
+      "source_mean_sentence_tree_depth": 8.0,
+      "source_word_count": 86
+    },
+    {
+      "document_id": 20123737,
+      "year": 2012,
+      "chrf": 58.89876158825027,
+      "bleu": 21.630640644056474,
+      "author": "10839",
+      "source_mean_sentence_words": 34.0,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 340
+    },
+    {
+      "document_id": 20124072,
+      "year": 2012,
+      "chrf": 51.11855848134898,
+      "bleu": 12.10908800794618,
+      "author": "3895",
+      "source_mean_sentence_words": 19.454545454545453,
+      "source_mean_sentence_tree_depth": 4.454545454545454,
+      "source_word_count": 214
+    },
+    {
+      "document_id": 20123282,
+      "year": 2012,
+      "chrf": 50.58819184794731,
+      "bleu": 8.974204471409298,
+      "author": "3885",
+      "source_mean_sentence_words": 41.5,
+      "source_mean_sentence_tree_depth": 6.5,
+      "source_word_count": 166
+    },
+    {
+      "document_id": 20123360,
+      "year": 2012,
+      "chrf": 59.07826008645921,
+      "bleu": 12.45733773219721,
+      "author": "4074",
+      "source_mean_sentence_words": 30.444444444444443,
+      "source_mean_sentence_tree_depth": 6.222222222222222,
+      "source_word_count": 274
+    },
+    {
+      "document_id": 20123461,
+      "year": 2012,
+      "chrf": 50.25130158099997,
+      "bleu": 8.660666652991845,
+      "author": "10839",
+      "source_mean_sentence_words": 36.142857142857146,
+      "source_mean_sentence_tree_depth": 4.857142857142857,
+      "source_word_count": 253
+    },
+    {
+      "document_id": 20123597,
+      "year": 2012,
+      "chrf": 57.56816796704713,
+      "bleu": 21.654967921123507,
+      "author": "1289",
+      "source_mean_sentence_words": 29.25,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 234
+    },
+    {
+      "document_id": 20123630,
+      "year": 2012,
+      "chrf": 54.66185454623989,
+      "bleu": 15.613943756856631,
+      "author": "453",
+      "source_mean_sentence_words": 13.6,
+      "source_mean_sentence_tree_depth": 3.5,
+      "source_word_count": 136
+    },
+    {
+      "document_id": 20123726,
+      "year": 2012,
+      "chrf": 59.63327813019431,
+      "bleu": 22.29225465512724,
+      "author": "3888",
+      "source_mean_sentence_words": 23.4,
+      "source_mean_sentence_tree_depth": 4.7,
+      "source_word_count": 234
+    },
+    {
+      "document_id": 20123855,
+      "year": 2012,
+      "chrf": 53.840755657878766,
+      "bleu": 20.311279598413655,
+      "author": "1289",
+      "source_mean_sentence_words": 30.8,
+      "source_mean_sentence_tree_depth": 5.3,
+      "source_word_count": 308
+    },
+    {
+      "document_id": 20124031,
+      "year": 2012,
+      "chrf": 49.16767849396451,
+      "bleu": 6.899397786867941,
+      "author": "10839",
+      "source_mean_sentence_words": 37.875,
+      "source_mean_sentence_tree_depth": 6.25,
+      "source_word_count": 303
+    },
+    {
+      "document_id": 20123072,
+      "year": 2012,
+      "chrf": 54.819213890925845,
+      "bleu": 14.152997375569099,
+      "author": "10839",
+      "source_mean_sentence_words": 52.0,
+      "source_mean_sentence_tree_depth": 8.142857142857142,
+      "source_word_count": 364
+    },
+    {
+      "document_id": 20123609,
+      "year": 2012,
+      "chrf": 59.22036848388878,
+      "bleu": 13.65594910666045,
+      "author": "1133",
+      "source_mean_sentence_words": 31.75,
+      "source_mean_sentence_tree_depth": 6.875,
+      "source_word_count": 254
+    },
+    {
+      "document_id": 20123025,
+      "year": 2012,
+      "chrf": 59.8753752721085,
+      "bleu": 17.37147373004963,
+      "author": "10839",
+      "source_mean_sentence_words": 55.5,
+      "source_mean_sentence_tree_depth": 7.5,
+      "source_word_count": 333
+    },
+    {
+      "document_id": 20123409,
+      "year": 2012,
+      "chrf": 63.968068948984815,
+      "bleu": 28.167309853087197,
+      "author": "4086",
+      "source_mean_sentence_words": 28.5,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 171
+    },
+    {
+      "document_id": 20123950,
+      "year": 2012,
+      "chrf": 50.21978841396923,
+      "bleu": 13.897936312466715,
+      "author": "1127",
+      "source_mean_sentence_words": 26.0,
+      "source_mean_sentence_tree_depth": 4.0,
+      "source_word_count": 52
+    },
+    {
+      "document_id": 20124199,
+      "year": 2012,
+      "chrf": 55.18218704281273,
+      "bleu": 14.05415288659551,
+      "author": "504",
+      "source_mean_sentence_words": 32.142857142857146,
+      "source_mean_sentence_tree_depth": 6.428571428571429,
+      "source_word_count": 225
+    },
+    {
+      "document_id": 20124029,
+      "year": 2012,
+      "chrf": 57.6204871475573,
+      "bleu": 22.5861587203294,
+      "author": "3885",
+      "source_mean_sentence_words": 19.5,
+      "source_mean_sentence_tree_depth": 4.75,
+      "source_word_count": 78
+    },
+    {
+      "document_id": 20123297,
+      "year": 2012,
+      "chrf": 47.505424966290974,
+      "bleu": 7.164570760409175,
+      "author": "3885",
+      "source_mean_sentence_words": 21.0,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 63
+    },
+    {
+      "document_id": 20123739,
+      "year": 2012,
+      "chrf": 56.79780573085815,
+      "bleu": 18.08859921729939,
+      "author": "3889",
+      "source_mean_sentence_words": 27.714285714285715,
+      "source_mean_sentence_tree_depth": 5.857142857142857,
+      "source_word_count": 194
+    },
+    {
+      "document_id": 20123320,
+      "year": 2012,
+      "chrf": 61.01361084726536,
+      "bleu": 13.687934055759692,
+      "author": "3914",
+      "source_mean_sentence_words": 25.0,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 75
+    },
+    {
+      "document_id": 20124073,
+      "year": 2012,
+      "chrf": 60.004498613334235,
+      "bleu": 17.348478338061494,
+      "author": "4074",
+      "source_mean_sentence_words": 32.57142857142857,
+      "source_mean_sentence_tree_depth": 6.285714285714286,
+      "source_word_count": 228
+    },
+    {
+      "document_id": 20123113,
+      "year": 2012,
+      "chrf": 55.28129820168567,
+      "bleu": 6.238058303499195,
+      "author": "1127",
+      "source_mean_sentence_words": 45.0,
+      "source_mean_sentence_tree_depth": 9.0,
+      "source_word_count": 45
+    },
+    {
+      "document_id": 20123265,
+      "year": 2012,
+      "chrf": 51.88386706521393,
+      "bleu": 5.467833868405585,
+      "author": "1346",
+      "source_mean_sentence_words": 24.0,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 72
+    },
+    {
+      "document_id": 20133043,
+      "year": 2013,
+      "chrf": 61.51291522119372,
+      "bleu": 24.731643458659,
+      "author": "3872",
+      "source_mean_sentence_words": 36.57142857142857,
+      "source_mean_sentence_tree_depth": 7.142857142857143,
+      "source_word_count": 256
+    },
+    {
+      "document_id": 20133088,
+      "year": 2013,
+      "chrf": 45.27716191345976,
+      "bleu": 11.829015225297198,
+      "author": "4113",
+      "source_mean_sentence_words": 24.5,
+      "source_mean_sentence_tree_depth": 4.0,
+      "source_word_count": 98
+    },
+    {
+      "document_id": 20133239,
+      "year": 2013,
+      "chrf": 51.66110269359346,
+      "bleu": 14.668714732769761,
+      "author": "1127",
+      "source_mean_sentence_words": 20.5,
+      "source_mean_sentence_tree_depth": 4.75,
+      "source_word_count": 82
+    },
+    {
+      "document_id": 20133280,
+      "year": 2013,
+      "chrf": 58.787659406513484,
+      "bleu": 20.95922787766865,
+      "author": "1124",
+      "source_mean_sentence_words": 21.307692307692307,
+      "source_mean_sentence_tree_depth": 4.846153846153846,
+      "source_word_count": 277
+    },
+    {
+      "document_id": 20133281,
+      "year": 2013,
+      "chrf": 62.89735757273229,
+      "bleu": 23.499272696923416,
+      "author": "1124",
+      "source_mean_sentence_words": 21.266666666666666,
+      "source_mean_sentence_tree_depth": 4.866666666666666,
+      "source_word_count": 319
+    },
+    {
+      "document_id": 20133348,
+      "year": 2013,
+      "chrf": 57.03643966423867,
+      "bleu": 19.7415684865848,
+      "author": "3924",
+      "source_mean_sentence_words": 27.0,
+      "source_mean_sentence_tree_depth": 5.636363636363637,
+      "source_word_count": 297
+    },
+    {
+      "document_id": 20133516,
+      "year": 2013,
+      "chrf": 53.33751036892227,
+      "bleu": 12.677192461437999,
+      "author": "504",
+      "source_mean_sentence_words": 26.545454545454547,
+      "source_mean_sentence_tree_depth": 5.090909090909091,
+      "source_word_count": 292
+    },
+    {
+      "document_id": 20134090,
+      "year": 2013,
+      "chrf": 54.10865116215141,
+      "bleu": 17.10329174843834,
+      "author": "4086",
+      "source_mean_sentence_words": 23.555555555555557,
+      "source_mean_sentence_tree_depth": 5.444444444444445,
+      "source_word_count": 212
+    },
+    {
+      "document_id": 20134171,
+      "year": 2013,
+      "chrf": 56.84623001954587,
+      "bleu": 16.657595840067366,
+      "author": "3833",
+      "source_mean_sentence_words": 18.470588235294116,
+      "source_mean_sentence_tree_depth": 4.411764705882353,
+      "source_word_count": 314
+    },
+    {
+      "document_id": 20134317,
+      "year": 2013,
+      "chrf": 55.338310979387,
+      "bleu": 22.85697610014459,
+      "author": "1124",
+      "source_mean_sentence_words": 11.576923076923077,
+      "source_mean_sentence_tree_depth": 2.923076923076923,
+      "source_word_count": 301
+    },
+    {
+      "document_id": 20133337,
+      "year": 2013,
+      "chrf": 56.280272925720276,
+      "bleu": 19.409751459529918,
+      "author": "1289",
+      "source_mean_sentence_words": 30.714285714285715,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 215
+    },
+    {
+      "document_id": 20133052,
+      "year": 2013,
+      "chrf": 61.91240269403462,
+      "bleu": 19.762131443127426,
+      "author": "4115",
+      "source_mean_sentence_words": 28.636363636363637,
+      "source_mean_sentence_tree_depth": 6.636363636363637,
+      "source_word_count": 315
+    },
+    {
+      "document_id": 20133808,
+      "year": 2013,
+      "chrf": 58.3410276911321,
+      "bleu": 20.850903426970195,
+      "author": "4115",
+      "source_mean_sentence_words": 22.25,
+      "source_mean_sentence_tree_depth": 5.083333333333333,
+      "source_word_count": 267
+    },
+    {
+      "document_id": 20133949,
+      "year": 2013,
+      "chrf": 63.43774250184443,
+      "bleu": 19.3445139848202,
+      "author": "4079",
+      "source_mean_sentence_words": 18.1875,
+      "source_mean_sentence_tree_depth": 4.375,
+      "source_word_count": 291
+    },
+    {
+      "document_id": 20133036,
+      "year": 2013,
+      "chrf": 61.60277437248416,
+      "bleu": 18.381994094468713,
+      "author": "4086",
+      "source_mean_sentence_words": 34.0,
+      "source_mean_sentence_tree_depth": 7.142857142857143,
+      "source_word_count": 238
+    },
+    {
+      "document_id": 20133137,
+      "year": 2013,
+      "chrf": 61.44990115826716,
+      "bleu": 24.739976537542006,
+      "author": "3833",
+      "source_mean_sentence_words": 27.4,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 274
+    },
+    {
+      "document_id": 20133553,
+      "year": 2013,
+      "chrf": 54.43736345740867,
+      "bleu": 10.643367754598065,
+      "author": "4079",
+      "source_mean_sentence_words": 20.75,
+      "source_mean_sentence_tree_depth": 4.333333333333333,
+      "source_word_count": 249
+    },
+    {
+      "document_id": 20133643,
+      "year": 2013,
+      "chrf": 57.29469490549256,
+      "bleu": 18.832097330093003,
+      "author": "1127",
+      "source_mean_sentence_words": 28.333333333333332,
+      "source_mean_sentence_tree_depth": 4.666666666666667,
+      "source_word_count": 85
+    },
+    {
+      "document_id": 20133305,
+      "year": 2013,
+      "chrf": 60.29433129906047,
+      "bleu": 19.89255951295086,
+      "author": "4018",
+      "source_mean_sentence_words": 25.4,
+      "source_mean_sentence_tree_depth": 6.3,
+      "source_word_count": 254
+    },
+    {
+      "document_id": 20133967,
+      "year": 2013,
+      "chrf": 58.93559908854172,
+      "bleu": 22.519724612973672,
+      "author": "3888",
+      "source_mean_sentence_words": 16.17391304347826,
+      "source_mean_sentence_tree_depth": 3.4782608695652173,
+      "source_word_count": 372
+    },
+    {
+      "document_id": 20133044,
+      "year": 2013,
+      "chrf": 56.68505366439594,
+      "bleu": 13.950815476621793,
+      "author": "4115",
+      "source_mean_sentence_words": 39.2,
+      "source_mean_sentence_tree_depth": 6.6,
+      "source_word_count": 196
+    },
+    {
+      "document_id": 20133954,
+      "year": 2013,
+      "chrf": 56.275603532897655,
+      "bleu": 13.483526296318576,
+      "author": "3872",
+      "source_mean_sentence_words": 22.714285714285715,
+      "source_mean_sentence_tree_depth": 4.142857142857143,
+      "source_word_count": 159
+    },
+    {
+      "document_id": 20133649,
+      "year": 2013,
+      "chrf": 56.91923488044883,
+      "bleu": 21.49223345344319,
+      "author": "3885",
+      "source_mean_sentence_words": 22.428571428571427,
+      "source_mean_sentence_tree_depth": 5.285714285714286,
+      "source_word_count": 157
+    },
+    {
+      "document_id": 20143390,
+      "year": 2014,
+      "chrf": 61.629451498977936,
+      "bleu": 28.90208669282544,
+      "author": "4077",
+      "source_mean_sentence_words": 32.142857142857146,
+      "source_mean_sentence_tree_depth": 5.857142857142857,
+      "source_word_count": 225
+    },
+    {
+      "document_id": 20143761,
+      "year": 2014,
+      "chrf": 52.273871589714574,
+      "bleu": 11.329885562085583,
+      "author": "4079",
+      "source_mean_sentence_words": 20.77777777777778,
+      "source_mean_sentence_tree_depth": 4.777777777777778,
+      "source_word_count": 187
+    },
+    {
+      "document_id": 20143567,
+      "year": 2014,
+      "chrf": 61.495945575129916,
+      "bleu": 19.601168284553157,
+      "author": "4091",
+      "source_mean_sentence_words": 26.22222222222222,
+      "source_mean_sentence_tree_depth": 5.222222222222222,
+      "source_word_count": 236
+    },
+    {
+      "document_id": 20143762,
+      "year": 2014,
+      "chrf": 60.552535973028185,
+      "bleu": 16.37739656139701,
+      "author": "3888",
+      "source_mean_sentence_words": 35.3,
+      "source_mean_sentence_tree_depth": 6.2,
+      "source_word_count": 353
+    },
+    {
+      "document_id": 20143813,
+      "year": 2014,
+      "chrf": 52.484790738123145,
+      "bleu": 11.507391818592772,
+      "author": "4074",
+      "source_mean_sentence_words": 30.5,
+      "source_mean_sentence_tree_depth": 6.4,
+      "source_word_count": 305
+    },
+    {
+      "document_id": 20143980,
+      "year": 2014,
+      "chrf": 59.537920387713115,
+      "bleu": 24.965030877449735,
+      "author": "4091",
+      "source_mean_sentence_words": 29.0,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 232
+    },
+    {
+      "document_id": 20143995,
+      "year": 2014,
+      "chrf": 49.49948409910839,
+      "bleu": 18.483795517309233,
+      "author": "1127",
+      "source_mean_sentence_words": 20.571428571428573,
+      "source_mean_sentence_tree_depth": 4.428571428571429,
+      "source_word_count": 144
+    },
+    {
+      "document_id": 20144017,
+      "year": 2014,
+      "chrf": 58.20963375336085,
+      "bleu": 19.52861477688003,
+      "author": "4077",
+      "source_mean_sentence_words": 31.75,
+      "source_mean_sentence_tree_depth": 5.875,
+      "source_word_count": 254
+    },
+    {
+      "document_id": 20144285,
+      "year": 2014,
+      "chrf": 54.586530081292615,
+      "bleu": 10.481498690071088,
+      "author": "1134",
+      "source_mean_sentence_words": 35.5,
+      "source_mean_sentence_tree_depth": 6.75,
+      "source_word_count": 142
+    },
+    {
+      "document_id": 20144298,
+      "year": 2014,
+      "chrf": 58.47553014471569,
+      "bleu": 16.98812237708082,
+      "author": "4079",
+      "source_mean_sentence_words": 25.454545454545453,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 280
+    },
+    {
+      "document_id": 20144302,
+      "year": 2014,
+      "chrf": 61.86455712209033,
+      "bleu": 26.715402800036646,
+      "author": "4143",
+      "source_mean_sentence_words": 24.545454545454547,
+      "source_mean_sentence_tree_depth": 5.454545454545454,
+      "source_word_count": 270
+    },
+    {
+      "document_id": 20143989,
+      "year": 2014,
+      "chrf": 64.32921715403977,
+      "bleu": 32.166063770484875,
+      "author": "1133",
+      "source_mean_sentence_words": 24.2,
+      "source_mean_sentence_tree_depth": 5.4,
+      "source_word_count": 121
+    },
+    {
+      "document_id": 20143288,
+      "year": 2014,
+      "chrf": 47.42584506771447,
+      "bleu": 2.954644564307416,
+      "author": "4026",
+      "source_mean_sentence_words": 18.857142857142858,
+      "source_mean_sentence_tree_depth": 3.857142857142857,
+      "source_word_count": 132
+    },
+    {
+      "document_id": 20144300,
+      "year": 2014,
+      "chrf": 60.66231988454187,
+      "bleu": 21.293116115284576,
+      "author": "4079",
+      "source_mean_sentence_words": 23.5,
+      "source_mean_sentence_tree_depth": 4.125,
+      "source_word_count": 188
+    },
+    {
+      "document_id": 20143756,
+      "year": 2014,
+      "chrf": 67.48151046912344,
+      "bleu": 41.18059120861456,
+      "author": "1127",
+      "source_mean_sentence_words": 27.375,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 219
+    },
+    {
+      "document_id": 20143310,
+      "year": 2014,
+      "chrf": 60.50642579841073,
+      "bleu": 26.109921536658085,
+      "author": "4090",
+      "source_mean_sentence_words": 31.0,
+      "source_mean_sentence_tree_depth": 6.875,
+      "source_word_count": 248
+    },
+    {
+      "document_id": 20143269,
+      "year": 2014,
+      "chrf": 61.620174473625,
+      "bleu": 20.525860602602496,
+      "author": "4137",
+      "source_mean_sentence_words": 27.666666666666668,
+      "source_mean_sentence_tree_depth": 6.333333333333333,
+      "source_word_count": 332
+    },
+    {
+      "document_id": 20143407,
+      "year": 2014,
+      "chrf": 57.29126196015086,
+      "bleu": 15.795208828266386,
+      "author": "4018",
+      "source_mean_sentence_words": 36.125,
+      "source_mean_sentence_tree_depth": 6.625,
+      "source_word_count": 289
+    },
+    {
+      "document_id": 20143031,
+      "year": 2014,
+      "chrf": 58.18919632675947,
+      "bleu": 21.799327786950805,
+      "author": "4077",
+      "source_mean_sentence_words": 32.77777777777778,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 295
+    },
+    {
+      "document_id": 20143681,
+      "year": 2014,
+      "chrf": 56.595268810859324,
+      "bleu": 19.940944282235773,
+      "author": "4086",
+      "source_mean_sentence_words": 24.8,
+      "source_mean_sentence_tree_depth": 5.4,
+      "source_word_count": 124
+    },
+    {
+      "document_id": 20143568,
+      "year": 2014,
+      "chrf": 58.537475682723496,
+      "bleu": 17.82536857979115,
+      "author": "4136",
+      "source_mean_sentence_words": 26.846153846153847,
+      "source_mean_sentence_tree_depth": 5.923076923076923,
+      "source_word_count": 349
+    },
+    {
+      "document_id": 20143759,
+      "year": 2014,
+      "chrf": 62.142121037294785,
+      "bleu": 27.911713017027243,
+      "author": "1127",
+      "source_mean_sentence_words": 17.789473684210527,
+      "source_mean_sentence_tree_depth": 3.8421052631578947,
+      "source_word_count": 338
+    },
+    {
+      "document_id": 20143093,
+      "year": 2014,
+      "chrf": 64.50108397533879,
+      "bleu": 25.04487456189568,
+      "author": "1127",
+      "source_mean_sentence_words": 25.571428571428573,
+      "source_mean_sentence_tree_depth": 5.428571428571429,
+      "source_word_count": 358
+    },
+    {
+      "document_id": 20153081,
+      "year": 2015,
+      "chrf": 55.25803780931498,
+      "bleu": 10.531100930824666,
+      "author": "1119",
+      "source_mean_sentence_words": 24.23076923076923,
+      "source_mean_sentence_tree_depth": 5.076923076923077,
+      "source_word_count": 315
+    },
+    {
+      "document_id": 20153780,
+      "year": 2015,
+      "chrf": 57.571269962322006,
+      "bleu": 11.2700048408098,
+      "author": "4079",
+      "source_mean_sentence_words": 18.266666666666666,
+      "source_mean_sentence_tree_depth": 4.4,
+      "source_word_count": 274
+    },
+    {
+      "document_id": 20154097,
+      "year": 2015,
+      "chrf": 67.02568476656779,
+      "bleu": 26.426202976576505,
+      "author": "4077",
+      "source_mean_sentence_words": 36.22222222222222,
+      "source_mean_sentence_tree_depth": 6.333333333333333,
+      "source_word_count": 326
+    },
+    {
+      "document_id": 20153025,
+      "year": 2015,
+      "chrf": 55.685284240158396,
+      "bleu": 16.098222820502144,
+      "author": "4137",
+      "source_mean_sentence_words": 21.545454545454547,
+      "source_mean_sentence_tree_depth": 5.2727272727272725,
+      "source_word_count": 237
+    },
+    {
+      "document_id": 20153944,
+      "year": 2015,
+      "chrf": 54.53868191777054,
+      "bleu": 12.6042237430718,
+      "author": "3885",
+      "source_mean_sentence_words": 29.0,
+      "source_mean_sentence_tree_depth": 6.125,
+      "source_word_count": 232
+    },
+    {
+      "document_id": 20154011,
+      "year": 2015,
+      "chrf": 55.365835254584454,
+      "bleu": 24.07490407111675,
+      "author": "1127",
+      "source_mean_sentence_words": 46.25,
+      "source_mean_sentence_tree_depth": 7.75,
+      "source_word_count": 185
+    },
+    {
+      "document_id": 20154103,
+      "year": 2015,
+      "chrf": 64.18785582785182,
+      "bleu": 25.682646254245256,
+      "author": "1148",
+      "source_mean_sentence_words": 36.44444444444444,
+      "source_mean_sentence_tree_depth": 6.444444444444445,
+      "source_word_count": 328
+    },
+    {
+      "document_id": 20154174,
+      "year": 2015,
+      "chrf": 60.579740600026575,
+      "bleu": 14.482314398608507,
+      "author": "4077",
+      "source_mean_sentence_words": 29.333333333333332,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 352
+    },
+    {
+      "document_id": 20154198,
+      "year": 2015,
+      "chrf": 53.86832911681056,
+      "bleu": 14.520248552686592,
+      "author": "4183",
+      "source_mean_sentence_words": 18.8,
+      "source_mean_sentence_tree_depth": 4.4,
+      "source_word_count": 188
+    },
+    {
+      "document_id": 20154268,
+      "year": 2015,
+      "chrf": 58.65061727352718,
+      "bleu": 14.693095885409162,
+      "author": "305",
+      "source_mean_sentence_words": 36.875,
+      "source_mean_sentence_tree_depth": 7.375,
+      "source_word_count": 295
+    },
+    {
+      "document_id": 20154173,
+      "year": 2015,
+      "chrf": 65.8395167051285,
+      "bleu": 30.914158879403338,
+      "author": "4193",
+      "source_mean_sentence_words": 18.210526315789473,
+      "source_mean_sentence_tree_depth": 4.052631578947368,
+      "source_word_count": 346
+    },
+    {
+      "document_id": 20153048,
+      "year": 2015,
+      "chrf": 56.401297458402176,
+      "bleu": 13.575212510796737,
+      "author": "1120",
+      "source_mean_sentence_words": 33.666666666666664,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 202
+    },
+    {
+      "document_id": 20153150,
+      "year": 2015,
+      "chrf": 62.26350511964122,
+      "bleu": 20.400558674126515,
+      "author": "3884",
+      "source_mean_sentence_words": 34.333333333333336,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 206
+    },
+    {
+      "document_id": 20153575,
+      "year": 2015,
+      "chrf": 59.355154520203925,
+      "bleu": 19.762325602755837,
+      "author": "3923",
+      "source_mean_sentence_words": 23.25,
+      "source_mean_sentence_tree_depth": 5.166666666666667,
+      "source_word_count": 279
+    },
+    {
+      "document_id": 20153145,
+      "year": 2015,
+      "chrf": 57.83016188272478,
+      "bleu": 17.818194383060955,
+      "author": "1127",
+      "source_mean_sentence_words": 26.333333333333332,
+      "source_mean_sentence_tree_depth": 5.888888888888889,
+      "source_word_count": 237
+    },
+    {
+      "document_id": 20154160,
+      "year": 2015,
+      "chrf": 54.025501660643485,
+      "bleu": 15.096154281999008,
+      "author": "4108",
+      "source_mean_sentence_words": 23.0,
+      "source_mean_sentence_tree_depth": 5.7272727272727275,
+      "source_word_count": 253
+    },
+    {
+      "document_id": 20154248,
+      "year": 2015,
+      "chrf": 55.78859171102592,
+      "bleu": 12.908631211426963,
+      "author": "4154",
+      "source_mean_sentence_words": 33.888888888888886,
+      "source_mean_sentence_tree_depth": 5.555555555555555,
+      "source_word_count": 305
+    },
+    {
+      "document_id": 20154133,
+      "year": 2015,
+      "chrf": 54.05280967397172,
+      "bleu": 23.56240861412388,
+      "author": "4090",
+      "source_mean_sentence_words": 32.25,
+      "source_mean_sentence_tree_depth": 8.0,
+      "source_word_count": 129
+    },
+    {
+      "document_id": 20153586,
+      "year": 2015,
+      "chrf": 60.115143396823925,
+      "bleu": 19.834631065232124,
+      "author": "1120",
+      "source_mean_sentence_words": 34.285714285714285,
+      "source_mean_sentence_tree_depth": 7.142857142857143,
+      "source_word_count": 240
+    },
+    {
+      "document_id": 20154192,
+      "year": 2015,
+      "chrf": 57.57555286957421,
+      "bleu": 18.883381275847317,
+      "author": "3885",
+      "source_mean_sentence_words": 34.55555555555556,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 311
+    },
+    {
+      "document_id": 20153975,
+      "year": 2015,
+      "chrf": 60.18562547919611,
+      "bleu": 23.62446413015624,
+      "author": "4108",
+      "source_mean_sentence_words": 19.428571428571427,
+      "source_mean_sentence_tree_depth": 4.142857142857143,
+      "source_word_count": 136
+    },
+    {
+      "document_id": 20153573,
+      "year": 2015,
+      "chrf": 55.946408621952024,
+      "bleu": 16.199499408364634,
+      "author": "1127",
+      "source_mean_sentence_words": 31.375,
+      "source_mean_sentence_tree_depth": 7.5,
+      "source_word_count": 251
+    },
+    {
+      "document_id": 20153792,
+      "year": 2015,
+      "chrf": 61.5117086947886,
+      "bleu": 18.249464508324234,
+      "author": "4026",
+      "source_mean_sentence_words": 22.125,
+      "source_mean_sentence_tree_depth": 5.625,
+      "source_word_count": 177
+    },
+    {
+      "document_id": 20164070,
+      "year": 2016,
+      "chrf": 49.12384438153556,
+      "bleu": 11.911171572972567,
+      "author": "4091",
+      "source_mean_sentence_words": 43.6,
+      "source_mean_sentence_tree_depth": 5.8,
+      "source_word_count": 436
+    },
+    {
+      "document_id": 20163035,
+      "year": 2016,
+      "chrf": 59.567421446285685,
+      "bleu": 26.52482312238834,
+      "author": "4077",
+      "source_mean_sentence_words": 25.615384615384617,
+      "source_mean_sentence_tree_depth": 5.076923076923077,
+      "source_word_count": 333
+    },
+    {
+      "document_id": 20163049,
+      "year": 2016,
+      "chrf": 57.950419148498,
+      "bleu": 22.140964870833027,
+      "author": "4077",
+      "source_mean_sentence_words": 22.923076923076923,
+      "source_mean_sentence_tree_depth": 5.538461538461538,
+      "source_word_count": 298
+    },
+    {
+      "document_id": 20163068,
+      "year": 2016,
+      "chrf": 50.89860263513012,
+      "bleu": 10.075009414684741,
+      "author": "4079",
+      "source_mean_sentence_words": 22.0,
+      "source_mean_sentence_tree_depth": 5.714285714285714,
+      "source_word_count": 154
+    },
+    {
+      "document_id": 20163212,
+      "year": 2016,
+      "chrf": 60.00598021168083,
+      "bleu": 16.04967390737111,
+      "author": "4194",
+      "source_mean_sentence_words": 34.833333333333336,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 209
+    },
+    {
+      "document_id": 20163604,
+      "year": 2016,
+      "chrf": 51.35307164585101,
+      "bleu": 13.3661683982016,
+      "author": "4079",
+      "source_mean_sentence_words": 35.4,
+      "source_mean_sentence_tree_depth": 5.4,
+      "source_word_count": 177
+    },
+    {
+      "document_id": 20163612,
+      "year": 2016,
+      "chrf": 59.56527713410647,
+      "bleu": 28.37144696585329,
+      "author": "4154",
+      "source_mean_sentence_words": 18.181818181818183,
+      "source_mean_sentence_tree_depth": 3.909090909090909,
+      "source_word_count": 200
+    },
+    {
+      "document_id": 20163685,
+      "year": 2016,
+      "chrf": 61.6916249385423,
+      "bleu": 25.882783404401216,
+      "author": "1124",
+      "source_mean_sentence_words": 27.583333333333332,
+      "source_mean_sentence_tree_depth": 5.083333333333333,
+      "source_word_count": 331
+    },
+    {
+      "document_id": 20163830,
+      "year": 2016,
+      "chrf": 57.41160999267693,
+      "bleu": 18.55269607420238,
+      "author": "4169",
+      "source_mean_sentence_words": 25.833333333333332,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 155
+    },
+    {
+      "document_id": 20164082,
+      "year": 2016,
+      "chrf": 58.64677085899574,
+      "bleu": 25.650283869674325,
+      "author": "1150",
+      "source_mean_sentence_words": 24.636363636363637,
+      "source_mean_sentence_tree_depth": 4.818181818181818,
+      "source_word_count": 271
+    },
+    {
+      "document_id": 20163689,
+      "year": 2016,
+      "chrf": 53.83521137048972,
+      "bleu": 22.260949730011838,
+      "author": "4086",
+      "source_mean_sentence_words": 24.166666666666668,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 145
+    },
+    {
+      "document_id": 20163494,
+      "year": 2016,
+      "chrf": 56.41225077050114,
+      "bleu": 6.866460337577308,
+      "author": "341",
+      "source_mean_sentence_words": 30.727272727272727,
+      "source_mean_sentence_tree_depth": 6.454545454545454,
+      "source_word_count": 338
+    },
+    {
+      "document_id": 20163329,
+      "year": 2016,
+      "chrf": 58.37392718504121,
+      "bleu": 17.39718544692552,
+      "author": "4168",
+      "source_mean_sentence_words": 39.0,
+      "source_mean_sentence_tree_depth": 6.444444444444445,
+      "source_word_count": 351
+    },
+    {
+      "document_id": 20163877,
+      "year": 2016,
+      "chrf": 52.75667641837342,
+      "bleu": 21.447549551298142,
+      "author": "3885",
+      "source_mean_sentence_words": 26.5,
+      "source_mean_sentence_tree_depth": 5.2,
+      "source_word_count": 265
+    },
+    {
+      "document_id": 20163996,
+      "year": 2016,
+      "chrf": 56.92050379482719,
+      "bleu": 20.46524254347263,
+      "author": "4107",
+      "source_mean_sentence_words": 29.88888888888889,
+      "source_mean_sentence_tree_depth": 5.111111111111111,
+      "source_word_count": 269
+    },
+    {
+      "document_id": 20163069,
+      "year": 2016,
+      "chrf": 58.11111870801269,
+      "bleu": 23.241150295321543,
+      "author": "4135",
+      "source_mean_sentence_words": 25.77777777777778,
+      "source_mean_sentence_tree_depth": 5.111111111111111,
+      "source_word_count": 232
+    },
+    {
+      "document_id": 20163476,
+      "year": 2016,
+      "chrf": 55.18667254039444,
+      "bleu": 12.846774879635587,
+      "author": "4108",
+      "source_mean_sentence_words": 27.0,
+      "source_mean_sentence_tree_depth": 5.909090909090909,
+      "source_word_count": 297
+    },
+    {
+      "document_id": 20164126,
+      "year": 2016,
+      "chrf": 69.68262006060101,
+      "bleu": 33.25464198116526,
+      "author": "4186",
+      "source_mean_sentence_words": 38.0,
+      "source_mean_sentence_tree_depth": 6.285714285714286,
+      "source_word_count": 266
+    },
+    {
+      "document_id": 20163941,
+      "year": 2016,
+      "chrf": 59.218694304869324,
+      "bleu": 23.765784106632527,
+      "author": "4077",
+      "source_mean_sentence_words": 24.166666666666668,
+      "source_mean_sentence_tree_depth": 4.833333333333333,
+      "source_word_count": 290
+    },
+    {
+      "document_id": 20163414,
+      "year": 2016,
+      "chrf": 50.961014521925904,
+      "bleu": 3.697443215622601,
+      "author": "4182",
+      "source_mean_sentence_words": 20.0,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 80
+    },
+    {
+      "document_id": 20163215,
+      "year": 2016,
+      "chrf": 61.81354464315875,
+      "bleu": 22.969434827922804,
+      "author": "4109",
+      "source_mean_sentence_words": 38.25,
+      "source_mean_sentence_tree_depth": 8.125,
+      "source_word_count": 306
+    },
+    {
+      "document_id": 20163189,
+      "year": 2016,
+      "chrf": 58.549080642192244,
+      "bleu": 28.79857180741745,
+      "author": "4091",
+      "source_mean_sentence_words": 24.818181818181817,
+      "source_mean_sentence_tree_depth": 5.909090909090909,
+      "source_word_count": 273
+    },
+    {
+      "document_id": 20163297,
+      "year": 2016,
+      "chrf": 54.246915066742055,
+      "bleu": 15.710879496997524,
+      "author": "4079",
+      "source_mean_sentence_words": 27.0,
+      "source_mean_sentence_tree_depth": 6.25,
+      "source_word_count": 108
+    },
+    {
+      "document_id": 20173849,
+      "year": 2017,
+      "chrf": 58.8160053039918,
+      "bleu": 12.039609381147953,
+      "author": "4182",
+      "source_mean_sentence_words": 21.4,
+      "source_mean_sentence_tree_depth": 5.4,
+      "source_word_count": 107
+    },
+    {
+      "document_id": 20174092,
+      "year": 2017,
+      "chrf": 53.271553276864324,
+      "bleu": 15.815937831502579,
+      "author": "4193",
+      "source_mean_sentence_words": 26.363636363636363,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 290
+    },
+    {
+      "document_id": 20173226,
+      "year": 2017,
+      "chrf": 49.653461884741795,
+      "bleu": 14.337648777857908,
+      "author": "4079",
+      "source_mean_sentence_words": 48.0,
+      "source_mean_sentence_tree_depth": 6.666666666666667,
+      "source_word_count": 144
+    },
+    {
+      "document_id": 20173231,
+      "year": 2017,
+      "chrf": 54.43207395684717,
+      "bleu": 16.329635799000144,
+      "author": "4154",
+      "source_mean_sentence_words": 33.0,
+      "source_mean_sentence_tree_depth": 6.714285714285714,
+      "source_word_count": 231
+    },
+    {
+      "document_id": 20173760,
+      "year": 2017,
+      "chrf": 56.68847495361948,
+      "bleu": 18.271760476965266,
+      "author": "4077",
+      "source_mean_sentence_words": 24.666666666666668,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 296
+    },
+    {
+      "document_id": 20173815,
+      "year": 2017,
+      "chrf": 62.8334403927055,
+      "bleu": 19.95501897694077,
+      "author": "4183",
+      "source_mean_sentence_words": 22.0,
+      "source_mean_sentence_tree_depth": 4.3076923076923075,
+      "source_word_count": 286
+    },
+    {
+      "document_id": 20173907,
+      "year": 2017,
+      "chrf": 52.42688011758238,
+      "bleu": 11.161095159229587,
+      "author": "4194",
+      "source_mean_sentence_words": 32.125,
+      "source_mean_sentence_tree_depth": 6.5,
+      "source_word_count": 257
+    },
+    {
+      "document_id": 20173923,
+      "year": 2017,
+      "chrf": 53.328521955671214,
+      "bleu": 13.181954446876048,
+      "author": "4193",
+      "source_mean_sentence_words": 35.285714285714285,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 247
+    },
+    {
+      "document_id": 20174007,
+      "year": 2017,
+      "chrf": 57.112348753544495,
+      "bleu": 16.30855054129655,
+      "author": "4213",
+      "source_mean_sentence_words": 34.833333333333336,
+      "source_mean_sentence_tree_depth": 6.5,
+      "source_word_count": 209
+    },
+    {
+      "document_id": 20174238,
+      "year": 2017,
+      "chrf": 59.72187011406886,
+      "bleu": 22.328396900595468,
+      "author": "4213",
+      "source_mean_sentence_words": 35.44444444444444,
+      "source_mean_sentence_tree_depth": 7.444444444444445,
+      "source_word_count": 319
+    },
+    {
+      "document_id": 20173458,
+      "year": 2017,
+      "chrf": 51.56007212749517,
+      "bleu": 12.39453001055264,
+      "author": "4193",
+      "source_mean_sentence_words": 23.375,
+      "source_mean_sentence_tree_depth": 5.75,
+      "source_word_count": 187
+    },
+    {
+      "document_id": 20174279,
+      "year": 2017,
+      "chrf": 56.37593733271138,
+      "bleu": 17.498991009916125,
+      "author": "4137",
+      "source_mean_sentence_words": 29.8,
+      "source_mean_sentence_tree_depth": 5.2,
+      "source_word_count": 298
+    },
+    {
+      "document_id": 20173477,
+      "year": 2017,
+      "chrf": 57.29136540239569,
+      "bleu": 16.741983982286992,
+      "author": "4086",
+      "source_mean_sentence_words": 36.857142857142854,
+      "source_mean_sentence_tree_depth": 7.142857142857143,
+      "source_word_count": 258
+    },
+    {
+      "document_id": 20173242,
+      "year": 2017,
+      "chrf": 56.80932215503823,
+      "bleu": 19.158579107268935,
+      "author": "4137",
+      "source_mean_sentence_words": 36.333333333333336,
+      "source_mean_sentence_tree_depth": 5.666666666666667,
+      "source_word_count": 218
+    },
+    {
+      "document_id": 20173457,
+      "year": 2017,
+      "chrf": 48.0939190535485,
+      "bleu": 12.797765544261653,
+      "author": "4193",
+      "source_mean_sentence_words": 30.833333333333332,
+      "source_mean_sentence_tree_depth": 7.166666666666667,
+      "source_word_count": 185
+    },
+    {
+      "document_id": 20173901,
+      "year": 2017,
+      "chrf": 53.99382336336597,
+      "bleu": 18.09444166720151,
+      "author": "4137",
+      "source_mean_sentence_words": 26.833333333333332,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 161
+    },
+    {
+      "document_id": 20173818,
+      "year": 2017,
+      "chrf": 59.04129250637813,
+      "bleu": 27.40688622121415,
+      "author": "4182",
+      "source_mean_sentence_words": 25.4,
+      "source_mean_sentence_tree_depth": 4.6,
+      "source_word_count": 254
+    },
+    {
+      "document_id": 20173597,
+      "year": 2017,
+      "chrf": 58.54703937932637,
+      "bleu": 20.43262444491116,
+      "author": "4186",
+      "source_mean_sentence_words": 29.818181818181817,
+      "source_mean_sentence_tree_depth": 4.909090909090909,
+      "source_word_count": 328
+    },
+    {
+      "document_id": 20173117,
+      "year": 2017,
+      "chrf": 64.48798451929244,
+      "bleu": 29.031525964229242,
+      "author": "4091",
+      "source_mean_sentence_words": 21.857142857142858,
+      "source_mean_sentence_tree_depth": 5.285714285714286,
+      "source_word_count": 153
+    },
+    {
+      "document_id": 20174287,
+      "year": 2017,
+      "chrf": 57.9453724016182,
+      "bleu": 16.585501438296184,
+      "author": "4079",
+      "source_mean_sentence_words": 22.0,
+      "source_mean_sentence_tree_depth": 4.5,
+      "source_word_count": 264
+    },
+    {
+      "document_id": 20173692,
+      "year": 2017,
+      "chrf": 62.310401722883455,
+      "bleu": 24.050999097409143,
+      "author": "4195",
+      "source_mean_sentence_words": 20.416666666666668,
+      "source_mean_sentence_tree_depth": 4.916666666666667,
+      "source_word_count": 245
+    },
+    {
+      "document_id": 20173772,
+      "year": 2017,
+      "chrf": 56.887514381851524,
+      "bleu": 21.793924834784676,
+      "author": "3883",
+      "source_mean_sentence_words": 23.4,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 234
+    },
+    {
+      "document_id": 20173053,
+      "year": 2017,
+      "chrf": 52.48128531423022,
+      "bleu": 21.42148498640417,
+      "author": "4077",
+      "source_mean_sentence_words": 25.5,
+      "source_mean_sentence_tree_depth": 5.875,
+      "source_word_count": 204
+    },
+    {
+      "document_id": 20183993,
+      "year": 2018,
+      "chrf": 54.2937896206388,
+      "bleu": 10.716814517133056,
+      "author": "4220",
+      "source_mean_sentence_words": 17.25,
+      "source_mean_sentence_tree_depth": 4.2,
+      "source_word_count": 345
+    },
+    {
+      "document_id": 20184225,
+      "year": 2018,
+      "chrf": 58.177217581128595,
+      "bleu": 23.37797432763575,
+      "author": "4194",
+      "source_mean_sentence_words": 27.357142857142858,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 383
+    },
+    {
+      "document_id": 20183184,
+      "year": 2018,
+      "chrf": 62.913643050577114,
+      "bleu": 23.59796738127208,
+      "author": "4169",
+      "source_mean_sentence_words": 38.0,
+      "source_mean_sentence_tree_depth": 6.571428571428571,
+      "source_word_count": 266
+    },
+    {
+      "document_id": 20183241,
+      "year": 2018,
+      "chrf": 66.89255517984753,
+      "bleu": 21.764276515406447,
+      "author": "1148",
+      "source_mean_sentence_words": 20.90909090909091,
+      "source_mean_sentence_tree_depth": 4.181818181818182,
+      "source_word_count": 230
+    },
+    {
+      "document_id": 20183338,
+      "year": 2018,
+      "chrf": 55.749119844482195,
+      "bleu": 13.098329892861699,
+      "author": "4154",
+      "source_mean_sentence_words": 21.2,
+      "source_mean_sentence_tree_depth": 4.4,
+      "source_word_count": 212
+    },
+    {
+      "document_id": 20183432,
+      "year": 2018,
+      "chrf": 62.64547235523836,
+      "bleu": 16.86364468332022,
+      "author": "3907",
+      "source_mean_sentence_words": 24.46153846153846,
+      "source_mean_sentence_tree_depth": 5.846153846153846,
+      "source_word_count": 318
+    },
+    {
+      "document_id": 20184008,
+      "year": 2018,
+      "chrf": 58.81517431427924,
+      "bleu": 25.953683424034207,
+      "author": "4220",
+      "source_mean_sentence_words": 32.8,
+      "source_mean_sentence_tree_depth": 6.9,
+      "source_word_count": 328
+    },
+    {
+      "document_id": 20184034,
+      "year": 2018,
+      "chrf": 58.05959373639049,
+      "bleu": 16.268694414910367,
+      "author": "4213",
+      "source_mean_sentence_words": 27.2,
+      "source_mean_sentence_tree_depth": 4.8,
+      "source_word_count": 136
+    },
+    {
+      "document_id": 20184219,
+      "year": 2018,
+      "chrf": 54.70245675108607,
+      "bleu": 17.20993278475136,
+      "author": "3883",
+      "source_mean_sentence_words": 27.833333333333332,
+      "source_mean_sentence_tree_depth": 7.5,
+      "source_word_count": 167
+    },
+    {
+      "document_id": 20184330,
+      "year": 2018,
+      "chrf": 66.89622540363445,
+      "bleu": 31.061228034412434,
+      "author": "4186",
+      "source_mean_sentence_words": 24.357142857142858,
+      "source_mean_sentence_tree_depth": 5.785714285714286,
+      "source_word_count": 341
+    },
+    {
+      "document_id": 20183128,
+      "year": 2018,
+      "chrf": 55.3184334765304,
+      "bleu": 19.86339857874896,
+      "author": "4169",
+      "source_mean_sentence_words": 23.375,
+      "source_mean_sentence_tree_depth": 5.25,
+      "source_word_count": 187
+    },
+    {
+      "document_id": 20183579,
+      "year": 2018,
+      "chrf": 60.161612569867195,
+      "bleu": 25.815759789292194,
+      "author": "4154",
+      "source_mean_sentence_words": 25.125,
+      "source_mean_sentence_tree_depth": 6.125,
+      "source_word_count": 201
+    },
+    {
+      "document_id": 20184360,
+      "year": 2018,
+      "chrf": 59.63191203059003,
+      "bleu": 23.10397982149515,
+      "author": "4182",
+      "source_mean_sentence_words": 21.0,
+      "source_mean_sentence_tree_depth": 4.75,
+      "source_word_count": 252
+    },
+    {
+      "document_id": 20183617,
+      "year": 2018,
+      "chrf": 63.37965132303229,
+      "bleu": 34.43719163675066,
+      "author": "4182",
+      "source_mean_sentence_words": 16.76923076923077,
+      "source_mean_sentence_tree_depth": 3.8461538461538463,
+      "source_word_count": 218
+    },
+    {
+      "document_id": 20183616,
+      "year": 2018,
+      "chrf": 58.692032125412155,
+      "bleu": 20.206597101382137,
+      "author": "3885",
+      "source_mean_sentence_words": 34.142857142857146,
+      "source_mean_sentence_tree_depth": 6.428571428571429,
+      "source_word_count": 239
+    },
+    {
+      "document_id": 20183500,
+      "year": 2018,
+      "chrf": 51.76958859405887,
+      "bleu": 15.851186713445726,
+      "author": "4193",
+      "source_mean_sentence_words": 28.142857142857142,
+      "source_mean_sentence_tree_depth": 5.571428571428571,
+      "source_word_count": 197
+    },
+    {
+      "document_id": 20183249,
+      "year": 2018,
+      "chrf": 62.95033306838956,
+      "bleu": 23.72921715679977,
+      "author": "4183",
+      "source_mean_sentence_words": 24.7,
+      "source_mean_sentence_tree_depth": 5.4,
+      "source_word_count": 247
+    },
+    {
+      "document_id": 20183313,
+      "year": 2018,
+      "chrf": 64.06007688416874,
+      "bleu": 24.406957652389924,
+      "author": "4137",
+      "source_mean_sentence_words": 29.083333333333332,
+      "source_mean_sentence_tree_depth": 5.25,
+      "source_word_count": 349
+    },
+    {
+      "document_id": 20183603,
+      "year": 2018,
+      "chrf": 60.69485913303099,
+      "bleu": 18.8971612055827,
+      "author": "4183",
+      "source_mean_sentence_words": 24.5,
+      "source_mean_sentence_tree_depth": 5.071428571428571,
+      "source_word_count": 343
+    },
+    {
+      "document_id": 20184020,
+      "year": 2018,
+      "chrf": 54.57706231347777,
+      "bleu": 16.568791344090723,
+      "author": "1279",
+      "source_mean_sentence_words": 23.545454545454547,
+      "source_mean_sentence_tree_depth": 5.909090909090909,
+      "source_word_count": 259
+    },
+    {
+      "document_id": 20183804,
+      "year": 2018,
+      "chrf": 49.82668193141849,
+      "bleu": 12.025379829509315,
+      "author": "4087",
+      "source_mean_sentence_words": 37.0,
+      "source_mean_sentence_tree_depth": 6.142857142857143,
+      "source_word_count": 259
+    },
+    {
+      "document_id": 20183753,
+      "year": 2018,
+      "chrf": 62.34741465214467,
+      "bleu": 26.102107420387387,
+      "author": "4193",
+      "source_mean_sentence_words": 26.77777777777778,
+      "source_mean_sentence_tree_depth": 5.666666666666667,
+      "source_word_count": 241
+    },
+    {
+      "document_id": 20184282,
+      "year": 2018,
+      "chrf": 64.31877160899631,
+      "bleu": 25.414125564371247,
+      "author": "3879",
+      "source_mean_sentence_words": 35.642857142857146,
+      "source_mean_sentence_tree_depth": 7.214285714285714,
+      "source_word_count": 499
+    },
+    {
+      "document_id": 20193466,
+      "year": 2019,
+      "chrf": 51.87349736225105,
+      "bleu": 16.49147231085401,
+      "author": "4154",
+      "source_mean_sentence_words": 24.272727272727273,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 267
+    },
+    {
+      "document_id": 20193884,
+      "year": 2019,
+      "chrf": 60.81358409314953,
+      "bleu": 16.24002221495719,
+      "author": "4079",
+      "source_mean_sentence_words": 20.416666666666668,
+      "source_mean_sentence_tree_depth": 4.083333333333333,
+      "source_word_count": 245
+    },
+    {
+      "document_id": 20194177,
+      "year": 2019,
+      "chrf": 64.38118695696181,
+      "bleu": 27.71529949372692,
+      "author": "3916",
+      "source_mean_sentence_words": 26.0,
+      "source_mean_sentence_tree_depth": 5.578947368421052,
+      "source_word_count": 494
+    },
+    {
+      "document_id": 20193058,
+      "year": 2019,
+      "chrf": 61.04606315846498,
+      "bleu": 21.898388835774455,
+      "author": "4091",
+      "source_mean_sentence_words": 24.727272727272727,
+      "source_mean_sentence_tree_depth": 5.2727272727272725,
+      "source_word_count": 272
+    },
+    {
+      "document_id": 20193309,
+      "year": 2019,
+      "chrf": 54.60956513826355,
+      "bleu": 20.230645103451604,
+      "author": "4154",
+      "source_mean_sentence_words": 26.166666666666668,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 157
+    },
+    {
+      "document_id": 20193399,
+      "year": 2019,
+      "chrf": 57.13986916459864,
+      "bleu": 16.08209277612308,
+      "author": "4137",
+      "source_mean_sentence_words": 24.77777777777778,
+      "source_mean_sentence_tree_depth": 5.111111111111111,
+      "source_word_count": 223
+    },
+    {
+      "document_id": 20193608,
+      "year": 2019,
+      "chrf": 56.632572730754525,
+      "bleu": 16.149657823219712,
+      "author": "4219",
+      "source_mean_sentence_words": 39.1,
+      "source_mean_sentence_tree_depth": 6.8,
+      "source_word_count": 391
+    },
+    {
+      "document_id": 20194035,
+      "year": 2019,
+      "chrf": 59.9863859235209,
+      "bleu": 27.755993342374946,
+      "author": "1120",
+      "source_mean_sentence_words": 18.8,
+      "source_mean_sentence_tree_depth": 3.9,
+      "source_word_count": 188
+    },
+    {
+      "document_id": 20194164,
+      "year": 2019,
+      "chrf": 62.21496286882201,
+      "bleu": 23.40266021947848,
+      "author": "4154",
+      "source_mean_sentence_words": 26.307692307692307,
+      "source_mean_sentence_tree_depth": 4.538461538461538,
+      "source_word_count": 342
+    },
+    {
+      "document_id": 20194434,
+      "year": 2019,
+      "chrf": 54.41482742337794,
+      "bleu": 17.09187370569653,
+      "author": "4278",
+      "source_mean_sentence_words": 30.636363636363637,
+      "source_mean_sentence_tree_depth": 6.545454545454546,
+      "source_word_count": 337
+    },
+    {
+      "document_id": 20193434,
+      "year": 2019,
+      "chrf": 57.55983599590599,
+      "bleu": 23.53983772455299,
+      "author": "4193",
+      "source_mean_sentence_words": 24.88888888888889,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 224
+    },
+    {
+      "document_id": 20193237,
+      "year": 2019,
+      "chrf": 57.1715772358155,
+      "bleu": 18.93948081365744,
+      "author": "3916",
+      "source_mean_sentence_words": 37.44444444444444,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 337
+    },
+    {
+      "document_id": 20194100,
+      "year": 2019,
+      "chrf": 52.96682641321273,
+      "bleu": 15.613679371405794,
+      "author": "3872",
+      "source_mean_sentence_words": 33.0,
+      "source_mean_sentence_tree_depth": 6.5,
+      "source_word_count": 198
+    },
+    {
+      "document_id": 20193750,
+      "year": 2019,
+      "chrf": 60.326088314061245,
+      "bleu": 17.84649135251359,
+      "author": "3879",
+      "source_mean_sentence_words": 31.727272727272727,
+      "source_mean_sentence_tree_depth": 5.636363636363637,
+      "source_word_count": 349
+    },
+    {
+      "document_id": 20193307,
+      "year": 2019,
+      "chrf": 60.30208569252786,
+      "bleu": 22.767698985774743,
+      "author": "4154",
+      "source_mean_sentence_words": 22.3,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 223
+    },
+    {
+      "document_id": 20194365,
+      "year": 2019,
+      "chrf": 57.23945457741873,
+      "bleu": 20.96034726499678,
+      "author": "1120",
+      "source_mean_sentence_words": 33.888888888888886,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 305
+    },
+    {
+      "document_id": 20193815,
+      "year": 2019,
+      "chrf": 57.83021906278173,
+      "bleu": 23.056253758889312,
+      "author": "4220",
+      "source_mean_sentence_words": 21.733333333333334,
+      "source_mean_sentence_tree_depth": 4.2,
+      "source_word_count": 326
+    },
+    {
+      "document_id": 20194149,
+      "year": 2019,
+      "chrf": 54.0012518524064,
+      "bleu": 7.7172766486230495,
+      "author": "3923",
+      "source_mean_sentence_words": 15.88888888888889,
+      "source_mean_sentence_tree_depth": 4.666666666666667,
+      "source_word_count": 143
+    },
+    {
+      "document_id": 20193551,
+      "year": 2019,
+      "chrf": 61.82369960764483,
+      "bleu": 23.804515944672993,
+      "author": "4169",
+      "source_mean_sentence_words": 27.307692307692307,
+      "source_mean_sentence_tree_depth": 5.615384615384615,
+      "source_word_count": 355
+    },
+    {
+      "document_id": 20193451,
+      "year": 2019,
+      "chrf": 54.9700827806196,
+      "bleu": 21.870546847271488,
+      "author": "4154",
+      "source_mean_sentence_words": 18.7,
+      "source_mean_sentence_tree_depth": 4.3,
+      "source_word_count": 187
+    },
+    {
+      "document_id": 20193320,
+      "year": 2019,
+      "chrf": 61.17523855570577,
+      "bleu": 21.703387388169933,
+      "author": "4074",
+      "source_mean_sentence_words": 32.72727272727273,
+      "source_mean_sentence_tree_depth": 5.363636363636363,
+      "source_word_count": 360
+    },
+    {
+      "document_id": 20193121,
+      "year": 2019,
+      "chrf": 59.46201301350369,
+      "bleu": 19.473483181200965,
+      "author": "4156",
+      "source_mean_sentence_words": 21.4,
+      "source_mean_sentence_tree_depth": 5.4,
+      "source_word_count": 107
+    },
+    {
+      "document_id": 20193883,
+      "year": 2019,
+      "chrf": 54.74652072678644,
+      "bleu": 18.87173829721899,
+      "author": "3885",
+      "source_mean_sentence_words": 31.142857142857142,
+      "source_mean_sentence_tree_depth": 6.285714285714286,
+      "source_word_count": 218
+    },
+    {
+      "document_id": 20203264,
+      "year": 2020,
+      "chrf": 56.49133939953151,
+      "bleu": 12.747314500016605,
+      "author": "4154",
+      "source_mean_sentence_words": 27.8,
+      "source_mean_sentence_tree_depth": 3.9,
+      "source_word_count": 278
+    },
+    {
+      "document_id": 20203335,
+      "year": 2020,
+      "chrf": 52.52747280009748,
+      "bleu": 12.67886558891725,
+      "author": "4301",
+      "source_mean_sentence_words": 28.6,
+      "source_mean_sentence_tree_depth": 6.2,
+      "source_word_count": 286
+    },
+    {
+      "document_id": 20203069,
+      "year": 2020,
+      "chrf": 59.090470886191625,
+      "bleu": 21.474745534469474,
+      "author": "4280",
+      "source_mean_sentence_words": 34.55555555555556,
+      "source_mean_sentence_tree_depth": 6.666666666666667,
+      "source_word_count": 311
+    },
+    {
+      "document_id": 20203116,
+      "year": 2020,
+      "chrf": 54.59546974877164,
+      "bleu": 19.869073787527757,
+      "author": "4272",
+      "source_mean_sentence_words": 16.9375,
+      "source_mean_sentence_tree_depth": 3.625,
+      "source_word_count": 271
+    },
+    {
+      "document_id": 20203255,
+      "year": 2020,
+      "chrf": 55.611692848653284,
+      "bleu": 14.133837717377594,
+      "author": "4272",
+      "source_mean_sentence_words": 36.111111111111114,
+      "source_mean_sentence_tree_depth": 6.333333333333333,
+      "source_word_count": 325
+    },
+    {
+      "document_id": 20203637,
+      "year": 2020,
+      "chrf": 54.22029377914052,
+      "bleu": 14.231015945306735,
+      "author": "4272",
+      "source_mean_sentence_words": 24.0,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 264
+    },
+    {
+      "document_id": 20203872,
+      "year": 2020,
+      "chrf": 57.132252813674775,
+      "bleu": 19.338035876816004,
+      "author": "4091",
+      "source_mean_sentence_words": 38.875,
+      "source_mean_sentence_tree_depth": 7.125,
+      "source_word_count": 311
+    },
+    {
+      "document_id": 20204105,
+      "year": 2020,
+      "chrf": 52.496571371841824,
+      "bleu": 11.130127625740295,
+      "author": "4278",
+      "source_mean_sentence_words": 26.1,
+      "source_mean_sentence_tree_depth": 4.8,
+      "source_word_count": 261
+    },
+    {
+      "document_id": 20204458,
+      "year": 2020,
+      "chrf": 58.07491700007519,
+      "bleu": 18.66053344664773,
+      "author": "4272",
+      "source_mean_sentence_words": 27.272727272727273,
+      "source_mean_sentence_tree_depth": 5.090909090909091,
+      "source_word_count": 300
+    },
+    {
+      "document_id": 20204525,
+      "year": 2020,
+      "chrf": 49.426023815950735,
+      "bleu": 18.148086888218415,
+      "author": "4256",
+      "source_mean_sentence_words": 18.142857142857142,
+      "source_mean_sentence_tree_depth": 4.571428571428571,
+      "source_word_count": 127
+    },
+    {
+      "document_id": 20204139,
+      "year": 2020,
+      "chrf": 52.10426316319746,
+      "bleu": 10.260371319186216,
+      "author": "4091",
+      "source_mean_sentence_words": 29.5,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 295
+    },
+    {
+      "document_id": 20204574,
+      "year": 2020,
+      "chrf": 59.40646781875958,
+      "bleu": 19.3020515406141,
+      "author": "4306",
+      "source_mean_sentence_words": 22.0,
+      "source_mean_sentence_tree_depth": 4.571428571428571,
+      "source_word_count": 308
+    },
+    {
+      "document_id": 20203039,
+      "year": 2020,
+      "chrf": 64.42950455559426,
+      "bleu": 28.985616852365872,
+      "author": "4154",
+      "source_mean_sentence_words": 26.076923076923077,
+      "source_mean_sentence_tree_depth": 6.384615384615385,
+      "source_word_count": 339
+    },
+    {
+      "document_id": 20204410,
+      "year": 2020,
+      "chrf": 56.218971362751056,
+      "bleu": 17.777702261015367,
+      "author": "4077",
+      "source_mean_sentence_words": 29.666666666666668,
+      "source_mean_sentence_tree_depth": 5.888888888888889,
+      "source_word_count": 267
+    },
+    {
+      "document_id": 20203285,
+      "year": 2020,
+      "chrf": 59.5665503682099,
+      "bleu": 14.58716203324687,
+      "author": "4240",
+      "source_mean_sentence_words": 31.5,
+      "source_mean_sentence_tree_depth": 6.2,
+      "source_word_count": 315
+    },
+    {
+      "document_id": 20203015,
+      "year": 2020,
+      "chrf": 57.751453564150225,
+      "bleu": 19.780031759380854,
+      "author": "4091",
+      "source_mean_sentence_words": 20.571428571428573,
+      "source_mean_sentence_tree_depth": 5.214285714285714,
+      "source_word_count": 288
+    },
+    {
+      "document_id": 20204542,
+      "year": 2020,
+      "chrf": 53.62981875728408,
+      "bleu": 16.375338763050603,
+      "author": "4280",
+      "source_mean_sentence_words": 31.625,
+      "source_mean_sentence_tree_depth": 6.25,
+      "source_word_count": 253
+    },
+    {
+      "document_id": 20203266,
+      "year": 2020,
+      "chrf": 59.81031084347028,
+      "bleu": 19.296501334208653,
+      "author": "4306",
+      "source_mean_sentence_words": 31.666666666666668,
+      "source_mean_sentence_tree_depth": 6.333333333333333,
+      "source_word_count": 380
+    },
+    {
+      "document_id": 20203411,
+      "year": 2020,
+      "chrf": 59.02444241024527,
+      "bleu": 17.74385148174416,
+      "author": "4303",
+      "source_mean_sentence_words": 26.23076923076923,
+      "source_mean_sentence_tree_depth": 5.230769230769231,
+      "source_word_count": 341
+    },
+    {
+      "document_id": 20204534,
+      "year": 2020,
+      "chrf": 55.45216014494735,
+      "bleu": 21.025766489355163,
+      "author": "4255",
+      "source_mean_sentence_words": 30.88888888888889,
+      "source_mean_sentence_tree_depth": 5.111111111111111,
+      "source_word_count": 278
+    },
+    {
+      "document_id": 20204359,
+      "year": 2020,
+      "chrf": 71.00149766458665,
+      "bleu": 35.827000352609694,
+      "author": "4257",
+      "source_mean_sentence_words": 25.76923076923077,
+      "source_mean_sentence_tree_depth": 5.538461538461538,
+      "source_word_count": 335
+    },
+    {
+      "document_id": 20203420,
+      "year": 2020,
+      "chrf": 54.307367148097406,
+      "bleu": 12.419144710416992,
+      "author": "4238",
+      "source_mean_sentence_words": 33.142857142857146,
+      "source_mean_sentence_tree_depth": 5.714285714285714,
+      "source_word_count": 232
+    },
+    {
+      "document_id": 20203584,
+      "year": 2020,
+      "chrf": 64.48277896375986,
+      "bleu": 24.92943914444876,
+      "author": "4087",
+      "source_mean_sentence_words": 27.444444444444443,
+      "source_mean_sentence_tree_depth": 5.888888888888889,
+      "source_word_count": 247
+    },
+    {
+      "document_id": 20213112,
+      "year": 2021,
+      "chrf": 58.53234547758489,
+      "bleu": 26.10858341739949,
+      "author": "4186",
+      "source_mean_sentence_words": 25.454545454545453,
+      "source_mean_sentence_tree_depth": 5.454545454545454,
+      "source_word_count": 280
+    },
+    {
+      "document_id": 20214097,
+      "year": 2021,
+      "chrf": 56.68578654654526,
+      "bleu": 16.146515800089848,
+      "author": "4275",
+      "source_mean_sentence_words": 25.083333333333332,
+      "source_mean_sentence_tree_depth": 4.75,
+      "source_word_count": 301
+    },
+    {
+      "document_id": 20214207,
+      "year": 2021,
+      "chrf": 63.151345953919204,
+      "bleu": 20.334730496341233,
+      "author": "4253",
+      "source_mean_sentence_words": 30.375,
+      "source_mean_sentence_tree_depth": 6.375,
+      "source_word_count": 243
+    },
+    {
+      "document_id": 20213131,
+      "year": 2021,
+      "chrf": 57.22306225612995,
+      "bleu": 18.50892242859682,
+      "author": "4074",
+      "source_mean_sentence_words": 32.416666666666664,
+      "source_mean_sentence_tree_depth": 6.25,
+      "source_word_count": 389
+    },
+    {
+      "document_id": 20213133,
+      "year": 2021,
+      "chrf": 60.71352379809899,
+      "bleu": 21.292758365728545,
+      "author": "4074",
+      "source_mean_sentence_words": 21.307692307692307,
+      "source_mean_sentence_tree_depth": 4.6923076923076925,
+      "source_word_count": 277
+    },
+    {
+      "document_id": 20213158,
+      "year": 2021,
+      "chrf": 64.82056394925463,
+      "bleu": 23.50667548096134,
+      "author": "4308",
+      "source_mean_sentence_words": 23.4,
+      "source_mean_sentence_tree_depth": 5.3,
+      "source_word_count": 234
+    },
+    {
+      "document_id": 20213292,
+      "year": 2021,
+      "chrf": 54.30266959910326,
+      "bleu": 11.41750465012778,
+      "author": "4306",
+      "source_mean_sentence_words": 29.5,
+      "source_mean_sentence_tree_depth": 6.1,
+      "source_word_count": 295
+    },
+    {
+      "document_id": 20213780,
+      "year": 2021,
+      "chrf": 58.707375332575,
+      "bleu": 20.88697376078342,
+      "author": "4077",
+      "source_mean_sentence_words": 23.5,
+      "source_mean_sentence_tree_depth": 5.3125,
+      "source_word_count": 376
+    },
+    {
+      "document_id": 20214095,
+      "year": 2021,
+      "chrf": 60.99208884065899,
+      "bleu": 24.96051385225614,
+      "author": "4301",
+      "source_mean_sentence_words": 37.0,
+      "source_mean_sentence_tree_depth": 6.6,
+      "source_word_count": 185
+    },
+    {
+      "document_id": 20214443,
+      "year": 2021,
+      "chrf": 65.16788432161503,
+      "bleu": 25.230134036530163,
+      "author": "4193",
+      "source_mean_sentence_words": 26.875,
+      "source_mean_sentence_tree_depth": 6.625,
+      "source_word_count": 215
+    },
+    {
+      "document_id": 20214369,
+      "year": 2021,
+      "chrf": 67.04538912187822,
+      "bleu": 26.66994269533313,
+      "author": "4253",
+      "source_mean_sentence_words": 31.0,
+      "source_mean_sentence_tree_depth": 6.285714285714286,
+      "source_word_count": 217
+    },
+    {
+      "document_id": 20214091,
+      "year": 2021,
+      "chrf": 51.04197443804572,
+      "bleu": 18.692380928594897,
+      "author": "4279",
+      "source_mean_sentence_words": 32.0,
+      "source_mean_sentence_tree_depth": 6.285714285714286,
+      "source_word_count": 224
+    },
+    {
+      "document_id": 20213750,
+      "year": 2021,
+      "chrf": 65.16158647486237,
+      "bleu": 26.041209036074555,
+      "author": "4272",
+      "source_mean_sentence_words": 23.416666666666668,
+      "source_mean_sentence_tree_depth": 4.666666666666667,
+      "source_word_count": 281
+    },
+    {
+      "document_id": 20214534,
+      "year": 2021,
+      "chrf": 68.20587385335354,
+      "bleu": 39.76019906762154,
+      "author": "4280",
+      "source_mean_sentence_words": 22.133333333333333,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 332
+    },
+    {
+      "document_id": 20214417,
+      "year": 2021,
+      "chrf": 62.96495521530338,
+      "bleu": 28.534734658334738,
+      "author": "4284",
+      "source_mean_sentence_words": 26.666666666666668,
+      "source_mean_sentence_tree_depth": 6.666666666666667,
+      "source_word_count": 160
+    },
+    {
+      "document_id": 20214186,
+      "year": 2021,
+      "chrf": 62.17226302106731,
+      "bleu": 17.504246808695548,
+      "author": "4306",
+      "source_mean_sentence_words": 32.25,
+      "source_mean_sentence_tree_depth": 6.125,
+      "source_word_count": 258
+    },
+    {
+      "document_id": 20213136,
+      "year": 2021,
+      "chrf": 58.47895544193199,
+      "bleu": 23.79611273786555,
+      "author": "4280",
+      "source_mean_sentence_words": 24.833333333333332,
+      "source_mean_sentence_tree_depth": 5.75,
+      "source_word_count": 298
+    },
+    {
+      "document_id": 20213936,
+      "year": 2021,
+      "chrf": 65.22165865160044,
+      "bleu": 25.64407325444031,
+      "author": "4278",
+      "source_mean_sentence_words": 33.666666666666664,
+      "source_mean_sentence_tree_depth": 6.222222222222222,
+      "source_word_count": 303
+    },
+    {
+      "document_id": 20214533,
+      "year": 2021,
+      "chrf": 65.12243472012923,
+      "bleu": 35.59573878738683,
+      "author": "4257",
+      "source_mean_sentence_words": 22.0,
+      "source_mean_sentence_tree_depth": 5.428571428571429,
+      "source_word_count": 308
+    },
+    {
+      "document_id": 20213882,
+      "year": 2021,
+      "chrf": 60.36045281447752,
+      "bleu": 31.0603480968223,
+      "author": "4308",
+      "source_mean_sentence_words": 20.615384615384617,
+      "source_mean_sentence_tree_depth": 5.153846153846154,
+      "source_word_count": 268
+    },
+    {
+      "document_id": 20213067,
+      "year": 2021,
+      "chrf": 67.5100807307741,
+      "bleu": 30.686672833858374,
+      "author": "4109",
+      "source_mean_sentence_words": 23.75,
+      "source_mean_sentence_tree_depth": 5.3125,
+      "source_word_count": 380
+    },
+    {
+      "document_id": 20213264,
+      "year": 2021,
+      "chrf": 60.36746302721983,
+      "bleu": 27.50107599532857,
+      "author": "4253",
+      "source_mean_sentence_words": 28.384615384615383,
+      "source_mean_sentence_tree_depth": 5.384615384615385,
+      "source_word_count": 369
+    },
+    {
+      "document_id": 20214382,
+      "year": 2021,
+      "chrf": 63.20786273846915,
+      "bleu": 20.99003682650076,
+      "author": "4242",
+      "source_mean_sentence_words": 33.2,
+      "source_mean_sentence_tree_depth": 5.2,
+      "source_word_count": 332
+    },
+    {
+      "document_id": 20223284,
+      "year": 2022,
+      "chrf": 62.1986688563408,
+      "bleu": 24.43172301363083,
+      "author": "4253",
+      "source_mean_sentence_words": 19.857142857142858,
+      "source_mean_sentence_tree_depth": 4.857142857142857,
+      "source_word_count": 139
+    },
+    {
+      "document_id": 20223819,
+      "year": 2022,
+      "chrf": 62.23102262829288,
+      "bleu": 25.842225097093568,
+      "author": "3885",
+      "source_mean_sentence_words": 26.0,
+      "source_mean_sentence_tree_depth": 4.625,
+      "source_word_count": 208
+    },
+    {
+      "document_id": 20223224,
+      "year": 2022,
+      "chrf": 60.35159707172192,
+      "bleu": 18.227677767814267,
+      "author": "4220",
+      "source_mean_sentence_words": 25.0,
+      "source_mean_sentence_tree_depth": 5.666666666666667,
+      "source_word_count": 300
+    },
+    {
+      "document_id": 20223236,
+      "year": 2022,
+      "chrf": 63.8349152622801,
+      "bleu": 22.59430240792425,
+      "author": "1120",
+      "source_mean_sentence_words": 26.3,
+      "source_mean_sentence_tree_depth": 6.1,
+      "source_word_count": 263
+    },
+    {
+      "document_id": 20223242,
+      "year": 2022,
+      "chrf": 58.831269588100334,
+      "bleu": 19.492449418347974,
+      "author": "4186",
+      "source_mean_sentence_words": 33.77777777777778,
+      "source_mean_sentence_tree_depth": 6.444444444444445,
+      "source_word_count": 304
+    },
+    {
+      "document_id": 20223461,
+      "year": 2022,
+      "chrf": 62.62303424154616,
+      "bleu": 23.235602900686278,
+      "author": "4154",
+      "source_mean_sentence_words": 30.333333333333332,
+      "source_mean_sentence_tree_depth": 5.916666666666667,
+      "source_word_count": 364
+    },
+    {
+      "document_id": 20223571,
+      "year": 2022,
+      "chrf": 66.74668909206635,
+      "bleu": 30.981758792013324,
+      "author": "1120",
+      "source_mean_sentence_words": 30.0,
+      "source_mean_sentence_tree_depth": 6.125,
+      "source_word_count": 480
+    },
+    {
+      "document_id": 20223586,
+      "year": 2022,
+      "chrf": 73.25525548139007,
+      "bleu": 35.980518053998935,
+      "author": "4297",
+      "source_mean_sentence_words": 32.714285714285715,
+      "source_mean_sentence_tree_depth": 5.857142857142857,
+      "source_word_count": 229
+    },
+    {
+      "document_id": 20223767,
+      "year": 2022,
+      "chrf": 59.76930362450148,
+      "bleu": 18.70059455238834,
+      "author": "4213",
+      "source_mean_sentence_words": 30.076923076923077,
+      "source_mean_sentence_tree_depth": 5.461538461538462,
+      "source_word_count": 391
+    },
+    {
+      "document_id": 20224348,
+      "year": 2022,
+      "chrf": 54.603206869128066,
+      "bleu": 11.221154265181683,
+      "author": "4329",
+      "source_mean_sentence_words": 36.0,
+      "source_mean_sentence_tree_depth": 7.857142857142857,
+      "source_word_count": 252
+    },
+    {
+      "document_id": 20223582,
+      "year": 2022,
+      "chrf": 54.46119487126303,
+      "bleu": 18.317577814302606,
+      "author": "4308",
+      "source_mean_sentence_words": 26.375,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 211
+    },
+    {
+      "document_id": 20223105,
+      "year": 2022,
+      "chrf": 57.1139838504806,
+      "bleu": 20.691455726168005,
+      "author": "4168",
+      "source_mean_sentence_words": 22.285714285714285,
+      "source_mean_sentence_tree_depth": 3.7857142857142856,
+      "source_word_count": 312
+    },
+    {
+      "document_id": 20223976,
+      "year": 2022,
+      "chrf": 56.54660457981018,
+      "bleu": 17.852995775959847,
+      "author": "4275",
+      "source_mean_sentence_words": 27.083333333333332,
+      "source_mean_sentence_tree_depth": 5.833333333333333,
+      "source_word_count": 325
+    },
+    {
+      "document_id": 20223795,
+      "year": 2022,
+      "chrf": 56.289822925453215,
+      "bleu": 10.264423686938725,
+      "author": "4306",
+      "source_mean_sentence_words": 32.5,
+      "source_mean_sentence_tree_depth": 6.25,
+      "source_word_count": 260
+    },
+    {
+      "document_id": 20223534,
+      "year": 2022,
+      "chrf": 65.11612685537203,
+      "bleu": 31.819980035025537,
+      "author": "1120",
+      "source_mean_sentence_words": 39.888888888888886,
+      "source_mean_sentence_tree_depth": 5.222222222222222,
+      "source_word_count": 359
+    },
+    {
+      "document_id": 20223194,
+      "year": 2022,
+      "chrf": 58.13062022628257,
+      "bleu": 20.15236108057926,
+      "author": "4193",
+      "source_mean_sentence_words": 19.727272727272727,
+      "source_mean_sentence_tree_depth": 4.636363636363637,
+      "source_word_count": 217
+    },
+    {
+      "document_id": 20223622,
+      "year": 2022,
+      "chrf": 61.92447512107934,
+      "bleu": 26.751755123465188,
+      "author": "3923",
+      "source_mean_sentence_words": 30.7,
+      "source_mean_sentence_tree_depth": 6.7,
+      "source_word_count": 307
+    },
+    {
+      "document_id": 20223929,
+      "year": 2022,
+      "chrf": 60.25064572354226,
+      "bleu": 20.014649265713135,
+      "author": "4303",
+      "source_mean_sentence_words": 30.071428571428573,
+      "source_mean_sentence_tree_depth": 5.857142857142857,
+      "source_word_count": 421
+    },
+    {
+      "document_id": 20223752,
+      "year": 2022,
+      "chrf": 58.742572082227355,
+      "bleu": 19.390596589194125,
+      "author": "4308",
+      "source_mean_sentence_words": 24.625,
+      "source_mean_sentence_tree_depth": 5.5,
+      "source_word_count": 197
+    },
+    {
+      "document_id": 20223128,
+      "year": 2022,
+      "chrf": 60.64920710661759,
+      "bleu": 21.32492981095924,
+      "author": "4240",
+      "source_mean_sentence_words": 24.846153846153847,
+      "source_mean_sentence_tree_depth": 6.230769230769231,
+      "source_word_count": 323
+    },
+    {
+      "document_id": 20224467,
+      "year": 2022,
+      "chrf": 58.8153131056888,
+      "bleu": 22.635437660703428,
+      "author": "4275",
+      "source_mean_sentence_words": 25.88888888888889,
+      "source_mean_sentence_tree_depth": 5.666666666666667,
+      "source_word_count": 233
+    },
+    {
+      "document_id": 20223493,
+      "year": 2022,
+      "chrf": 63.57195465202733,
+      "bleu": 31.970310701677455,
+      "author": "4327",
+      "source_mean_sentence_words": 34.18181818181818,
+      "source_mean_sentence_tree_depth": 5.818181818181818,
+      "source_word_count": 376
+    },
+    {
+      "document_id": 20223773,
+      "year": 2022,
+      "chrf": 54.092092762982006,
+      "bleu": 16.123928679936903,
+      "author": "4220",
+      "source_mean_sentence_words": 20.0,
+      "source_mean_sentence_tree_depth": 4.0,
+      "source_word_count": 220
+    },
+    {
+      "document_id": 20233510,
+      "year": 2023,
+      "chrf": 53.543970790170036,
+      "bleu": 20.152331721266016,
+      "author": "4193",
+      "source_mean_sentence_words": 27.0,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 162
+    },
+    {
+      "document_id": 20233768,
+      "year": 2023,
+      "chrf": 62.3133636269286,
+      "bleu": 23.557163976570607,
+      "author": "4156",
+      "source_mean_sentence_words": 40.0,
+      "source_mean_sentence_tree_depth": 6.222222222222222,
+      "source_word_count": 360
+    },
+    {
+      "document_id": 20233852,
+      "year": 2023,
+      "chrf": 57.837419395909805,
+      "bleu": 26.686339146753802,
+      "author": "4253",
+      "source_mean_sentence_words": 26.125,
+      "source_mean_sentence_tree_depth": 5.25,
+      "source_word_count": 209
+    },
+    {
+      "document_id": 20234291,
+      "year": 2023,
+      "chrf": 58.95596040891409,
+      "bleu": 20.58469839447526,
+      "author": "4156",
+      "source_mean_sentence_words": 27.454545454545453,
+      "source_mean_sentence_tree_depth": 6.090909090909091,
+      "source_word_count": 302
+    },
+    {
+      "document_id": 20233243,
+      "year": 2023,
+      "chrf": 64.69570919431175,
+      "bleu": 28.237363878845528,
+      "author": "4254",
+      "source_mean_sentence_words": 19.944444444444443,
+      "source_mean_sentence_tree_depth": 4.833333333333333,
+      "source_word_count": 359
+    },
+    {
+      "document_id": 20233318,
+      "year": 2023,
+      "chrf": 65.78567303184452,
+      "bleu": 30.229510545009028,
+      "author": "4280",
+      "source_mean_sentence_words": 31.7,
+      "source_mean_sentence_tree_depth": 5.9,
+      "source_word_count": 317
+    },
+    {
+      "document_id": 20233838,
+      "year": 2023,
+      "chrf": 70.13077219058388,
+      "bleu": 40.64863225496239,
+      "author": "4187",
+      "source_mean_sentence_words": 26.4,
+      "source_mean_sentence_tree_depth": 5.066666666666666,
+      "source_word_count": 396
+    },
+    {
+      "document_id": 20233856,
+      "year": 2023,
+      "chrf": 50.727289463839554,
+      "bleu": 10.5285981223761,
+      "author": "4297",
+      "source_mean_sentence_words": 25.125,
+      "source_mean_sentence_tree_depth": 5.125,
+      "source_word_count": 201
+    },
+    {
+      "document_id": 20234188,
+      "year": 2023,
+      "chrf": 68.56377245821507,
+      "bleu": 33.32901192876093,
+      "author": "4297",
+      "source_mean_sentence_words": 24.76923076923077,
+      "source_mean_sentence_tree_depth": 4.461538461538462,
+      "source_word_count": 322
+    },
+    {
+      "document_id": 20234521,
+      "year": 2023,
+      "chrf": 62.39075215980067,
+      "bleu": 24.340007650378332,
+      "author": "4195",
+      "source_mean_sentence_words": 29.818181818181817,
+      "source_mean_sentence_tree_depth": 6.0,
+      "source_word_count": 328
+    },
+    {
+      "document_id": 20233139,
+      "year": 2023,
+      "chrf": 59.65347173821576,
+      "bleu": 24.224381583960778,
+      "author": "4271",
+      "source_mean_sentence_words": 28.363636363636363,
+      "source_mean_sentence_tree_depth": 5.090909090909091,
+      "source_word_count": 312
+    },
+    {
+      "document_id": 20233389,
+      "year": 2023,
+      "chrf": 57.23469883819011,
+      "bleu": 16.89638164752466,
+      "author": "4260",
+      "source_mean_sentence_words": 37.0,
+      "source_mean_sentence_tree_depth": 6.888888888888889,
+      "source_word_count": 333
+    },
+    {
+      "document_id": 20233822,
+      "year": 2023,
+      "chrf": 59.437699860708705,
+      "bleu": 24.817822846090223,
+      "author": "4280",
+      "source_mean_sentence_words": 37.375,
+      "source_mean_sentence_tree_depth": 6.25,
+      "source_word_count": 299
+    },
+    {
+      "document_id": 20233625,
+      "year": 2023,
+      "chrf": 58.71206618156265,
+      "bleu": 17.87944780880793,
+      "author": "4308",
+      "source_mean_sentence_words": 24.7,
+      "source_mean_sentence_tree_depth": 5.1,
+      "source_word_count": 247
+    },
+    {
+      "document_id": 20233901,
+      "year": 2023,
+      "chrf": 47.05844284032027,
+      "bleu": 8.50688219901072,
+      "author": "4154",
+      "source_mean_sentence_words": 24.4,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 122
+    },
+    {
+      "document_id": 20233224,
+      "year": 2023,
+      "chrf": 68.96347717261413,
+      "bleu": 24.384724347808344,
+      "author": "3879",
+      "source_mean_sentence_words": 38.666666666666664,
+      "source_mean_sentence_tree_depth": 7.833333333333333,
+      "source_word_count": 232
+    },
+    {
+      "document_id": 20234227,
+      "year": 2023,
+      "chrf": 53.7100089857526,
+      "bleu": 15.787347782723876,
+      "author": "4270",
+      "source_mean_sentence_words": 38.9,
+      "source_mean_sentence_tree_depth": 7.0,
+      "source_word_count": 389
+    },
+    {
+      "document_id": 20234158,
+      "year": 2023,
+      "chrf": 64.7970889408421,
+      "bleu": 23.992948971118917,
+      "author": "1120",
+      "source_mean_sentence_words": 31.692307692307693,
+      "source_mean_sentence_tree_depth": 5.769230769230769,
+      "source_word_count": 412
+    },
+    {
+      "document_id": 20233278,
+      "year": 2023,
+      "chrf": 52.133532036075295,
+      "bleu": 20.660758616032993,
+      "author": "4255",
+      "source_mean_sentence_words": 21.75,
+      "source_mean_sentence_tree_depth": 5.625,
+      "source_word_count": 174
+    },
+    {
+      "document_id": 20233634,
+      "year": 2023,
+      "chrf": 57.46892650982538,
+      "bleu": 21.04632994693636,
+      "author": "4308",
+      "source_mean_sentence_words": 25.642857142857142,
+      "source_mean_sentence_tree_depth": 5.071428571428571,
+      "source_word_count": 359
+    },
+    {
+      "document_id": 20234085,
+      "year": 2023,
+      "chrf": 60.306271664154245,
+      "bleu": 23.62226921604727,
+      "author": "4154",
+      "source_mean_sentence_words": 38.111111111111114,
+      "source_mean_sentence_tree_depth": 6.444444444444445,
+      "source_word_count": 343
+    },
+    {
+      "document_id": 20233458,
+      "year": 2023,
+      "chrf": 66.78078442286449,
+      "bleu": 27.778434453263117,
+      "author": "4280",
+      "source_mean_sentence_words": 25.8,
+      "source_mean_sentence_tree_depth": 5.9,
+      "source_word_count": 258
+    },
+    {
+      "document_id": 20234457,
+      "year": 2023,
+      "chrf": 60.850207721958974,
+      "bleu": 21.439448994580477,
+      "author": "4193",
+      "source_mean_sentence_words": 25.833333333333332,
+      "source_mean_sentence_tree_depth": 4.166666666666667,
+      "source_word_count": 155
+    },
+    {
+      "document_id": 20243836,
+      "year": 2024,
+      "chrf": 56.08623699022358,
+      "bleu": 10.200238590649125,
+      "author": "4334",
+      "source_mean_sentence_words": 27.545454545454547,
+      "source_mean_sentence_tree_depth": 5.7272727272727275,
+      "source_word_count": 303
+    },
+    {
+      "document_id": 20243857,
+      "year": 2024,
+      "chrf": 51.61491123391573,
+      "bleu": 9.023451031149104,
+      "author": "1279",
+      "source_mean_sentence_words": 19.88888888888889,
+      "source_mean_sentence_tree_depth": 4.888888888888889,
+      "source_word_count": 179
+    },
+    {
+      "document_id": 20244110,
+      "year": 2024,
+      "chrf": 72.33053727649674,
+      "bleu": 40.58796974807162,
+      "author": "4254",
+      "source_mean_sentence_words": 27.444444444444443,
+      "source_mean_sentence_tree_depth": 5.111111111111111,
+      "source_word_count": 247
+    },
+    {
+      "document_id": 20244346,
+      "year": 2024,
+      "chrf": 61.28695418974798,
+      "bleu": 22.693993987153064,
+      "author": "10839",
+      "source_mean_sentence_words": 41.714285714285715,
+      "source_mean_sentence_tree_depth": 7.214285714285714,
+      "source_word_count": 584
+    },
+    {
+      "document_id": 20244505,
+      "year": 2024,
+      "chrf": 66.156021857614,
+      "bleu": 26.072528655129762,
+      "author": "4270",
+      "source_mean_sentence_words": 25.25,
+      "source_mean_sentence_tree_depth": 5.875,
+      "source_word_count": 202
+    },
+    {
+      "document_id": 20243210,
+      "year": 2024,
+      "chrf": 60.0151438069053,
+      "bleu": 21.777503688453876,
+      "author": "4193",
+      "source_mean_sentence_words": 18.833333333333332,
+      "source_mean_sentence_tree_depth": 4.416666666666667,
+      "source_word_count": 226
+    },
+    {
+      "document_id": 20243273,
+      "year": 2024,
+      "chrf": 63.28036331116873,
+      "bleu": 27.014400781393878,
+      "author": "10847",
+      "source_mean_sentence_words": 23.7,
+      "source_mean_sentence_tree_depth": 5.3,
+      "source_word_count": 237
+    },
+    {
+      "document_id": 20243363,
+      "year": 2024,
+      "chrf": 67.08125895889424,
+      "bleu": 28.255442809710075,
+      "author": "10817",
+      "source_mean_sentence_words": 26.2,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 262
+    },
+    {
+      "document_id": 20244240,
+      "year": 2024,
+      "chrf": 65.47963557991842,
+      "bleu": 35.91502843636536,
+      "author": "4220",
+      "source_mean_sentence_words": 26.444444444444443,
+      "source_mean_sentence_tree_depth": 4.888888888888889,
+      "source_word_count": 238
+    },
+    {
+      "document_id": 20244319,
+      "year": 2024,
+      "chrf": 61.34717762148885,
+      "bleu": 22.286019041195242,
+      "author": "10850",
+      "source_mean_sentence_words": 20.789473684210527,
+      "source_mean_sentence_tree_depth": 4.2631578947368425,
+      "source_word_count": 395
+    },
+    {
+      "document_id": 20243068,
+      "year": 2024,
+      "chrf": 54.66625670385338,
+      "bleu": 12.91213121549323,
+      "author": "10835",
+      "source_mean_sentence_words": 26.4,
+      "source_mean_sentence_tree_depth": 6.8,
+      "source_word_count": 132
+    },
+    {
+      "document_id": 20243484,
+      "year": 2024,
+      "chrf": 62.954637173175264,
+      "bleu": 20.174567433295806,
+      "author": "4275",
+      "source_mean_sentence_words": 29.666666666666668,
+      "source_mean_sentence_tree_depth": 5.222222222222222,
+      "source_word_count": 267
+    },
+    {
+      "document_id": 20243226,
+      "year": 2024,
+      "chrf": 61.451225575087676,
+      "bleu": 24.23622624254679,
+      "author": "4270",
+      "source_mean_sentence_words": 30.9,
+      "source_mean_sentence_tree_depth": 5.9,
+      "source_word_count": 309
+    },
+    {
+      "document_id": 20244103,
+      "year": 2024,
+      "chrf": 72.33053727649674,
+      "bleu": 40.58796974807162,
+      "author": "4220",
+      "source_mean_sentence_words": 27.444444444444443,
+      "source_mean_sentence_tree_depth": 5.111111111111111,
+      "source_word_count": 247
+    },
+    {
+      "document_id": 20243350,
+      "year": 2024,
+      "chrf": 61.603890249595096,
+      "bleu": 26.451496751973554,
+      "author": "4260",
+      "source_mean_sentence_words": 19.333333333333332,
+      "source_mean_sentence_tree_depth": 4.444444444444445,
+      "source_word_count": 174
+    },
+    {
+      "document_id": 20244483,
+      "year": 2024,
+      "chrf": 58.04230699838572,
+      "bleu": 12.329727552989231,
+      "author": "4137",
+      "source_mean_sentence_words": 19.6,
+      "source_mean_sentence_tree_depth": 4.4,
+      "source_word_count": 98
+    },
+    {
+      "document_id": 20243060,
+      "year": 2024,
+      "chrf": 56.96191623539774,
+      "bleu": 18.033591633231765,
+      "author": "4334",
+      "source_mean_sentence_words": 21.692307692307693,
+      "source_mean_sentence_tree_depth": 4.923076923076923,
+      "source_word_count": 282
+    },
+    {
+      "document_id": 20244468,
+      "year": 2024,
+      "chrf": 57.966286779874764,
+      "bleu": 26.988745672214225,
+      "author": "4137",
+      "source_mean_sentence_words": 27.0,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 108
+    },
+    {
+      "document_id": 20244042,
+      "year": 2024,
+      "chrf": 59.13421337066711,
+      "bleu": 13.106556892654272,
+      "author": "10825",
+      "source_mean_sentence_words": 42.0,
+      "source_mean_sentence_tree_depth": 6.714285714285714,
+      "source_word_count": 294
+    },
+    {
+      "document_id": 20244559,
+      "year": 2024,
+      "chrf": 50.75471167332919,
+      "bleu": 16.09639483973884,
+      "author": "4154",
+      "source_mean_sentence_words": 47.25,
+      "source_mean_sentence_tree_depth": 6.25,
+      "source_word_count": 189
+    },
+    {
+      "document_id": 20243214,
+      "year": 2024,
+      "chrf": 68.6588375841622,
+      "bleu": 24.911219062891877,
+      "author": "4253",
+      "source_mean_sentence_words": 30.714285714285715,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 215
+    },
+    {
+      "document_id": 20243228,
+      "year": 2024,
+      "chrf": 65.57211669933781,
+      "bleu": 35.12771486282227,
+      "author": "4220",
+      "source_mean_sentence_words": 27.75,
+      "source_mean_sentence_tree_depth": 5.375,
+      "source_word_count": 222
+    },
+    {
+      "document_id": 20244099,
+      "year": 2024,
+      "chrf": 61.68549644245454,
+      "bleu": 20.578058488833594,
+      "author": "1279",
+      "source_mean_sentence_words": 33.8,
+      "source_mean_sentence_tree_depth": 6.6,
+      "source_word_count": 169
+    },
+    {
+      "document_id": 20253045,
+      "year": 2025,
+      "chrf": 55.68692948836244,
+      "bleu": 17.59972896089276,
+      "author": "4154",
+      "source_mean_sentence_words": 36.9,
+      "source_mean_sentence_tree_depth": 5.1,
+      "source_word_count": 369
+    },
+    {
+      "document_id": 20253311,
+      "year": 2025,
+      "chrf": 64.70605859037056,
+      "bleu": 20.298605807327803,
+      "author": "4297",
+      "source_mean_sentence_words": 23.615384615384617,
+      "source_mean_sentence_tree_depth": 4.923076923076923,
+      "source_word_count": 307
+    },
+    {
+      "document_id": 20253316,
+      "year": 2025,
+      "chrf": 56.1434153238788,
+      "bleu": 14.553246409181776,
+      "author": "4074",
+      "source_mean_sentence_words": 31.8,
+      "source_mean_sentence_tree_depth": 4.3,
+      "source_word_count": 318
+    },
+    {
+      "document_id": 20253409,
+      "year": 2025,
+      "chrf": 63.95800773910215,
+      "bleu": 30.535546634129123,
+      "author": "10827",
+      "source_mean_sentence_words": 19.125,
+      "source_mean_sentence_tree_depth": 4.0625,
+      "source_word_count": 306
+    },
+    {
+      "document_id": 20253444,
+      "year": 2025,
+      "chrf": 58.37395995313087,
+      "bleu": 23.42190942582497,
+      "author": "4077",
+      "source_mean_sentence_words": 25.785714285714285,
+      "source_mean_sentence_tree_depth": 5.928571428571429,
+      "source_word_count": 361
+    },
+    {
+      "document_id": 20253559,
+      "year": 2025,
+      "chrf": 69.16684846723408,
+      "bleu": 32.46287986527174,
+      "author": "10850",
+      "source_mean_sentence_words": 30.3,
+      "source_mean_sentence_tree_depth": 5.9,
+      "source_word_count": 303
+    },
+    {
+      "document_id": 20254084,
+      "year": 2025,
+      "chrf": 63.96596389976249,
+      "bleu": 32.98665520857155,
+      "author": "11404",
+      "source_mean_sentence_words": 27.4,
+      "source_mean_sentence_tree_depth": 5.2,
+      "source_word_count": 274
+    },
+    {
+      "document_id": 20254331,
+      "year": 2025,
+      "chrf": 59.56510781033051,
+      "bleu": 20.344526027435354,
+      "author": "4156",
+      "source_mean_sentence_words": 23.384615384615383,
+      "source_mean_sentence_tree_depth": 4.769230769230769,
+      "source_word_count": 304
+    },
+    {
+      "document_id": 20254642,
+      "year": 2025,
+      "chrf": 49.15209534985335,
+      "bleu": 8.051835310577955,
+      "author": "10850",
+      "source_mean_sentence_words": 35.857142857142854,
+      "source_mean_sentence_tree_depth": 5.714285714285714,
+      "source_word_count": 251
+    },
+    {
+      "document_id": 20254899,
+      "year": 2025,
+      "chrf": 60.84677836076852,
+      "bleu": 23.983867011322484,
+      "author": "16109",
+      "source_mean_sentence_words": 31.9,
+      "source_mean_sentence_tree_depth": 5.3,
+      "source_word_count": 319
+    },
+    {
+      "document_id": 20253572,
+      "year": 2025,
+      "chrf": 55.19715882496784,
+      "bleu": 17.908720941752804,
+      "author": "10850",
+      "source_mean_sentence_words": 23.294117647058822,
+      "source_mean_sentence_tree_depth": 4.529411764705882,
+      "source_word_count": 396
+    },
+    {
+      "document_id": 20254801,
+      "year": 2025,
+      "chrf": 64.11921468700689,
+      "bleu": 27.225050675788104,
+      "author": "10809",
+      "source_mean_sentence_words": 29.818181818181817,
+      "source_mean_sentence_tree_depth": 5.454545454545454,
+      "source_word_count": 328
+    },
+    {
+      "document_id": 20254469,
+      "year": 2025,
+      "chrf": 57.841593483916206,
+      "bleu": 23.642839092692835,
+      "author": "11404",
+      "source_mean_sentence_words": 17.166666666666668,
+      "source_mean_sentence_tree_depth": 4.666666666666667,
+      "source_word_count": 103
+    },
+    {
+      "document_id": 20253254,
+      "year": 2025,
+      "chrf": 66.59848673891476,
+      "bleu": 29.48940200936844,
+      "author": "4270",
+      "source_mean_sentence_words": 21.272727272727273,
+      "source_mean_sentence_tree_depth": 5.0,
+      "source_word_count": 234
+    },
+    {
+      "document_id": 20254388,
+      "year": 2025,
+      "chrf": 65.69593998805993,
+      "bleu": 31.73307828506113,
+      "author": "4154",
+      "source_mean_sentence_words": 26.75,
+      "source_mean_sentence_tree_depth": 4.625,
+      "source_word_count": 214
+    },
+    {
+      "document_id": 20254082,
+      "year": 2025,
+      "chrf": 70.01347211571562,
+      "bleu": 24.5228929004986,
+      "author": "4297",
+      "source_mean_sentence_words": 25.09090909090909,
+      "source_mean_sentence_tree_depth": 4.7272727272727275,
+      "source_word_count": 276
+    },
+    {
+      "document_id": 20254497,
+      "year": 2025,
+      "chrf": 64.8790109022319,
+      "bleu": 26.74071308927716,
+      "author": "10817",
+      "source_mean_sentence_words": 20.4,
+      "source_mean_sentence_tree_depth": 4.866666666666666,
+      "source_word_count": 306
+    },
+    {
+      "document_id": 20254533,
+      "year": 2025,
+      "chrf": 64.23067272996302,
+      "bleu": 23.476542900378362,
+      "author": "4193",
+      "source_mean_sentence_words": 21.692307692307693,
+      "source_mean_sentence_tree_depth": 4.6923076923076925,
+      "source_word_count": 282
+    },
+    {
+      "document_id": 20253544,
+      "year": 2025,
+      "chrf": 56.96985251749468,
+      "bleu": 19.625648132833053,
+      "author": "10839",
+      "source_mean_sentence_words": 42.166666666666664,
+      "source_mean_sentence_tree_depth": 7.666666666666667,
+      "source_word_count": 253
+    },
+    {
+      "document_id": 20254643,
+      "year": 2025,
+      "chrf": 68.9282054086661,
+      "bleu": 35.91970918155135,
+      "author": "10823",
+      "source_mean_sentence_words": 22.384615384615383,
+      "source_mean_sentence_tree_depth": 4.538461538461538,
+      "source_word_count": 291
+    },
+    {
+      "document_id": 20253317,
+      "year": 2025,
+      "chrf": 65.14036930080235,
+      "bleu": 29.255692149763263,
+      "author": "4297",
+      "source_mean_sentence_words": 29.545454545454547,
+      "source_mean_sentence_tree_depth": 5.545454545454546,
+      "source_word_count": 325
+    },
+    {
+      "document_id": 20253054,
+      "year": 2025,
+      "chrf": 51.28480858863732,
+      "bleu": 12.242516547066476,
+      "author": "4137",
+      "source_mean_sentence_words": 25.833333333333332,
+      "source_mean_sentence_tree_depth": 5.333333333333333,
+      "source_word_count": 155
+    },
+    {
+      "document_id": 20254017,
+      "year": 2025,
+      "chrf": 59.29471820341055,
+      "bleu": 14.862608911926584,
+      "author": "4270",
+      "source_mean_sentence_words": 27.555555555555557,
+      "source_mean_sentence_tree_depth": 5.555555555555555,
+      "source_word_count": 248
+    }
+  ]
+}

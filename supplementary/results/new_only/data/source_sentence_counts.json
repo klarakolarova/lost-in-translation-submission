@@ -1,0 +1,5425 @@
+{
+  "analyses": {
+    "punctuation_and_lines": {
+      "summary": {
+        "n": 338,
+        "official": {
+          "exact_source_count_matches": 132
+        },
+        "generated": {
+          "exact_source_count_matches": 224
+        }
+      },
+      "records": [
+        {
+          "document_id": 20003445,
+          "year": 2000,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 291
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 239
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 232
+          }
+        },
+        {
+          "document_id": 20003238,
+          "year": 2000,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 142
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 106
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 122
+          }
+        },
+        {
+          "document_id": 20003453,
+          "year": 2000,
+          "source": {
+            "sentence_count": 2,
+            "word_count": 55
+          },
+          "official": {
+            "sentence_count": 2,
+            "word_count": 55
+          },
+          "generated": {
+            "sentence_count": 2,
+            "word_count": 53
+          }
+        },
+        {
+          "document_id": 20003449,
+          "year": 2000,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 420
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 336
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 349
+          }
+        },
+        {
+          "document_id": 20013531,
+          "year": 2001,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 190
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 144
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 166
+          }
+        },
+        {
+          "document_id": 20013039,
+          "year": 2001,
+          "source": {
+            "sentence_count": 19,
+            "word_count": 534
+          },
+          "official": {
+            "sentence_count": 23,
+            "word_count": 489
+          },
+          "generated": {
+            "sentence_count": 21,
+            "word_count": 460
+          }
+        },
+        {
+          "document_id": 20013606,
+          "year": 2001,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 291
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 232
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 235
+          }
+        },
+        {
+          "document_id": 20013568,
+          "year": 2001,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 394
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 347
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 306
+          }
+        },
+        {
+          "document_id": 20013300,
+          "year": 2001,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 311
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 252
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 237
+          }
+        },
+        {
+          "document_id": 20013334,
+          "year": 2001,
+          "source": {
+            "sentence_count": 25,
+            "word_count": 431
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 380
+          },
+          "generated": {
+            "sentence_count": 16,
+            "word_count": 339
+          }
+        },
+        {
+          "document_id": 20013397,
+          "year": 2001,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 468
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 393
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 367
+          }
+        },
+        {
+          "document_id": 20023076,
+          "year": 2002,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 347
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 333
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 309
+          }
+        },
+        {
+          "document_id": 20023255,
+          "year": 2002,
+          "source": {
+            "sentence_count": 19,
+            "word_count": 519
+          },
+          "official": {
+            "sentence_count": 22,
+            "word_count": 392
+          },
+          "generated": {
+            "sentence_count": 19,
+            "word_count": 425
+          }
+        },
+        {
+          "document_id": 20023149,
+          "year": 2002,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 256
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 254
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 222
+          }
+        },
+        {
+          "document_id": 20023081,
+          "year": 2002,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 226
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 207
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 194
+          }
+        },
+        {
+          "document_id": 20023407,
+          "year": 2002,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 192
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 180
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 179
+          }
+        },
+        {
+          "document_id": 20023490,
+          "year": 2002,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 139
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 99
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 112
+          }
+        },
+        {
+          "document_id": 20023569,
+          "year": 2002,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 263
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 257
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 224
+          }
+        },
+        {
+          "document_id": 20023451,
+          "year": 2002,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 121
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 91
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 90
+          }
+        },
+        {
+          "document_id": 20023349,
+          "year": 2002,
+          "source": {
+            "sentence_count": 17,
+            "word_count": 370
+          },
+          "official": {
+            "sentence_count": 18,
+            "word_count": 318
+          },
+          "generated": {
+            "sentence_count": 17,
+            "word_count": 293
+          }
+        },
+        {
+          "document_id": 20023692,
+          "year": 2002,
+          "source": {
+            "sentence_count": 16,
+            "word_count": 318
+          },
+          "official": {
+            "sentence_count": 17,
+            "word_count": 279
+          },
+          "generated": {
+            "sentence_count": 15,
+            "word_count": 261
+          }
+        },
+        {
+          "document_id": 20033404,
+          "year": 2003,
+          "source": {
+            "sentence_count": 30,
+            "word_count": 909
+          },
+          "official": {
+            "sentence_count": 43,
+            "word_count": 723
+          },
+          "generated": {
+            "sentence_count": 30,
+            "word_count": 740
+          }
+        },
+        {
+          "document_id": 20033675,
+          "year": 2003,
+          "source": {
+            "sentence_count": 26,
+            "word_count": 583
+          },
+          "official": {
+            "sentence_count": 26,
+            "word_count": 486
+          },
+          "generated": {
+            "sentence_count": 26,
+            "word_count": 506
+          }
+        },
+        {
+          "document_id": 20033084,
+          "year": 2003,
+          "source": {
+            "sentence_count": 19,
+            "word_count": 421
+          },
+          "official": {
+            "sentence_count": 19,
+            "word_count": 349
+          },
+          "generated": {
+            "sentence_count": 19,
+            "word_count": 358
+          }
+        },
+        {
+          "document_id": 20033285,
+          "year": 2003,
+          "source": {
+            "sentence_count": 22,
+            "word_count": 667
+          },
+          "official": {
+            "sentence_count": 23,
+            "word_count": 597
+          },
+          "generated": {
+            "sentence_count": 23,
+            "word_count": 578
+          }
+        },
+        {
+          "document_id": 20033201,
+          "year": 2003,
+          "source": {
+            "sentence_count": 33,
+            "word_count": 741
+          },
+          "official": {
+            "sentence_count": 32,
+            "word_count": 646
+          },
+          "generated": {
+            "sentence_count": 33,
+            "word_count": 637
+          }
+        },
+        {
+          "document_id": 20033106,
+          "year": 2003,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 106
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 91
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 87
+          }
+        },
+        {
+          "document_id": 20033205,
+          "year": 2003,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 291
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 245
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 232
+          }
+        },
+        {
+          "document_id": 20033132,
+          "year": 2003,
+          "source": {
+            "sentence_count": 2,
+            "word_count": 104
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 88
+          },
+          "generated": {
+            "sentence_count": 2,
+            "word_count": 68
+          }
+        },
+        {
+          "document_id": 20043611,
+          "year": 2004,
+          "source": {
+            "sentence_count": 25,
+            "word_count": 774
+          },
+          "official": {
+            "sentence_count": 24,
+            "word_count": 624
+          },
+          "generated": {
+            "sentence_count": 26,
+            "word_count": 608
+          }
+        },
+        {
+          "document_id": 20043815,
+          "year": 2004,
+          "source": {
+            "sentence_count": 20,
+            "word_count": 557
+          },
+          "official": {
+            "sentence_count": 24,
+            "word_count": 502
+          },
+          "generated": {
+            "sentence_count": 20,
+            "word_count": 476
+          }
+        },
+        {
+          "document_id": 20043346,
+          "year": 2004,
+          "source": {
+            "sentence_count": 21,
+            "word_count": 487
+          },
+          "official": {
+            "sentence_count": 24,
+            "word_count": 401
+          },
+          "generated": {
+            "sentence_count": 20,
+            "word_count": 425
+          }
+        },
+        {
+          "document_id": 20043312,
+          "year": 2004,
+          "source": {
+            "sentence_count": 23,
+            "word_count": 756
+          },
+          "official": {
+            "sentence_count": 21,
+            "word_count": 613
+          },
+          "generated": {
+            "sentence_count": 23,
+            "word_count": 576
+          }
+        },
+        {
+          "document_id": 20043669,
+          "year": 2004,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 131
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 131
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 114
+          }
+        },
+        {
+          "document_id": 20053490,
+          "year": 2005,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 299
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 230
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 255
+          }
+        },
+        {
+          "document_id": 20053636,
+          "year": 2005,
+          "source": {
+            "sentence_count": 17,
+            "word_count": 439
+          },
+          "official": {
+            "sentence_count": 17,
+            "word_count": 417
+          },
+          "generated": {
+            "sentence_count": 16,
+            "word_count": 399
+          }
+        },
+        {
+          "document_id": 20053546,
+          "year": 2005,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 73
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 57
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 53
+          }
+        },
+        {
+          "document_id": 20053768,
+          "year": 2005,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 215
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 184
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 192
+          }
+        },
+        {
+          "document_id": 20053394,
+          "year": 2005,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 203
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 165
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 159
+          }
+        },
+        {
+          "document_id": 20053319,
+          "year": 2005,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 223
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 185
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 183
+          }
+        },
+        {
+          "document_id": 20053773,
+          "year": 2005,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 392
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 270
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 305
+          }
+        },
+        {
+          "document_id": 20063791,
+          "year": 2006,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 160
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 144
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 121
+          }
+        },
+        {
+          "document_id": 20063672,
+          "year": 2006,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 254
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 244
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 231
+          }
+        },
+        {
+          "document_id": 20063028,
+          "year": 2006,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 399
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 321
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 319
+          }
+        },
+        {
+          "document_id": 20063082,
+          "year": 2006,
+          "source": {
+            "sentence_count": 2,
+            "word_count": 52
+          },
+          "official": {
+            "sentence_count": 2,
+            "word_count": 39
+          },
+          "generated": {
+            "sentence_count": 2,
+            "word_count": 46
+          }
+        },
+        {
+          "document_id": 20063303,
+          "year": 2006,
+          "source": {
+            "sentence_count": 21,
+            "word_count": 410
+          },
+          "official": {
+            "sentence_count": 17,
+            "word_count": 284
+          },
+          "generated": {
+            "sentence_count": 17,
+            "word_count": 325
+          }
+        },
+        {
+          "document_id": 20073885,
+          "year": 2007,
+          "source": {
+            "sentence_count": 2,
+            "word_count": 74
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 66
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 59
+          }
+        },
+        {
+          "document_id": 20073479,
+          "year": 2007,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 395
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 340
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 318
+          }
+        },
+        {
+          "document_id": 20073788,
+          "year": 2007,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 204
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 186
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 172
+          }
+        },
+        {
+          "document_id": 20073546,
+          "year": 2007,
+          "source": {
+            "sentence_count": 24,
+            "word_count": 509
+          },
+          "official": {
+            "sentence_count": 23,
+            "word_count": 498
+          },
+          "generated": {
+            "sentence_count": 24,
+            "word_count": 424
+          }
+        },
+        {
+          "document_id": 20073416,
+          "year": 2007,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 96
+          },
+          "official": {
+            "sentence_count": 3,
+            "word_count": 101
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 82
+          }
+        },
+        {
+          "document_id": 20073148,
+          "year": 2007,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 381
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 358
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 298
+          }
+        },
+        {
+          "document_id": 20083795,
+          "year": 2008,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 292
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 270
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 261
+          }
+        },
+        {
+          "document_id": 20083688,
+          "year": 2008,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 240
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 253
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 197
+          }
+        },
+        {
+          "document_id": 20083237,
+          "year": 2008,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 100
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 90
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 84
+          }
+        },
+        {
+          "document_id": 20083348,
+          "year": 2008,
+          "source": {
+            "sentence_count": 17,
+            "word_count": 338
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 325
+          },
+          "generated": {
+            "sentence_count": 16,
+            "word_count": 303
+          }
+        },
+        {
+          "document_id": 20083720,
+          "year": 2008,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 340
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 249
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 265
+          }
+        },
+        {
+          "document_id": 20083171,
+          "year": 2008,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 242
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 201
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 200
+          }
+        },
+        {
+          "document_id": 20094305,
+          "year": 2009,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 143
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 104
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 117
+          }
+        },
+        {
+          "document_id": 20093790,
+          "year": 2009,
+          "source": {
+            "sentence_count": 17,
+            "word_count": 458
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 317
+          },
+          "generated": {
+            "sentence_count": 15,
+            "word_count": 363
+          }
+        },
+        {
+          "document_id": 20093858,
+          "year": 2009,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 151
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 119
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 113
+          }
+        },
+        {
+          "document_id": 20094214,
+          "year": 2009,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 261
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 217
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 226
+          }
+        },
+        {
+          "document_id": 20094244,
+          "year": 2009,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 161
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 138
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 130
+          }
+        },
+        {
+          "document_id": 20094117,
+          "year": 2009,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 225
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 178
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 180
+          }
+        },
+        {
+          "document_id": 20093180,
+          "year": 2009,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 170
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 144
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 141
+          }
+        },
+        {
+          "document_id": 20104147,
+          "year": 2010,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 320
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 264
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 240
+          }
+        },
+        {
+          "document_id": 20103470,
+          "year": 2010,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 55
+          },
+          "official": {
+            "sentence_count": 3,
+            "word_count": 50
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 54
+          }
+        },
+        {
+          "document_id": 20103508,
+          "year": 2010,
+          "source": {
+            "sentence_count": 16,
+            "word_count": 369
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 295
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 288
+          }
+        },
+        {
+          "document_id": 20103819,
+          "year": 2010,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 149
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 133
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 136
+          }
+        },
+        {
+          "document_id": 20103724,
+          "year": 2010,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 320
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 301
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 266
+          }
+        },
+        {
+          "document_id": 20104070,
+          "year": 2010,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 157
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 120
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 134
+          }
+        },
+        {
+          "document_id": 20103745,
+          "year": 2010,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 178
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 140
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 151
+          }
+        },
+        {
+          "document_id": 20113707,
+          "year": 2011,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 116
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 103
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 100
+          }
+        },
+        {
+          "document_id": 20113237,
+          "year": 2011,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 179
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 153
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 145
+          }
+        },
+        {
+          "document_id": 20114153,
+          "year": 2011,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 342
+          },
+          "official": {
+            "sentence_count": 14,
+            "word_count": 290
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 278
+          }
+        },
+        {
+          "document_id": 20113238,
+          "year": 2011,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 228
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 208
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 197
+          }
+        },
+        {
+          "document_id": 20114115,
+          "year": 2011,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 127
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 110
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 108
+          }
+        },
+        {
+          "document_id": 20113827,
+          "year": 2011,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 105
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 87
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 84
+          }
+        },
+        {
+          "document_id": 20113189,
+          "year": 2011,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 349
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 214
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 268
+          }
+        },
+        {
+          "document_id": 20124199,
+          "year": 2012,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 225
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 197
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 203
+          }
+        },
+        {
+          "document_id": 20123609,
+          "year": 2012,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 254
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 210
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 212
+          }
+        },
+        {
+          "document_id": 20124029,
+          "year": 2012,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 78
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 55
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 57
+          }
+        },
+        {
+          "document_id": 20123265,
+          "year": 2012,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 72
+          },
+          "official": {
+            "sentence_count": 3,
+            "word_count": 54
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 71
+          }
+        },
+        {
+          "document_id": 20123739,
+          "year": 2012,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 194
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 173
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 164
+          }
+        },
+        {
+          "document_id": 20123950,
+          "year": 2012,
+          "source": {
+            "sentence_count": 2,
+            "word_count": 52
+          },
+          "official": {
+            "sentence_count": 2,
+            "word_count": 51
+          },
+          "generated": {
+            "sentence_count": 2,
+            "word_count": 46
+          }
+        },
+        {
+          "document_id": 20133954,
+          "year": 2013,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 159
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 136
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 129
+          }
+        },
+        {
+          "document_id": 20133044,
+          "year": 2013,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 196
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 179
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 146
+          }
+        },
+        {
+          "document_id": 20133553,
+          "year": 2013,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 249
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 279
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 221
+          }
+        },
+        {
+          "document_id": 20133643,
+          "year": 2013,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 85
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 69
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 70
+          }
+        },
+        {
+          "document_id": 20133305,
+          "year": 2013,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 254
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 224
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 197
+          }
+        },
+        {
+          "document_id": 20143568,
+          "year": 2014,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 349
+          },
+          "official": {
+            "sentence_count": 14,
+            "word_count": 296
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 291
+          }
+        },
+        {
+          "document_id": 20144302,
+          "year": 2014,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 270
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 241
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 223
+          }
+        },
+        {
+          "document_id": 20143756,
+          "year": 2014,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 219
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 208
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 191
+          }
+        },
+        {
+          "document_id": 20144300,
+          "year": 2014,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 188
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 181
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 160
+          }
+        },
+        {
+          "document_id": 20143759,
+          "year": 2014,
+          "source": {
+            "sentence_count": 19,
+            "word_count": 338
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 305
+          },
+          "generated": {
+            "sentence_count": 17,
+            "word_count": 307
+          }
+        },
+        {
+          "document_id": 20143310,
+          "year": 2014,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 248
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 187
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 185
+          }
+        },
+        {
+          "document_id": 20143031,
+          "year": 2014,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 295
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 238
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 241
+          }
+        },
+        {
+          "document_id": 20143093,
+          "year": 2014,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 358
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 309
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 304
+          }
+        },
+        {
+          "document_id": 20153145,
+          "year": 2015,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 237
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 167
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 199
+          }
+        },
+        {
+          "document_id": 20154173,
+          "year": 2015,
+          "source": {
+            "sentence_count": 19,
+            "word_count": 346
+          },
+          "official": {
+            "sentence_count": 17,
+            "word_count": 308
+          },
+          "generated": {
+            "sentence_count": 16,
+            "word_count": 292
+          }
+        },
+        {
+          "document_id": 20154133,
+          "year": 2015,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 129
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 131
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 128
+          }
+        },
+        {
+          "document_id": 20153573,
+          "year": 2015,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 251
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 167
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 185
+          }
+        },
+        {
+          "document_id": 20153975,
+          "year": 2015,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 136
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 115
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 109
+          }
+        },
+        {
+          "document_id": 20154192,
+          "year": 2015,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 311
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 265
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 250
+          }
+        },
+        {
+          "document_id": 20154248,
+          "year": 2015,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 305
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 266
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 245
+          }
+        },
+        {
+          "document_id": 20153575,
+          "year": 2015,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 279
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 247
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 248
+          }
+        },
+        {
+          "document_id": 20163476,
+          "year": 2016,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 297
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 254
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 238
+          }
+        },
+        {
+          "document_id": 20163996,
+          "year": 2016,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 269
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 247
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 213
+          }
+        },
+        {
+          "document_id": 20163941,
+          "year": 2016,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 290
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 219
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 208
+          }
+        },
+        {
+          "document_id": 20163329,
+          "year": 2016,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 351
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 308
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 275
+          }
+        },
+        {
+          "document_id": 20163189,
+          "year": 2016,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 273
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 244
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 225
+          }
+        },
+        {
+          "document_id": 20163494,
+          "year": 2016,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 338
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 243
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 266
+          }
+        },
+        {
+          "document_id": 20163297,
+          "year": 2016,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 108
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 107
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 100
+          }
+        },
+        {
+          "document_id": 20173457,
+          "year": 2017,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 185
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 153
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 151
+          }
+        },
+        {
+          "document_id": 20173901,
+          "year": 2017,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 161
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 150
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 125
+          }
+        },
+        {
+          "document_id": 20173477,
+          "year": 2017,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 258
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 221
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 208
+          }
+        },
+        {
+          "document_id": 20173692,
+          "year": 2017,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 245
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 219
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 211
+          }
+        },
+        {
+          "document_id": 20173597,
+          "year": 2017,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 328
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 249
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 283
+          }
+        },
+        {
+          "document_id": 20174279,
+          "year": 2017,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 298
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 236
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 242
+          }
+        },
+        {
+          "document_id": 20183617,
+          "year": 2018,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 218
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 199
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 181
+          }
+        },
+        {
+          "document_id": 20183804,
+          "year": 2018,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 259
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 234
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 209
+          }
+        },
+        {
+          "document_id": 20183500,
+          "year": 2018,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 197
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 164
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 168
+          }
+        },
+        {
+          "document_id": 20183128,
+          "year": 2018,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 187
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 167
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 166
+          }
+        },
+        {
+          "document_id": 20183313,
+          "year": 2018,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 349
+          },
+          "official": {
+            "sentence_count": 14,
+            "word_count": 283
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 302
+          }
+        },
+        {
+          "document_id": 20184020,
+          "year": 2018,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 259
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 253
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 202
+          }
+        },
+        {
+          "document_id": 20183249,
+          "year": 2018,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 247
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 205
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 227
+          }
+        },
+        {
+          "document_id": 20193750,
+          "year": 2019,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 349
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 261
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 260
+          }
+        },
+        {
+          "document_id": 20193320,
+          "year": 2019,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 360
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 322
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 299
+          }
+        },
+        {
+          "document_id": 20193883,
+          "year": 2019,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 218
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 204
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 182
+          }
+        },
+        {
+          "document_id": 20193815,
+          "year": 2019,
+          "source": {
+            "sentence_count": 15,
+            "word_count": 326
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 306
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 274
+          }
+        },
+        {
+          "document_id": 20194149,
+          "year": 2019,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 143
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 102
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 117
+          }
+        },
+        {
+          "document_id": 20193551,
+          "year": 2019,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 355
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 304
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 293
+          }
+        },
+        {
+          "document_id": 20203411,
+          "year": 2020,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 341
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 341
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 312
+          }
+        },
+        {
+          "document_id": 20204359,
+          "year": 2020,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 335
+          },
+          "official": {
+            "sentence_count": 14,
+            "word_count": 273
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 267
+          }
+        },
+        {
+          "document_id": 20204574,
+          "year": 2020,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 308
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 247
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 242
+          }
+        },
+        {
+          "document_id": 20203039,
+          "year": 2020,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 339
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 294
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 295
+          }
+        },
+        {
+          "document_id": 20203285,
+          "year": 2020,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 315
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 220
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 236
+          }
+        },
+        {
+          "document_id": 20213882,
+          "year": 2021,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 268
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 224
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 213
+          }
+        },
+        {
+          "document_id": 20213067,
+          "year": 2021,
+          "source": {
+            "sentence_count": 16,
+            "word_count": 380
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 280
+          },
+          "generated": {
+            "sentence_count": 16,
+            "word_count": 277
+          }
+        },
+        {
+          "document_id": 20214533,
+          "year": 2021,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 308
+          },
+          "official": {
+            "sentence_count": 14,
+            "word_count": 295
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 277
+          }
+        },
+        {
+          "document_id": 20214091,
+          "year": 2021,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 224
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 186
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 172
+          }
+        },
+        {
+          "document_id": 20214534,
+          "year": 2021,
+          "source": {
+            "sentence_count": 15,
+            "word_count": 332
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 317
+          },
+          "generated": {
+            "sentence_count": 15,
+            "word_count": 305
+          }
+        },
+        {
+          "document_id": 20223128,
+          "year": 2022,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 323
+          },
+          "official": {
+            "sentence_count": 14,
+            "word_count": 289
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 279
+          }
+        },
+        {
+          "document_id": 20223976,
+          "year": 2022,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 325
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 270
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 260
+          }
+        },
+        {
+          "document_id": 20223773,
+          "year": 2022,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 220
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 205
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 200
+          }
+        },
+        {
+          "document_id": 20223194,
+          "year": 2022,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 217
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 189
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 194
+          }
+        },
+        {
+          "document_id": 20223929,
+          "year": 2022,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 421
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 374
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 342
+          }
+        },
+        {
+          "document_id": 20233224,
+          "year": 2023,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 232
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 176
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 188
+          }
+        },
+        {
+          "document_id": 20233389,
+          "year": 2023,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 333
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 229
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 258
+          }
+        },
+        {
+          "document_id": 20233139,
+          "year": 2023,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 312
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 272
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 244
+          }
+        },
+        {
+          "document_id": 20233458,
+          "year": 2023,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 258
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 195
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 222
+          }
+        },
+        {
+          "document_id": 20233625,
+          "year": 2023,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 247
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 210
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 215
+          }
+        },
+        {
+          "document_id": 20244483,
+          "year": 2024,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 98
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 69
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 80
+          }
+        },
+        {
+          "document_id": 20244103,
+          "year": 2024,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 247
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 239
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 225
+          }
+        },
+        {
+          "document_id": 20244099,
+          "year": 2024,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 169
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 134
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 137
+          }
+        },
+        {
+          "document_id": 20243228,
+          "year": 2024,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 222
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 186
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 168
+          }
+        },
+        {
+          "document_id": 20244042,
+          "year": 2024,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 294
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 246
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 245
+          }
+        },
+        {
+          "document_id": 20254533,
+          "year": 2025,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 282
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 267
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 261
+          }
+        },
+        {
+          "document_id": 20253317,
+          "year": 2025,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 325
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 303
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 280
+          }
+        },
+        {
+          "document_id": 20253254,
+          "year": 2025,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 234
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 198
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 198
+          }
+        },
+        {
+          "document_id": 20254082,
+          "year": 2025,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 276
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 228
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 231
+          }
+        },
+        {
+          "document_id": 20254497,
+          "year": 2025,
+          "source": {
+            "sentence_count": 15,
+            "word_count": 306
+          },
+          "official": {
+            "sentence_count": 14,
+            "word_count": 277
+          },
+          "generated": {
+            "sentence_count": 15,
+            "word_count": 276
+          }
+        },
+        {
+          "document_id": 20253572,
+          "year": 2025,
+          "source": {
+            "sentence_count": 17,
+            "word_count": 396
+          },
+          "official": {
+            "sentence_count": 17,
+            "word_count": 361
+          },
+          "generated": {
+            "sentence_count": 17,
+            "word_count": 347
+          }
+        },
+        {
+          "document_id": 20253054,
+          "year": 2025,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 155
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 94
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 116
+          }
+        },
+        {
+          "document_id": 20003718,
+          "year": 2000,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 137
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 128
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 109
+          }
+        },
+        {
+          "document_id": 20003270,
+          "year": 2000,
+          "source": {
+            "sentence_count": 57,
+            "word_count": 1066
+          },
+          "official": {
+            "sentence_count": 43,
+            "word_count": 965
+          },
+          "generated": {
+            "sentence_count": 45,
+            "word_count": 882
+          }
+        },
+        {
+          "document_id": 20003307,
+          "year": 2000,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 188
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 175
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 165
+          }
+        },
+        {
+          "document_id": 20003498,
+          "year": 2000,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 241
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 194
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 204
+          }
+        },
+        {
+          "document_id": 20003269,
+          "year": 2000,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 285
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 236
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 245
+          }
+        },
+        {
+          "document_id": 20003519,
+          "year": 2000,
+          "source": {
+            "sentence_count": 22,
+            "word_count": 567
+          },
+          "official": {
+            "sentence_count": 27,
+            "word_count": 474
+          },
+          "generated": {
+            "sentence_count": 22,
+            "word_count": 441
+          }
+        },
+        {
+          "document_id": 20003735,
+          "year": 2000,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 333
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 281
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 253
+          }
+        },
+        {
+          "document_id": 20003277,
+          "year": 2000,
+          "source": {
+            "sentence_count": 25,
+            "word_count": 431
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 381
+          },
+          "generated": {
+            "sentence_count": 16,
+            "word_count": 339
+          }
+        },
+        {
+          "document_id": 20003136,
+          "year": 2000,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 109
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 98
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 79
+          }
+        },
+        {
+          "document_id": 20013414,
+          "year": 2001,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 105
+          },
+          "official": {
+            "sentence_count": 3,
+            "word_count": 88
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 92
+          }
+        },
+        {
+          "document_id": 20013278,
+          "year": 2001,
+          "source": {
+            "sentence_count": 19,
+            "word_count": 411
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 320
+          },
+          "generated": {
+            "sentence_count": 15,
+            "word_count": 300
+          }
+        },
+        {
+          "document_id": 20013156,
+          "year": 2001,
+          "source": {
+            "sentence_count": 32,
+            "word_count": 947
+          },
+          "official": {
+            "sentence_count": 28,
+            "word_count": 723
+          },
+          "generated": {
+            "sentence_count": 27,
+            "word_count": 705
+          }
+        },
+        {
+          "document_id": 20013066,
+          "year": 2001,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 440
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 372
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 366
+          }
+        },
+        {
+          "document_id": 20013076,
+          "year": 2001,
+          "source": {
+            "sentence_count": 16,
+            "word_count": 498
+          },
+          "official": {
+            "sentence_count": 17,
+            "word_count": 443
+          },
+          "generated": {
+            "sentence_count": 17,
+            "word_count": 390
+          }
+        },
+        {
+          "document_id": 20013550,
+          "year": 2001,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 158
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 133
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 126
+          }
+        },
+        {
+          "document_id": 20023529,
+          "year": 2002,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 439
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 352
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 338
+          }
+        },
+        {
+          "document_id": 20023343,
+          "year": 2002,
+          "source": {
+            "sentence_count": 15,
+            "word_count": 479
+          },
+          "official": {
+            "sentence_count": 17,
+            "word_count": 408
+          },
+          "generated": {
+            "sentence_count": 16,
+            "word_count": 411
+          }
+        },
+        {
+          "document_id": 20023755,
+          "year": 2002,
+          "source": {
+            "sentence_count": 34,
+            "word_count": 804
+          },
+          "official": {
+            "sentence_count": 34,
+            "word_count": 628
+          },
+          "generated": {
+            "sentence_count": 31,
+            "word_count": 635
+          }
+        },
+        {
+          "document_id": 20033266,
+          "year": 2003,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 191
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 171
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 169
+          }
+        },
+        {
+          "document_id": 20033515,
+          "year": 2003,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 362
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 320
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 301
+          }
+        },
+        {
+          "document_id": 20033519,
+          "year": 2003,
+          "source": {
+            "sentence_count": 29,
+            "word_count": 929
+          },
+          "official": {
+            "sentence_count": 28,
+            "word_count": 657
+          },
+          "generated": {
+            "sentence_count": 25,
+            "word_count": 747
+          }
+        },
+        {
+          "document_id": 20033320,
+          "year": 2003,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 336
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 273
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 267
+          }
+        },
+        {
+          "document_id": 20033531,
+          "year": 2003,
+          "source": {
+            "sentence_count": 22,
+            "word_count": 592
+          },
+          "official": {
+            "sentence_count": 23,
+            "word_count": 482
+          },
+          "generated": {
+            "sentence_count": 18,
+            "word_count": 454
+          }
+        },
+        {
+          "document_id": 20043044,
+          "year": 2004,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 116
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 115
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 103
+          }
+        },
+        {
+          "document_id": 20043374,
+          "year": 2004,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 312
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 265
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 243
+          }
+        },
+        {
+          "document_id": 20043605,
+          "year": 2004,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 350
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 279
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 288
+          }
+        },
+        {
+          "document_id": 20043009,
+          "year": 2004,
+          "source": {
+            "sentence_count": 17,
+            "word_count": 516
+          },
+          "official": {
+            "sentence_count": 18,
+            "word_count": 431
+          },
+          "generated": {
+            "sentence_count": 18,
+            "word_count": 407
+          }
+        },
+        {
+          "document_id": 20043322,
+          "year": 2004,
+          "source": {
+            "sentence_count": 35,
+            "word_count": 653
+          },
+          "official": {
+            "sentence_count": 34,
+            "word_count": 661
+          },
+          "generated": {
+            "sentence_count": 33,
+            "word_count": 565
+          }
+        },
+        {
+          "document_id": 20043210,
+          "year": 2004,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 207
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 169
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 173
+          }
+        },
+        {
+          "document_id": 20043494,
+          "year": 2004,
+          "source": {
+            "sentence_count": 20,
+            "word_count": 508
+          },
+          "official": {
+            "sentence_count": 19,
+            "word_count": 438
+          },
+          "generated": {
+            "sentence_count": 18,
+            "word_count": 442
+          }
+        },
+        {
+          "document_id": 20043304,
+          "year": 2004,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 201
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 198
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 188
+          }
+        },
+        {
+          "document_id": 20053198,
+          "year": 2005,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 161
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 177
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 140
+          }
+        },
+        {
+          "document_id": 20053559,
+          "year": 2005,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 198
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 174
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 155
+          }
+        },
+        {
+          "document_id": 20053845,
+          "year": 2005,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 211
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 127
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 174
+          }
+        },
+        {
+          "document_id": 20053560,
+          "year": 2005,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 240
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 228
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 194
+          }
+        },
+        {
+          "document_id": 20053201,
+          "year": 2005,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 120
+          },
+          "official": {
+            "sentence_count": 3,
+            "word_count": 104
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 98
+          }
+        },
+        {
+          "document_id": 20053859,
+          "year": 2005,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 108
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 89
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 92
+          }
+        },
+        {
+          "document_id": 20063326,
+          "year": 2006,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 124
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 95
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 95
+          }
+        },
+        {
+          "document_id": 20063774,
+          "year": 2006,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 194
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 133
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 162
+          }
+        },
+        {
+          "document_id": 20063584,
+          "year": 2006,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 280
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 218
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 222
+          }
+        },
+        {
+          "document_id": 20063845,
+          "year": 2006,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 145
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 130
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 123
+          }
+        },
+        {
+          "document_id": 20063873,
+          "year": 2006,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 171
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 164
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 124
+          }
+        },
+        {
+          "document_id": 20063718,
+          "year": 2006,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 140
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 140
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 115
+          }
+        },
+        {
+          "document_id": 20063674,
+          "year": 2006,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 246
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 212
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 212
+          }
+        },
+        {
+          "document_id": 20063773,
+          "year": 2006,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 143
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 105
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 122
+          }
+        },
+        {
+          "document_id": 20073782,
+          "year": 2007,
+          "source": {
+            "sentence_count": 16,
+            "word_count": 398
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 365
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 328
+          }
+        },
+        {
+          "document_id": 20073240,
+          "year": 2007,
+          "source": {
+            "sentence_count": 1,
+            "word_count": 57
+          },
+          "official": {
+            "sentence_count": 2,
+            "word_count": 55
+          },
+          "generated": {
+            "sentence_count": 2,
+            "word_count": 58
+          }
+        },
+        {
+          "document_id": 20073755,
+          "year": 2007,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 245
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 208
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 190
+          }
+        },
+        {
+          "document_id": 20073473,
+          "year": 2007,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 339
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 302
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 290
+          }
+        },
+        {
+          "document_id": 20073581,
+          "year": 2007,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 305
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 238
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 269
+          }
+        },
+        {
+          "document_id": 20073311,
+          "year": 2007,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 205
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 181
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 163
+          }
+        },
+        {
+          "document_id": 20073349,
+          "year": 2007,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 207
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 170
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 183
+          }
+        },
+        {
+          "document_id": 20083024,
+          "year": 2008,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 169
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 141
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 131
+          }
+        },
+        {
+          "document_id": 20083329,
+          "year": 2008,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 332
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 299
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 259
+          }
+        },
+        {
+          "document_id": 20083250,
+          "year": 2008,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 174
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 125
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 124
+          }
+        },
+        {
+          "document_id": 20083167,
+          "year": 2008,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 160
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 149
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 125
+          }
+        },
+        {
+          "document_id": 20083229,
+          "year": 2008,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 164
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 138
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 132
+          }
+        },
+        {
+          "document_id": 20083224,
+          "year": 2008,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 219
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 205
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 190
+          }
+        },
+        {
+          "document_id": 20083308,
+          "year": 2008,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 135
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 121
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 125
+          }
+        },
+        {
+          "document_id": 20093145,
+          "year": 2009,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 266
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 242
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 237
+          }
+        },
+        {
+          "document_id": 20094269,
+          "year": 2009,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 280
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 199
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 239
+          }
+        },
+        {
+          "document_id": 20093195,
+          "year": 2009,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 350
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 318
+          },
+          "generated": {
+            "sentence_count": 15,
+            "word_count": 292
+          }
+        },
+        {
+          "document_id": 20093443,
+          "year": 2009,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 300
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 275
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 258
+          }
+        },
+        {
+          "document_id": 20093457,
+          "year": 2009,
+          "source": {
+            "sentence_count": 22,
+            "word_count": 471
+          },
+          "official": {
+            "sentence_count": 22,
+            "word_count": 404
+          },
+          "generated": {
+            "sentence_count": 22,
+            "word_count": 417
+          }
+        },
+        {
+          "document_id": 20094051,
+          "year": 2009,
+          "source": {
+            "sentence_count": 15,
+            "word_count": 374
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 353
+          },
+          "generated": {
+            "sentence_count": 15,
+            "word_count": 313
+          }
+        },
+        {
+          "document_id": 20103909,
+          "year": 2010,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 343
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 226
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 260
+          }
+        },
+        {
+          "document_id": 20104054,
+          "year": 2010,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 317
+          },
+          "official": {
+            "sentence_count": 19,
+            "word_count": 286
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 263
+          }
+        },
+        {
+          "document_id": 20104149,
+          "year": 2010,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 192
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 168
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 151
+          }
+        },
+        {
+          "document_id": 20103874,
+          "year": 2010,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 86
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 75
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 77
+          }
+        },
+        {
+          "document_id": 20103820,
+          "year": 2010,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 184
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 180
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 157
+          }
+        },
+        {
+          "document_id": 20103133,
+          "year": 2010,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 231
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 183
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 191
+          }
+        },
+        {
+          "document_id": 20113937,
+          "year": 2011,
+          "source": {
+            "sentence_count": 18,
+            "word_count": 466
+          },
+          "official": {
+            "sentence_count": 23,
+            "word_count": 473
+          },
+          "generated": {
+            "sentence_count": 19,
+            "word_count": 442
+          }
+        },
+        {
+          "document_id": 20113078,
+          "year": 2011,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 282
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 256
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 228
+          }
+        },
+        {
+          "document_id": 20113705,
+          "year": 2011,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 363
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 310
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 293
+          }
+        },
+        {
+          "document_id": 20113720,
+          "year": 2011,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 212
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 168
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 154
+          }
+        },
+        {
+          "document_id": 20113818,
+          "year": 2011,
+          "source": {
+            "sentence_count": 1,
+            "word_count": 86
+          },
+          "official": {
+            "sentence_count": 2,
+            "word_count": 76
+          },
+          "generated": {
+            "sentence_count": 1,
+            "word_count": 77
+          }
+        },
+        {
+          "document_id": 20113439,
+          "year": 2011,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 259
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 223
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 214
+          }
+        },
+        {
+          "document_id": 20123320,
+          "year": 2012,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 75
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 59
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 65
+          }
+        },
+        {
+          "document_id": 20123409,
+          "year": 2012,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 171
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 123
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 133
+          }
+        },
+        {
+          "document_id": 20124073,
+          "year": 2012,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 228
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 180
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 186
+          }
+        },
+        {
+          "document_id": 20123113,
+          "year": 2012,
+          "source": {
+            "sentence_count": 1,
+            "word_count": 45
+          },
+          "official": {
+            "sentence_count": 1,
+            "word_count": 41
+          },
+          "generated": {
+            "sentence_count": 1,
+            "word_count": 43
+          }
+        },
+        {
+          "document_id": 20123025,
+          "year": 2012,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 333
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 274
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 271
+          }
+        },
+        {
+          "document_id": 20123072,
+          "year": 2012,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 364
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 326
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 295
+          }
+        },
+        {
+          "document_id": 20123297,
+          "year": 2012,
+          "source": {
+            "sentence_count": 3,
+            "word_count": 63
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 48
+          },
+          "generated": {
+            "sentence_count": 3,
+            "word_count": 41
+          }
+        },
+        {
+          "document_id": 20133036,
+          "year": 2013,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 238
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 189
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 188
+          }
+        },
+        {
+          "document_id": 20133337,
+          "year": 2013,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 215
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 182
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 168
+          }
+        },
+        {
+          "document_id": 20133808,
+          "year": 2013,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 267
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 264
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 243
+          }
+        },
+        {
+          "document_id": 20133949,
+          "year": 2013,
+          "source": {
+            "sentence_count": 16,
+            "word_count": 291
+          },
+          "official": {
+            "sentence_count": 14,
+            "word_count": 240
+          },
+          "generated": {
+            "sentence_count": 15,
+            "word_count": 267
+          }
+        },
+        {
+          "document_id": 20133967,
+          "year": 2013,
+          "source": {
+            "sentence_count": 23,
+            "word_count": 372
+          },
+          "official": {
+            "sentence_count": 24,
+            "word_count": 327
+          },
+          "generated": {
+            "sentence_count": 21,
+            "word_count": 293
+          }
+        },
+        {
+          "document_id": 20133137,
+          "year": 2013,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 274
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 240
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 247
+          }
+        },
+        {
+          "document_id": 20133649,
+          "year": 2013,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 157
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 175
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 143
+          }
+        },
+        {
+          "document_id": 20133052,
+          "year": 2013,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 315
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 251
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 242
+          }
+        },
+        {
+          "document_id": 20143407,
+          "year": 2014,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 289
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 229
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 239
+          }
+        },
+        {
+          "document_id": 20143269,
+          "year": 2014,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 332
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 285
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 260
+          }
+        },
+        {
+          "document_id": 20143989,
+          "year": 2014,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 121
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 105
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 101
+          }
+        },
+        {
+          "document_id": 20143681,
+          "year": 2014,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 124
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 92
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 104
+          }
+        },
+        {
+          "document_id": 20143288,
+          "year": 2014,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 132
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 124
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 109
+          }
+        },
+        {
+          "document_id": 20153150,
+          "year": 2015,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 206
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 154
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 162
+          }
+        },
+        {
+          "document_id": 20154160,
+          "year": 2015,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 253
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 198
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 190
+          }
+        },
+        {
+          "document_id": 20153048,
+          "year": 2015,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 202
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 170
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 166
+          }
+        },
+        {
+          "document_id": 20153586,
+          "year": 2015,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 240
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 205
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 179
+          }
+        },
+        {
+          "document_id": 20153792,
+          "year": 2015,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 177
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 150
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 155
+          }
+        },
+        {
+          "document_id": 20163069,
+          "year": 2016,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 232
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 196
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 191
+          }
+        },
+        {
+          "document_id": 20163877,
+          "year": 2016,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 265
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 221
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 227
+          }
+        },
+        {
+          "document_id": 20163689,
+          "year": 2016,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 145
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 118
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 119
+          }
+        },
+        {
+          "document_id": 20163414,
+          "year": 2016,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 80
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 82
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 76
+          }
+        },
+        {
+          "document_id": 20163215,
+          "year": 2016,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 306
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 293
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 262
+          }
+        },
+        {
+          "document_id": 20164126,
+          "year": 2016,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 266
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 229
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 219
+          }
+        },
+        {
+          "document_id": 20174287,
+          "year": 2017,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 264
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 216
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 216
+          }
+        },
+        {
+          "document_id": 20173242,
+          "year": 2017,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 218
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 187
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 185
+          }
+        },
+        {
+          "document_id": 20173772,
+          "year": 2017,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 234
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 218
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 193
+          }
+        },
+        {
+          "document_id": 20173117,
+          "year": 2017,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 153
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 126
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 136
+          }
+        },
+        {
+          "document_id": 20173053,
+          "year": 2017,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 204
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 175
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 158
+          }
+        },
+        {
+          "document_id": 20173458,
+          "year": 2017,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 187
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 144
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 148
+          }
+        },
+        {
+          "document_id": 20173818,
+          "year": 2017,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 254
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 258
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 219
+          }
+        },
+        {
+          "document_id": 20184282,
+          "year": 2018,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 499
+          },
+          "official": {
+            "sentence_count": 17,
+            "word_count": 408
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 406
+          }
+        },
+        {
+          "document_id": 20183603,
+          "year": 2018,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 343
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 281
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 298
+          }
+        },
+        {
+          "document_id": 20183616,
+          "year": 2018,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 239
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 207
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 184
+          }
+        },
+        {
+          "document_id": 20183579,
+          "year": 2018,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 201
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 178
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 169
+          }
+        },
+        {
+          "document_id": 20184360,
+          "year": 2018,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 252
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 270
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 231
+          }
+        },
+        {
+          "document_id": 20183753,
+          "year": 2018,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 241
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 171
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 172
+          }
+        },
+        {
+          "document_id": 20193451,
+          "year": 2019,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 187
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 171
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 169
+          }
+        },
+        {
+          "document_id": 20193121,
+          "year": 2019,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 107
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 79
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 91
+          }
+        },
+        {
+          "document_id": 20194100,
+          "year": 2019,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 198
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 152
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 154
+          }
+        },
+        {
+          "document_id": 20193307,
+          "year": 2019,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 223
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 196
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 198
+          }
+        },
+        {
+          "document_id": 20193434,
+          "year": 2019,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 224
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 204
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 204
+          }
+        },
+        {
+          "document_id": 20193237,
+          "year": 2019,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 337
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 286
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 288
+          }
+        },
+        {
+          "document_id": 20194365,
+          "year": 2019,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 305
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 286
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 258
+          }
+        },
+        {
+          "document_id": 20203584,
+          "year": 2020,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 247
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 195
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 226
+          }
+        },
+        {
+          "document_id": 20204542,
+          "year": 2020,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 253
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 255
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 220
+          }
+        },
+        {
+          "document_id": 20203015,
+          "year": 2020,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 288
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 252
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 251
+          }
+        },
+        {
+          "document_id": 20204534,
+          "year": 2020,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 278
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 256
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 215
+          }
+        },
+        {
+          "document_id": 20203420,
+          "year": 2020,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 232
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 198
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 177
+          }
+        },
+        {
+          "document_id": 20204139,
+          "year": 2020,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 295
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 270
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 228
+          }
+        },
+        {
+          "document_id": 20203266,
+          "year": 2020,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 380
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 308
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 311
+          }
+        },
+        {
+          "document_id": 20204410,
+          "year": 2020,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 267
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 200
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 213
+          }
+        },
+        {
+          "document_id": 20214186,
+          "year": 2021,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 258
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 202
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 206
+          }
+        },
+        {
+          "document_id": 20213750,
+          "year": 2021,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 281
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 237
+          },
+          "generated": {
+            "sentence_count": 12,
+            "word_count": 248
+          }
+        },
+        {
+          "document_id": 20214369,
+          "year": 2021,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 217
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 172
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 166
+          }
+        },
+        {
+          "document_id": 20213136,
+          "year": 2021,
+          "source": {
+            "sentence_count": 12,
+            "word_count": 298
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 277
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 258
+          }
+        },
+        {
+          "document_id": 20214417,
+          "year": 2021,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 160
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 143
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 135
+          }
+        },
+        {
+          "document_id": 20213936,
+          "year": 2021,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 303
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 267
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 234
+          }
+        },
+        {
+          "document_id": 20214382,
+          "year": 2021,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 332
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 256
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 256
+          }
+        },
+        {
+          "document_id": 20213264,
+          "year": 2021,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 369
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 349
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 308
+          }
+        },
+        {
+          "document_id": 20223493,
+          "year": 2022,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 376
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 321
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 304
+          }
+        },
+        {
+          "document_id": 20223534,
+          "year": 2022,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 359
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 306
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 311
+          }
+        },
+        {
+          "document_id": 20224467,
+          "year": 2022,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 233
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 228
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 202
+          }
+        },
+        {
+          "document_id": 20223622,
+          "year": 2022,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 307
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 261
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 253
+          }
+        },
+        {
+          "document_id": 20223105,
+          "year": 2022,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 312
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 244
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 238
+          }
+        },
+        {
+          "document_id": 20223752,
+          "year": 2022,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 197
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 173
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 179
+          }
+        },
+        {
+          "document_id": 20223582,
+          "year": 2022,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 211
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 198
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 185
+          }
+        },
+        {
+          "document_id": 20223795,
+          "year": 2022,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 260
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 188
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 229
+          }
+        },
+        {
+          "document_id": 20233634,
+          "year": 2023,
+          "source": {
+            "sentence_count": 14,
+            "word_count": 359
+          },
+          "official": {
+            "sentence_count": 16,
+            "word_count": 326
+          },
+          "generated": {
+            "sentence_count": 14,
+            "word_count": 323
+          }
+        },
+        {
+          "document_id": 20234227,
+          "year": 2023,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 389
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 297
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 276
+          }
+        },
+        {
+          "document_id": 20234158,
+          "year": 2023,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 412
+          },
+          "official": {
+            "sentence_count": 14,
+            "word_count": 350
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 339
+          }
+        },
+        {
+          "document_id": 20233822,
+          "year": 2023,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 299
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 264
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 238
+          }
+        },
+        {
+          "document_id": 20234085,
+          "year": 2023,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 343
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 282
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 259
+          }
+        },
+        {
+          "document_id": 20234457,
+          "year": 2023,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 155
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 125
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 132
+          }
+        },
+        {
+          "document_id": 20233901,
+          "year": 2023,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 122
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 122
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 109
+          }
+        },
+        {
+          "document_id": 20233278,
+          "year": 2023,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 174
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 166
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 139
+          }
+        },
+        {
+          "document_id": 20244559,
+          "year": 2024,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 189
+          },
+          "official": {
+            "sentence_count": 5,
+            "word_count": 160
+          },
+          "generated": {
+            "sentence_count": 4,
+            "word_count": 132
+          }
+        },
+        {
+          "document_id": 20243068,
+          "year": 2024,
+          "source": {
+            "sentence_count": 5,
+            "word_count": 132
+          },
+          "official": {
+            "sentence_count": 6,
+            "word_count": 121
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 105
+          }
+        },
+        {
+          "document_id": 20243060,
+          "year": 2024,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 282
+          },
+          "official": {
+            "sentence_count": 15,
+            "word_count": 238
+          },
+          "generated": {
+            "sentence_count": 15,
+            "word_count": 222
+          }
+        },
+        {
+          "document_id": 20244468,
+          "year": 2024,
+          "source": {
+            "sentence_count": 4,
+            "word_count": 108
+          },
+          "official": {
+            "sentence_count": 4,
+            "word_count": 99
+          },
+          "generated": {
+            "sentence_count": 5,
+            "word_count": 90
+          }
+        },
+        {
+          "document_id": 20243214,
+          "year": 2024,
+          "source": {
+            "sentence_count": 7,
+            "word_count": 215
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 162
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 150
+          }
+        },
+        {
+          "document_id": 20243484,
+          "year": 2024,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 267
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 212
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 194
+          }
+        },
+        {
+          "document_id": 20243350,
+          "year": 2024,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 174
+          },
+          "official": {
+            "sentence_count": 9,
+            "word_count": 147
+          },
+          "generated": {
+            "sentence_count": 9,
+            "word_count": 147
+          }
+        },
+        {
+          "document_id": 20243226,
+          "year": 2024,
+          "source": {
+            "sentence_count": 10,
+            "word_count": 309
+          },
+          "official": {
+            "sentence_count": 11,
+            "word_count": 274
+          },
+          "generated": {
+            "sentence_count": 10,
+            "word_count": 260
+          }
+        },
+        {
+          "document_id": 20254643,
+          "year": 2025,
+          "source": {
+            "sentence_count": 13,
+            "word_count": 291
+          },
+          "official": {
+            "sentence_count": 13,
+            "word_count": 260
+          },
+          "generated": {
+            "sentence_count": 13,
+            "word_count": 257
+          }
+        },
+        {
+          "document_id": 20254801,
+          "year": 2025,
+          "source": {
+            "sentence_count": 11,
+            "word_count": 328
+          },
+          "official": {
+            "sentence_count": 12,
+            "word_count": 289
+          },
+          "generated": {
+            "sentence_count": 11,
+            "word_count": 283
+          }
+        },
+        {
+          "document_id": 20254017,
+          "year": 2025,
+          "source": {
+            "sentence_count": 9,
+            "word_count": 248
+          },
+          "official": {
+            "sentence_count": 10,
+            "word_count": 166
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 201
+          }
+        },
+        {
+          "document_id": 20254388,
+          "year": 2025,
+          "source": {
+            "sentence_count": 8,
+            "word_count": 214
+          },
+          "official": {
+            "sentence_count": 7,
+            "word_count": 173
+          },
+          "generated": {
+            "sentence_count": 8,
+            "word_count": 183
+          }
+        },
+        {
+          "document_id": 20254469,
+          "year": 2025,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 103
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 101
+          },
+          "generated": {
+            "sentence_count": 6,
+            "word_count": 92
+          }
+        },
+        {
+          "document_id": 20253544,
+          "year": 2025,
+          "source": {
+            "sentence_count": 6,
+            "word_count": 253
+          },
+          "official": {
+            "sentence_count": 8,
+            "word_count": 226
+          },
+          "generated": {
+            "sentence_count": 7,
+            "word_count": 211
+          }
+        }
+      ]
+    }
+  }
+}

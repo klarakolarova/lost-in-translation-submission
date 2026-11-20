@@ -104,7 +104,8 @@ def estimate_trend(rows: list[dict]) -> tuple[float, float, float]:
 
 
 # Save per-document scores and the summary of period means and the trend.
-def save_report(rows: list[dict], table: list[dict], trend: tuple) -> None:
+def save_report(rows: list[dict], table: list[dict], trend: tuple, output_dir: Path | None = None) -> None:
+    OUT = output_dir or globals()["OUT"]
     OUT.mkdir(exist_ok=True)
     with open(
         OUT / "translation_similarity.csv", "w", newline="", encoding="utf-8"
@@ -152,7 +153,8 @@ def save_report(rows: list[dict], table: list[dict], trend: tuple) -> None:
 
 
 # Plot chrF period means with intervals and BLEU on a separate axis.
-def save_figure(table: list[dict]) -> None:
+def save_figure(table: list[dict], output_dir: Path | None = None) -> None:
+    OUT = output_dir or globals()["OUT"]
     import matplotlib
 
     matplotlib.use("Agg")

@@ -52,7 +52,7 @@ def paired_differences(
 
 # Save the comparison table and return the values needed for the figure.
 def save_report(
-    results: dict, paired_records: list[tuple], year_by_motion: dict
+    results: dict, paired_records: list[tuple], year_by_motion: dict, report_path: Path | None = None, author_check: bool = True
 ) -> list[tuple]:
     lines = [
         "# Translation complexity: main results",
@@ -116,7 +116,7 @@ def save_report(
         "sentences within each text. Clause-marker rates count grammatical markers "
         "per 100 alphabetic words, rather than complete clauses.",
         "",
-        "MATTR measures lexical variety in 50-word windows; two pairs are too short for this measure. Higher LIX indicates harder-to-read text.",
+        f"MATTR measures lexical variety in 50-word windows; {len(paired_records) - results['summary']['mattr_50']['paired_count']} pairs are too short for this measure. Higher LIX indicates harder-to-read text.",
         "",
         "## Differences by period",
         "",
@@ -144,7 +144,7 @@ def save_report(
         "",
         "## Additional measures",
         "",
-        "Measures with no clear evidence of a difference (interval includes zero):",
+        "Additional comparisons; an interval including zero indicates no clear evidence of a difference:",
         "",
     ]
     for key, label in ADDITIONAL_MEASURES:
@@ -158,17 +158,17 @@ def save_report(
         "",
         results["uncertainty"],
         "",
-        "See the [detailed results](translation_complexity_details.md) for both versions’ means and the [author-dependence check](complexity_author_dependence.md) for repeated authors.",
+        ("See the [detailed results](translation_complexity_details.md) for both versions’ means and the [author-dependence check](complexity_author_dependence.md) for repeated authors." if author_check else "See the [detailed results](translation_complexity_details.md) for both versions’ means. Author-adjusted mixed models and multiple-comparison correction have not been repeated for this sample."),
         "",
         "![Differences in linguistic complexity](figures/complexity_differences.png)",
     ]
     RESULTS.mkdir(exist_ok=True)
-    REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (report_path or REPORT).write_text("\n".join(lines) + "\n", encoding="utf-8")
     return rows
 
 
 # Plot the relative differences with raw differences beside each interval.
-def save_figure(rows: list[tuple]) -> None:
+def save_figure(rows: list[tuple], figure_path: Path | None = None) -> None:
     figure, axis = plt.subplots(figsize=(6.3, 2.6))
     for position, (
         label,
@@ -227,8 +227,9 @@ def save_figure(rows: list[tuple]) -> None:
     for spine in ("top", "right"):
         axis.spines[spine].set_visible(False)
     figure.tight_layout()
-    FIGURE.parent.mkdir(parents=True, exist_ok=True)
-    figure.savefig(FIGURE, dpi=300, bbox_inches="tight")
+    figure_path = figure_path or FIGURE
+    figure_path.parent.mkdir(parents=True, exist_ok=True)
+    figure.savefig(figure_path, dpi=300, bbox_inches="tight")
     plt.close(figure)
 
 

@@ -22,6 +22,8 @@ A French abbreviation counts as retained only when it appears without its German
 
 French abbreviations of Swiss authorities and laws: 119 texts contain one; the machine output keeps the French form in 93, the official translation in 0.
 
-Most frequently retained French abbreviations (French → German; number of texts): LAMal → KVG (14), AVS → AHV (11), LACI → AVIG (8), CFF → SBB (8), DETEC → UVEK (6), OFAG → BLW (6), EPF → ETH (5), LHID → StHG (5).
+Most frequently retained French abbreviations (French → German; number of texts): LAMal → KVG (14), AVS → AHV (11), CFF → SBB (8), LACI → AVIG (8), OFAG → BLW (6), DETEC → UVEK (6), EPF → ETH (5), LHID → StHG (5).
 
-These are automated applications of the original terminology rules. New examples have not yet been manually checked. Term presence anywhere in a document does not guarantee every occurrence is correctly translated.
+## Review status
+
+New terminology matches have not been manually checked. Term presence anywhere in a document does not guarantee correct translation of every occurrence. See [screening](translation_screening.md) and [terminology examples](terminology_examples.csv).
