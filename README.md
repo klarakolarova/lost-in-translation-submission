@@ -58,6 +58,13 @@ its summary and supporting data and explains how to read the comparisons.
 | RQ2: Are Swiss terms and conventions retained? | [Parliamentary terminology](results/swiss_terminology.md) and [spelling and formatting](results/swiss_writing_conventions.md) |
 | RQ3: Does translation similarity change over time? | [Similarity trend](results/translation_similarity.md), [adjustment for French inputs](results/source_adjusted_similarity.md) and [character conventions](results/character_conventions.md) |
 
+## Additional robustness analysis
+
+An expanded, year-balanced sample of 598 translation pairs and a separate check
+using 338 new translations reproduce the main patterns. See the
+[supplementary analysis](supplementary/README.md) for results, review status and
+reproduction instructions. This optional analysis is separate from the report.
+
 ## Project structure
 
 | Location | Contents |
